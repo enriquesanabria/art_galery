@@ -17,7 +17,7 @@ export default function Navegation() {
 			data-bs-theme='dark'
 			fixed='top'
 		>
-			<Container fluid className={styles}>
+			<Container fluid>
 				<Navbar.Brand as={Link} to='/'>
 					<img src={logo} className={styles.logo} alt='React Bootstrap logo' />
 				</Navbar.Brand>
