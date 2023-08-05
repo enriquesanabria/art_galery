@@ -1,36 +1,29 @@
-import React from 'react';
-import {  BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-//importamos los componentes creados
-
-import Home from './components/Home'
-import Artist from './components/Artist'
-import Contact from './components/Contact'
-import Expo from './components/Expo'
-import Featured from './components/Featured'
-import Portfolio from './components/Portfolio'
-
+import Home from './components/Home';
+import Artist from './components/Artist';
+import Contact from './components/Contact';
+import Expo from './components/Expo';
+import Featured from './components/Featured';
+import Portfolio from './components/Portfolio';
 
 function App() {
-
-  return (
-    <>
-    <div className="App">
-      <BrowserRouter>
-      <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/Artist" element={<Artist/>}/>
-          <Route path="/Contact" element={<Contact/>}/>
-          <Route path="/Expo" element={<Expo/>}/>
-          <Route path="/Featured" element={<Featured/>}/>
-          <Route path="/Portfolio" element={<Portfolio/>}/>
-      </Routes>
-      </BrowserRouter>
-
-    </div>
-      
-    </>
-  )
+	return (
+		<>
+			<div className='App'>
+				<BrowserRouter>
+					<Routes>
+						<Route path='/' element={<Home />} />
+						<Route path='/Artist' element={<Artist />} />
+						<Route path='/Contact' element={<Contact />} />
+						<Route path='/Expo' element={<Expo />} />
+						<Route path='/Featured' element={<Featured />} />
+						<Route path='/Portfolio' element={<Portfolio />} />
+					</Routes>
+				</BrowserRouter>
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
