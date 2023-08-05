@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import { Link } from 'react-router-dom';
 
+import logo from '../assets/img/icons/logoTripoliA.svg';
+
 export default function Navegation() {
 	return (
 		<Navbar
@@ -16,7 +18,7 @@ export default function Navegation() {
 			<Container fluid>
 				<Navbar.Brand as={Link} to='/'>
 					<img
-						src='/src/assets/img/icons/Tripoli Logo.svg'
+						src={logo}
 						width='50'
 						height='30'
 						className='d-inline-block align-top'
