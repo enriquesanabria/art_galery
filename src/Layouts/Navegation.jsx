@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import { Link } from 'react-router-dom';
 
-import logo from '../assets/img/icons/logoTripoliA.svg';
+import logo from '../assets/img/icons/logoTripoliB.svg';
 
 import styles from '../styles/layouts/navegation.module.css';
 
@@ -27,17 +27,17 @@ export default function Navegation() {
 						<Nav.Link as={Link} to='/Artist'>
 							Artist
 						</Nav.Link>
-						<Nav.Link as={Link} to='/Contact'>
-							Contact
-						</Nav.Link>
-						<Nav.Link as={Link} to='/Expo'>
-							Expo
-						</Nav.Link>
 						<Nav.Link as={Link} to='/Featured'>
 							Featured
 						</Nav.Link>
 						<Nav.Link as={Link} to='/Portfolio'>
 							Portfolio
+						</Nav.Link>
+						<Nav.Link as={Link} to='/Expo'>
+							Expo
+						</Nav.Link>
+						<Nav.Link as={Link} to='/Contact'>
+							Contact
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
