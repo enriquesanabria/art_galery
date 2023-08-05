@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 
 import logo from '../assets/img/icons/logoTripoliA.svg';
 
+import styles from '../styles/layouts/navegation.module.css';
+
 export default function Navegation() {
 	return (
 		<Navbar
@@ -15,15 +17,9 @@ export default function Navegation() {
 			data-bs-theme='dark'
 			fixed='top'
 		>
-			<Container fluid>
+			<Container fluid className={styles}>
 				<Navbar.Brand as={Link} to='/'>
-					<img
-						src={logo}
-						width='50'
-						height='30'
-						className='d-inline-block align-top'
-						alt='React Bootstrap logo'
-					/>
+					<img src={logo} className={styles.logo} alt='React Bootstrap logo' />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
