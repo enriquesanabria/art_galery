@@ -1,42 +1,31 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import logo from '../assets/img/icons/logoTripoliB.svg';
+import logoTripoli from '../assets/img/icons/logoTripoliA.svg';
 
-import styles from '../styles/layouts/navegation.module.css';
-
-export default function Navegation() {
+const AppNavbar = () => {
 	return (
-		<Navbar
-			collapseOnSelect
-			expand='lg'
-			bg='dark'
-			data-bs-theme='dark'
-			fixed='top'
-		>
+		<Navbar fixed='top' expand='lg' bg='dark' variant='dark'>
 			<Container fluid>
 				<Navbar.Brand as={Link} to='/'>
-					<img src={logo} className={styles.logo} alt='React Bootstrap logo' />
+					<img src={logoTripoli} alt='Logo Laura Tripoli' height='50px' />
 				</Navbar.Brand>
-				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-				<Navbar.Collapse id='responsive-navbar-nav'>
-					<Nav className='me-auto'>
-						<Nav.Link as={Link} to='/Artist'>
+				<Navbar.Toggle aria-controls='navbarSupportedContent' />
+				<Navbar.Collapse id='navbarSupportedContent'>
+					<Nav className='ms-auto'>
+						<Nav.Link as={Link} to='/artist'>
 							Artist
 						</Nav.Link>
-						<Nav.Link as={Link} to='/Featured'>
+						<Nav.Link as={Link} to='/featured'>
 							Featured
 						</Nav.Link>
-						<Nav.Link as={Link} to='/Portfolio'>
+						<Nav.Link as={Link} to='/portfolio'>
 							Portfolio
 						</Nav.Link>
-						<Nav.Link as={Link} to='/Expo'>
-							Expo
+						<Nav.Link as={Link} to='/expo'>
+							Expos
 						</Nav.Link>
-						<Nav.Link as={Link} to='/Contact'>
+						<Nav.Link as={Link} to='/contact'>
 							Contact
 						</Nav.Link>
 					</Nav>
@@ -44,4 +33,6 @@ export default function Navegation() {
 			</Container>
 		</Navbar>
 	);
-}
+};
+
+export default AppNavbar;
