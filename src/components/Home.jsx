@@ -1,5 +1,6 @@
 import Navegation from '../Layouts/Navegation';
 import Carousel from '../Layouts/Carousel';
+import Footer from '../Layouts/Footer';
 import cover1 from '../assets/img/carrousel/Covers/cover1.jpg';
 import cover2 from '../assets/img/carrousel/Covers/cover2.jpg';
 import cover3 from '../assets/img/carrousel/Covers/cover3.jpg';
@@ -22,6 +23,7 @@ export default function Home() {
 			<Carousel images={imagesSet1} />
 			<ImgLogo />
 			<Carousel images={imagesSet2} />
+			<Footer />
 		</div>
 	);
 }
