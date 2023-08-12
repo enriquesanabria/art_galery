@@ -11,7 +11,8 @@ import coverArtist2 from '../assets/img/carrousel/Artist/CarrouselArtista2.jpg';
 import coverArtist3 from '../assets/img/carrousel/Artist/CarrouselArtista3.jpg';
 import coverArtist4 from '../assets/img/carrousel/Artist/CarrouselArtista4.jpg';
 
-import ImgLogo from '../Layouts/ImgBannerLogo';
+import BannerLogo from '../Layouts/ImgBanner';
+import imgLogo from '../assets/img/icons/logoTripoliA.svg';
 
 const imagesSet1 = [cover1, cover2, cover3, cover4];
 const imagesSet2 = [coverArtist1, coverArtist2, coverArtist3, coverArtist4]; // Define otro conjunto de imágenes
@@ -21,7 +22,7 @@ export default function Home() {
 		<div>
 			<Navegation />
 			<Carousel images={imagesSet1} />
-			<ImgLogo />
+			<BannerLogo img={imgLogo} />
 			<Carousel images={imagesSet2} />
 			<Footer />
 		</div>
