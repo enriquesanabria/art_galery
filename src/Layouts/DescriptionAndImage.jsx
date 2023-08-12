@@ -20,7 +20,7 @@ function MiComponente(props) {
 					sm={8}
 					className={`d-flex justify-content-center p-0 ${props.justifyContent}`}
 				>
-					{props.parrafo}
+					{props.description}
 				</Col>
 			</Row>
 		</Container>

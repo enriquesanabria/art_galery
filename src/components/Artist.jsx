@@ -142,26 +142,26 @@ export default function Artist() {
 				justifyContent='justify-content-sm-end'
 				texto='ejemplo'
 				imagenProp={img1}
-				parrafo={parrafo1}
+				description={parrafo1}
 			/>
 			<DescriptionAndImagen
 				justifyContent='justify-content-sm-start'
 				texto='ejemplo'
 				imagenProp={img2}
-				parrafo={parrafo2}
+				description={parrafo2}
 			/>
 			<DescriptionAndImagen
 				flexRow='flex-sm-row-reverse'
 				justifyContent='justify-content-sm-start'
 				texto='ejemplo'
 				imagenProp={img3}
-				parrafo={parrafo3}
+				description={parrafo3}
 			/>
 			<DescriptionAndImagen
 				justifyContent='justify-content-sm-start'
 				texto='ejemplo'
 				imagenProp={img4}
-				parrafo={parrafo4}
+				description={parrafo4}
 			/>
 			<Footer />
 		</div>
