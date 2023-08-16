@@ -1,11 +1,12 @@
 import Image from 'react-bootstrap/Image';
-import style from '../styles/layouts/imgLogo.module.scss';
+
+import { Container } from 'react-bootstrap';
 
 function Banner(props) {
 	return (
-		<div className={style.banner}>
+		<Container fluid>
 			<Image src={props.img} fluid />
-		</div>
+		</Container>
 	);
 }
 

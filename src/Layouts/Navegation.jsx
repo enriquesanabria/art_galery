@@ -2,6 +2,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import logoTripoli from '../assets/img/icons/logoTripoliA.svg';
+import '../styles/layouts/navegation.module.css';
 
 const AppNavbar = () => {
 	return (

@@ -4,8 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-import style from '../styles/layouts/footer.module.scss';
-
 export default function Footer() {
 	return (
 		<footer>
@@ -16,19 +14,19 @@ export default function Footer() {
 							href='mailto:tripoli.arte@gmail.com?Subject=Cuadros%20de%20su%20página'
 							id='correo'
 						>
-							<p className='pt-1 px-2'>tripoli.arte@gmail.com</p>
-							<FontAwesomeIcon icon={faEnvelope} className={style.icon} />
+							<FontAwesomeIcon icon={faEnvelope} />
 						</a>
+						<p className='pt-1 px-2'>tripoli.arte@gmail.com</p>
 
 						<a href='https://www.instagram.com/tripoli.maria.laura/'>
-							<p className='pt-1 px-1'>@tripoli.maria.laura</p>
-							<FontAwesomeIcon icon={faInstagram} className={style.icon} />
+							<FontAwesomeIcon icon={faInstagram} />
 						</a>
+						<p className='pt-1 px-1'>@tripoli.maria.laura</p>
 
 						<a href='https://wa.me/111566315443?text=Hola!%20estoy%20interesad@%20en%20un%20cuadro'>
-							<p className='pt-1 px-1'>+54 9 1166315443</p>
-							<FontAwesomeIcon icon={faWhatsapp} className={style.icon} />
+							<FontAwesomeIcon icon={faWhatsapp} />
 						</a>
+						<p className='pt-1 px-1'>+54 9 1166315443</p>
 					</Col>
 
 					<hr className='w-100 clearfix d-md-none' />
