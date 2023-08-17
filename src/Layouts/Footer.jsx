@@ -15,18 +15,18 @@ export default function Footer() {
 							id='correo'
 						>
 							<FontAwesomeIcon icon={faEnvelope} />
+							<p>tripoli.arte@gmail.com</p>
 						</a>
-						<p className='pt-1 px-2'>tripoli.arte@gmail.com</p>
 
 						<a href='https://www.instagram.com/tripoli.maria.laura/'>
 							<FontAwesomeIcon icon={faInstagram} />
+							<p>@tripoli.maria.laura</p>
 						</a>
-						<p className='pt-1 px-1'>@tripoli.maria.laura</p>
 
 						<a href='https://wa.me/111566315443?text=Hola!%20estoy%20interesad@%20en%20un%20cuadro'>
 							<FontAwesomeIcon icon={faWhatsapp} />
+							<p>+54 9 1166315443</p>
 						</a>
-						<p className='pt-1 px-1'>+54 9 1166315443</p>
 					</Col>
 
 					<hr className='w-100 clearfix d-md-none' />

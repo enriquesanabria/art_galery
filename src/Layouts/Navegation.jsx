@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 
 import logoTripoli from '../assets/img/icons/logoTripoliA.svg';
 
-import '../styles/layouts/navegation.module.css';
-
 const AppNavbar = () => {
 	return (
-		<Navbar fixed='top' expand='lg' bg='dark' variant='dark'>
+		<Navbar fixed='top' expand='lg' bg='black' variant='dark'>
 			<Container fluid>
 				<Navbar.Brand as={Link} to='/'>
 					<img src={logoTripoli} alt='Logo Laura Tripoli' height='50px' />
