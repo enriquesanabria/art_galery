@@ -6,7 +6,7 @@ import Expo from './components/Expo';
 import Featured from './components/Featured';
 import Portfolio from './components/Portfolio';
 
-import './app.scss';
+import './styles/scss/app.scss';
 
 function App() {
 	return (
