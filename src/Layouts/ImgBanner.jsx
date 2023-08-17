@@ -7,7 +7,7 @@ import style from '../styles/scss/bannerLogo.module.scss';
 function Banner(props) {
 	return (
 		<Container fluid className={style.container}>
-			<Image src={props.img} fluid />
+			<Image src={props.img} fluid className={style.logo} />
 		</Container>
 	);
 }
