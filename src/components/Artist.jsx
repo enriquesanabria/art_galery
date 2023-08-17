@@ -1,12 +1,13 @@
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import Navegation from '../Layouts/Navegation';
 import Footer from '../Layouts/Footer';
-import DescriptionAndImagen from '../Layouts/DescriptionAndImage';
+import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 
 import img1 from '../assets/img/artist/Artist1.jpg';
 import img2 from '../assets/img/artist/Artist2.jpg';
 import img3 from '../assets/img/artist/Artist3.jpg';
 import img4 from '../assets/img/artist/Artist4.jpg';
+import style from '../styles/scss/artist.module.scss';
 
 export default function Artist() {
 	const parrafo1 = (
@@ -87,11 +88,8 @@ export default function Artist() {
 	);
 
 	const parrafo4 = (
-		<Col
-			sm={8}
-			className='d-flex justify-content-start p-0 wow animate__animated animate__fadeInRight'
-		>
-			<ListGroup variant='flush' className='text-start art-exibicion p-0'>
+		<Col sm={8}>
+			<ListGroup>
 				<ListGroup.Item>
 					<h3>ART EXHIBITIONS</h3>
 				</ListGroup.Item>
@@ -137,32 +135,34 @@ export default function Artist() {
 	return (
 		<div>
 			<Navegation />
-			<DescriptionAndImagen
-				flexRow='flex-sm-row-reverse'
-				justifyContent='justify-content-sm-end'
-				texto='ejemplo'
-				imagenProp={img1}
-				description={parrafo1}
-			/>
-			<DescriptionAndImagen
-				justifyContent='justify-content-sm-start'
-				texto='ejemplo'
-				imagenProp={img2}
-				description={parrafo2}
-			/>
-			<DescriptionAndImagen
-				flexRow='flex-sm-row-reverse'
-				justifyContent='justify-content-sm-start'
-				texto='ejemplo'
-				imagenProp={img3}
-				description={parrafo3}
-			/>
-			<DescriptionAndImagen
-				justifyContent='justify-content-sm-start'
-				texto='ejemplo'
-				imagenProp={img4}
-				description={parrafo4}
-			/>
+			<Container fluid className={style.artist}>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='justify-content-sm-end'
+					texto='ejemplo'
+					imagenProp={img1}
+					description={parrafo1}
+				/>
+				<DescriptionAndImage
+					justifyContent='justify-content-sm-start'
+					texto='ejemplo'
+					imagenProp={img2}
+					description={parrafo2}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='justify-content-sm-start'
+					texto='ejemplo'
+					imagenProp={img3}
+					description={parrafo3}
+				/>
+				<DescriptionAndImage
+					justifyContent='justify-content-sm-start'
+					texto='ejemplo'
+					imagenProp={img4}
+					description={parrafo4}
+				/>
+			</Container>
 			<Footer />
 		</div>
 	);
