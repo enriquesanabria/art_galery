@@ -245,6 +245,73 @@ const parrafos = {
 		style: 'Acrylic on canvas',
 		content: '1.60 x 0.80 mts',
 	},
+	Frida: {
+		title: 'Frida',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas',
+		content: '1.20 x 1.20 mts',
+	},
+	Aqua: {
+		title: 'Aqua',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas',
+		content: '1.30 x 1.10 mts',
+	},
+	Shining: {
+		title: 'Shining',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas',
+		content: '1.10 x 1.10 mts',
+	},
+	Birds: {
+		title: 'Birds',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas',
+		content: '0.90 x 1.30 mts',
+	},
+	Souls: {
+		title: 'Souls',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas , mixed technique',
+		content: '1.60 x 0.70 mts',
+	},
+	Rhythm: {
+		title: 'Rhythm',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas ',
+		content: '0.80 x 0.80 mts',
+	},
+	Moss: {
+		title: 'Moss',
+		location: 'Buenos Aires,2019',
+		style: 'Acrylic on canvas ',
+		content: '0.80 x 0.80 mts',
+	},
+	Mosaic: {
+		title: 'Mosaic',
+		location: 'Buenos Aires,2018',
+		style: 'Acrylic on canvas ',
+		content: '1.20 x 1.20 mts',
+	},
+	Hole: {
+		title: 'Hole',
+		location: 'Buenos Aires,2018',
+		style: 'Acrylic on canvas, mixed technique',
+		content: '1.20 x 1.20 mts',
+		state: 'Sold',
+	},
+	Beat: {
+		title: 'Beat',
+		location: 'Buenos Aires,2018',
+		style: 'Acrylic on canvas',
+		content: '0.90 x 0.60 mts',
+	},
+	Violet: {
+		title: 'Violet',
+		location: 'Buenos Aires,2022',
+		style: 'Acrylic on canvas',
+		content: '1.30 x 0.90 mts',
+	},
 
 	// ... agrega el resto de los párrafos
 };
