@@ -3,19 +3,27 @@ import Footer from '../Layouts/Footer';
 import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 
 import cuadros from '../Layouts/ImageImporter';
+import description from '../Layouts/Textimporter';
 
 export default function Portfolio() {
-	const parrafo1 = <p>SOY UN CUADRO</p>;
 	return (
 		<div>
 			<Navegation />
-			<DescriptionAndImage imagenProp={cuadros.Aqua} description={parrafo1} />
 			<DescriptionAndImage
 				flexRow='flex-sm-row-reverse'
 				justifyContent='justify-content-sm-end'
-				texto='ejemplo'
-				imagenProp={cuadros.Sky1}
-				description={parrafo1}
+				texto='x'
+				imagenProp={cuadros.RiverBank}
+				description={
+					<div>
+						{description.RiverBank.title}
+						<br />
+						{description.RiverBank.location}
+						<br />
+						{description.RiverBank.style}
+						{description.RiverBank.content}
+					</div>
+				}
 			/>
 
 			<Footer />
