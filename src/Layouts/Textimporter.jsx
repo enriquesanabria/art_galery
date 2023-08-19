@@ -49,7 +49,7 @@ const parrafos = {
 		status: '',
 	},
 	Youth: {
-		title: 'Naif',
+		title: 'Youth',
 		location: 'Buenos Aires,2022',
 		style: 'Acrylic on canvas',
 		size: '1.00 x 1.00 mts',
