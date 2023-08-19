@@ -405,15 +405,15 @@ export default function Portfolio() {
 				imagenProp={cuadros.Beach1}
 				description={
 					<div>
-						{description.Beach1.title}
+						{description.BeachSeriesI.title}
 						<br />
-						{description.Beach1.location}
+						{description.BeachSeriesI.location}
 						<br />
-						{description.Beach1.style}
+						{description.BeachSeriesI.style}
 						<br />
-						{description.Beach1.size}
+						{description.BeachSeriesI.size}
 						<br />
-						{description.Beach1.status}
+						{description.BeachSeriesI.status}
 					</div>
 				}
 			/>
@@ -423,15 +423,15 @@ export default function Portfolio() {
 				imagenProp={cuadros.Beach2}
 				description={
 					<div>
-						{description.Beach2.title}
+						{description.BeachSeriesII.title}
 						<br />
-						{description.Beach2.location}
+						{description.BeachSeriesII.location}
 						<br />
-						{description.Beach2.style}
+						{description.BeachSeriesII.style}
 						<br />
-						{description.Beach2.size}
+						{description.BeachSeriesII.size}
 						<br />
-						{description.Beach2.status}
+						{description.BeachSeriesII.status}
 					</div>
 				}
 			/>
@@ -442,15 +442,15 @@ export default function Portfolio() {
 				imagenProp={cuadros.BlackLane1}
 				description={
 					<div>
-						{description.BlackLane1.title}
+						{description.BlackLaneSeriesI.title}
 						<br />
-						{description.BlackLane1.location}
+						{description.BlackLaneSeriesI.location}
 						<br />
-						{description.BlackLane1.style}
+						{description.BlackLaneSeriesI.style}
 						<br />
-						{description.BlackLane1.size}
+						{description.BlackLaneSeriesI.size}
 						<br />
-						{description.BlackLane1.status}
+						{description.BlackLaneSeriesI.status}
 					</div>
 				}
 			/>
@@ -590,15 +590,15 @@ export default function Portfolio() {
 				imagenProp={cuadros.Cloudy}
 				description={
 					<div>
-						{description.Cloudy.title}
+						{description.CloudySunset.title}
 						<br />
-						{description.Cloudy.location}
+						{description.CloudySunset.location}
 						<br />
-						{description.Cloudy.style}
+						{description.CloudySunset.style}
 						<br />
-						{description.Cloudy.size}
+						{description.CloudySunset.size}
 						<br />
-						{description.Cloudy.status}
+						{description.CloudySunset.status}
 					</div>
 				}
 			/>
@@ -698,7 +698,7 @@ export default function Portfolio() {
 				flexRow='flex-sm-row-reverse'
 				justifyContent='justify-content-sm-end'
 				texto='x'
-				imagenProp={cuadros.Pallete}
+				imagenProp={cuadros.Palette}
 				description={
 					<div>
 						{description.Palette.title}
@@ -738,15 +738,15 @@ export default function Portfolio() {
 				imagenProp={cuadros.Cyan1}
 				description={
 					<div>
-						{description.Cyan1.title}
+						{description.CyanSeriesI.title}
 						<br />
-						{description.Cyan1.location}
+						{description.CyanSeriesI.location}
 						<br />
-						{description.Cyan1.style}
+						{description.CyanSeriesI.style}
 						<br />
-						{description.Cyan1.size}
+						{description.CyanSeriesI.size}
 						<br />
-						{description.Cyan1.status}
+						{description.CyanSeriesI.status}
 					</div>
 				}
 			/>
@@ -756,15 +756,15 @@ export default function Portfolio() {
 				imagenProp={cuadros.Cyan2}
 				description={
 					<div>
-						{description.Cyan2.title}
+						{description.CyanSeriesII.title}
 						<br />
-						{description.Cyan2.location}
+						{description.CyanSeriesII.location}
 						<br />
-						{description.Cyan2.style}
+						{description.CyanSeriesII.style}
 						<br />
-						{description.Cyan2.size}
+						{description.CyanSeriesII.size}
 						<br />
-						{description.Cyan2.status}
+						{description.CyanSeriesII.status}
 					</div>
 				}
 			/>
@@ -883,18 +883,18 @@ export default function Portfolio() {
 				flexRow='flex-sm-row-reverse'
 				justifyContent='justify-content-sm-end'
 				texto='x'
-				imagenProp={cuadros.Ryrhm}
+				imagenProp={cuadros.Rythm}
 				description={
 					<div>
-						{description.Ryrhm.title}
+						{description.Rhythm.title}
 						<br />
-						{description.Ryrhm.location}
+						{description.Rhythm.location}
 						<br />
-						{description.Ryrhm.style}
+						{description.Rhythm.style}
 						<br />
-						{description.Ryrhm.size}
+						{description.Rhythm.size}
 						<br />
-						{description.Ryrhm.status}
+						{description.Rhythm.status}
 					</div>
 				}
 			/>

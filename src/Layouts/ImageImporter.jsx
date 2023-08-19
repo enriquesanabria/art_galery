@@ -37,11 +37,11 @@ import Mousteire from '../assets/img/paintings/Mousteire.jpg';
 import Naif from '../assets/img/paintings/Naif.jpg';
 import NYC from '../assets/img/paintings/NYC.jpg';
 import Orchid from '../assets/img/paintings/Orchid.jpg';
-import Pallete from '../assets/img/paintings/Pallete.jpg';
+import Palette from '../assets/img/paintings/Palette.jpg';
 import Pantuss from '../assets/img/paintings/Pantuss.jpg';
 import Parrots from '../assets/img/paintings/Parrots.jpg';
 import RiverBank from '../assets/img/paintings/River_Bank.jpg';
-import Ryrhm from '../assets/img/paintings/Rythm.jpg';
+import Rythm from '../assets/img/paintings/Rythm.jpg';
 import Sandstrom from '../assets/img/paintings/Sandstrom.jpg';
 import Shining from '../assets/img/paintings/Shining.jpg';
 import Souls from '../assets/img/paintings/Souls.jpg';
@@ -96,11 +96,11 @@ const cuadros = {
 	Naif,
 	NYC,
 	Orchid,
-	Pallete,
+	Palette,
 	Pantuss,
 	Parrots,
 	RiverBank,
-	Ryrhm,
+	Rythm,
 	Sandstrom,
 	Shining,
 	Souls,
