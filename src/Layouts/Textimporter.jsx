@@ -1,4 +1,4 @@
-const parrafos = {
+export const description = {
 	RiverBank: {
 		title: 'River Bank',
 		location: 'Buenos Aires,2022',
@@ -105,7 +105,7 @@ const parrafos = {
 		status: '',
 	},
 	LetsFly: {
-		title: 'Dauntless',
+		title: "Let's fly",
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '1.10 x 1.30 mts',
@@ -147,7 +147,7 @@ const parrafos = {
 		status: '',
 	},
 	BeachSeriesII: {
-		title: 'Beach Series I',
+		title: 'Beach Series II',
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.70 x 0.70 mts',
@@ -203,7 +203,7 @@ const parrafos = {
 		status: '',
 	},
 	Begining: {
-		title: 'Laugh',
+		title: 'Begining',
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '1.10 x 1.10 mts',
@@ -259,7 +259,7 @@ const parrafos = {
 		status: '',
 	},
 	Cement: {
-		title: 'Palette',
+		title: 'Cement',
 		location: 'Buenos Aires,2020',
 		style: 'Acrylic on canvas',
 		size: '1.00 x 0.80 mts',
@@ -366,5 +366,3 @@ const parrafos = {
 
 	// ... agrega el resto de los párrafos
 };
-
-export default parrafos;

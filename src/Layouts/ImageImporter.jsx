@@ -18,7 +18,7 @@ import Curl from '../assets/img/paintings/Curl.jpg';
 import Cyan1 from '../assets/img/paintings/Cyan_series_1.jpg';
 import Cyan2 from '../assets/img/paintings/Cyan_series_2.jpg';
 import Drums from '../assets/img/paintings/Drums.jpg';
-import Duntless from '../assets/img/paintings/Duntless.jpg';
+import Dauntless from '../assets/img/paintings/Duntless.jpg';
 import Explosion1 from '../assets/img/paintings/Explosion_series_1.jpg';
 import Explosion2 from '../assets/img/paintings/Explosion_series_2.jpg';
 import Frida from '../assets/img/paintings/Frida.jpg';
@@ -55,9 +55,21 @@ import Underworld from '../assets/img/paintings/Underworld.jpg';
 import Violet from '../assets/img/paintings/Violet.jpg';
 import Vision from '../assets/img/paintings/Vision.jpg';
 import Youth from '../assets/img/paintings/Youth.jpg';
-// import froma el resto de las imágenes de manera similar
 
-const cuadros = {
+// import fotos de artista
+import artist1 from '../assets/img/artist/Artist1.jpg';
+import artist2 from '../assets/img/artist/Artist2.jpg';
+import artist3 from '../assets/img/artist/Artist3.jpg';
+import artist4 from '../assets/img/artist/Artist4.jpg';
+
+// banners
+import mercedesGiachetti from '../assets/img/expos/Expo1.jpg';
+import expoCafira from '../assets/img/expos/Expo2.jpg';
+import laVoluntad from '../assets/img/expos/Expo3.jpg';
+import artWorld from '../assets/img/expos/Expo4.jpeg';
+import florenceBiennale from '../assets/img/expos/Expo5.jpg';
+
+export const cuadros = {
 	Aqua,
 	Sky1,
 	Sky2,
@@ -77,7 +89,7 @@ const cuadros = {
 	Cyan1,
 	Cyan2,
 	Drums,
-	Duntless,
+	Dauntless,
 	Explosion1,
 	Explosion2,
 	Frida,
@@ -116,5 +128,17 @@ const cuadros = {
 	Youth,
 	// Agrega el resto de las imágenes aquí
 };
+export const art = {
+	artist1,
+	artist2,
+	artist3,
+	artist4,
+};
 
-export default cuadros;
+export const expos = {
+	mercedesGiachetti,
+	expoCafira,
+	laVoluntad,
+	artWorld,
+	florenceBiennale,
+};
