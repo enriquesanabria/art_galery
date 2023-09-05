@@ -1,7 +1,8 @@
 import Navegation from '../Layouts/Navegation';
 import Footer from '../Layouts/Footer';
 import DescriptionAndImage from '../Layouts/DescriptionAndImage';
-import { art } from '../Layouts/ImageImporter';
+import { ImgArtist } from '../Layouts/ImageImporter';
+import { DescriptionArtist } from '../Layouts/Textimporter';
 import style from '../styles/scss/artist.module.scss';
 import { Container } from 'react-bootstrap';
 
@@ -13,28 +14,28 @@ export default function Artist() {
 				<DescriptionAndImage
 					flexRow='text-start'
 					texto='x'
-					imagenProp={art.artist1}
-					description={<div>x</div>}
+					imagenProp={ImgArtist.artist1}
+					description={DescriptionArtist.text1.p}
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
 					justifyContent='justify-content-sm-end'
 					texto='x'
-					imagenProp={art.artist2}
-					description={<div>x</div>}
+					imagenProp={ImgArtist.artist2}
+					description={DescriptionArtist.text2.p}
 				/>
 				<DescriptionAndImage
 					flexRow='text-start'
 					texto='x'
-					imagenProp={art.artist3}
-					description={<div>x</div>}
+					imagenProp={ImgArtist.artist3}
+					description={DescriptionArtist.text3.p}
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
 					justifyContent='justify-content-sm-end'
 					texto='x'
-					imagenProp={art.artist4}
-					description={<div>x</div>}
+					imagenProp={ImgArtist.artist4}
+					description={DescriptionArtist.text4.p}
 				/>
 			</Container>
 			<Footer />

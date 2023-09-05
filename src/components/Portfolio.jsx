@@ -3,7 +3,7 @@ import Footer from '../Layouts/Footer';
 import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 
 import { cuadros } from '../Layouts/ImageImporter';
-import { description } from '../Layouts/Textimporter';
+import { DescriptionArt } from '../Layouts/TextImporter';
 import { Container } from 'react-bootstrap';
 import style from '../styles/scss/portfolio.module.scss';
 
@@ -18,15 +18,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.RiverBank}
 					description={
 						<div>
-							{description.RiverBank.title}
+							{DescriptionArt.RiverBank.title}
 							<br />
-							{description.RiverBank.location}
+							{DescriptionArt.RiverBank.location}
 							<br />
-							{description.RiverBank.style}
+							{DescriptionArt.RiverBank.style}
 							<br />
-							{description.RiverBank.size}
+							{DescriptionArt.RiverBank.size}
 							<br />
-							{description.RiverBank.status}
+							{DescriptionArt.RiverBank.status}
 						</div>
 					}
 				/>
@@ -37,15 +37,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Violet}
 					description={
 						<div>
-							{description.Violet.title}
+							{DescriptionArt.Violet.title}
 							<br />
-							{description.Violet.location}
+							{DescriptionArt.Violet.location}
 							<br />
-							{description.Violet.style}
+							{DescriptionArt.Violet.style}
 							<br />
-							{description.Violet.size}
+							{DescriptionArt.Violet.size}
 							<br />
-							{description.Violet.status}
+							{DescriptionArt.Violet.status}
 						</div>
 					}
 				/>
@@ -56,15 +56,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Mousteire}
 					description={
 						<div>
-							{description.Mousteire.title}
+							{DescriptionArt.Mousteire.title}
 							<br />
-							{description.Mousteire.location}
+							{DescriptionArt.Mousteire.location}
 							<br />
-							{description.Mousteire.style}
+							{DescriptionArt.Mousteire.style}
 							<br />
-							{description.Mousteire.size}
+							{DescriptionArt.Mousteire.size}
 							<br />
-							{description.Mousteire.status}
+							{DescriptionArt.Mousteire.status}
 						</div>
 					}
 				/>
@@ -75,15 +75,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Curl}
 					description={
 						<div>
-							{description.Curl.title}
+							{DescriptionArt.Curl.title}
 							<br />
-							{description.Curl.location}
+							{DescriptionArt.Curl.location}
 							<br />
-							{description.Curl.style}
+							{DescriptionArt.Curl.style}
 							<br />
-							{description.Curl.size}
+							{DescriptionArt.Curl.size}
 							<br />
-							{description.Curl.status}
+							{DescriptionArt.Curl.status}
 						</div>
 					}
 				/>
@@ -94,15 +94,15 @@ export default function Portfolio() {
 					T
 					description={
 						<div>
-							{description.Gold.title}
+							{DescriptionArt.Gold.title}
 							<br />
-							{description.Gold.location}
+							{DescriptionArt.Gold.location}
 							<br />
-							{description.Gold.style}
+							{DescriptionArt.Gold.style}
 							<br />
-							{description.Gold.size}
+							{DescriptionArt.Gold.size}
 							<br />
-							{description.Gold.status}
+							{DescriptionArt.Gold.status}
 						</div>
 					}
 				/>
@@ -113,15 +113,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Fun}
 					description={
 						<div>
-							{description.Fun.title}
+							{DescriptionArt.Fun.title}
 							<br />
-							{description.Fun.location}
+							{DescriptionArt.Fun.location}
 							<br />
-							{description.Fun.style}
+							{DescriptionArt.Fun.style}
 							<br />
-							{description.Fun.size}
+							{DescriptionArt.Fun.size}
 							<br />
-							{description.Fun.status}
+							{DescriptionArt.Fun.status}
 						</div>
 					}
 				/>
@@ -131,15 +131,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Stripping}
 					description={
 						<div>
-							{description.Stripping.title}
+							{DescriptionArt.Stripping.title}
 							<br />
-							{description.Stripping.location}
+							{DescriptionArt.Stripping.location}
 							<br />
-							{description.Stripping.style}
+							{DescriptionArt.Stripping.style}
 							<br />
-							{description.Stripping.size}
+							{DescriptionArt.Stripping.size}
 							<br />
-							{description.Stripping.status}
+							{DescriptionArt.Stripping.status}
 						</div>
 					}
 				/>
@@ -150,15 +150,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Naif}
 					description={
 						<div>
-							{description.Naif.title}
+							{DescriptionArt.Naif.title}
 							<br />
-							{description.Naif.location}
+							{DescriptionArt.Naif.location}
 							<br />
-							{description.Naif.style}
+							{DescriptionArt.Naif.style}
 							<br />
-							{description.Naif.size}
+							{DescriptionArt.Naif.size}
 							<br />
-							{description.Fun.status}
+							{DescriptionArt.Fun.status}
 						</div>
 					}
 				/>
@@ -168,15 +168,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Youth}
 					description={
 						<div>
-							{description.Youth.title}
+							{DescriptionArt.Youth.title}
 							<br />
-							{description.Youth.location}
+							{DescriptionArt.Youth.location}
 							<br />
-							{description.Youth.style}
+							{DescriptionArt.Youth.style}
 							<br />
-							{description.Youth.size}
+							{DescriptionArt.Youth.size}
 							<br />
-							{description.Youth.status}
+							{DescriptionArt.Youth.status}
 						</div>
 					}
 				/>
@@ -187,15 +187,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.NYC}
 					description={
 						<div>
-							{description.NYC.title}
+							{DescriptionArt.NYC.title}
 							<br />
-							{description.NYC.location}
+							{DescriptionArt.NYC.location}
 							<br />
-							{description.NYC.style}
+							{DescriptionArt.NYC.style}
 							<br />
-							{description.NYC.size}
+							{DescriptionArt.NYC.size}
 							<br />
-							{description.NYC.status}
+							{DescriptionArt.NYC.status}
 						</div>
 					}
 				/>
@@ -205,15 +205,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Pantuss}
 					description={
 						<div>
-							{description.Pantuss.title}
+							{DescriptionArt.Pantuss.title}
 							<br />
-							{description.Pantuss.location}
+							{DescriptionArt.Pantuss.location}
 							<br />
-							{description.Pantuss.style}
+							{DescriptionArt.Pantuss.style}
 							<br />
-							{description.Pantuss.size}
+							{DescriptionArt.Pantuss.size}
 							<br />
-							{description.Pantuss.status}
+							{DescriptionArt.Pantuss.status}
 						</div>
 					}
 				/>
@@ -224,15 +224,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Drums}
 					description={
 						<div>
-							{description.Drums.title}
+							{DescriptionArt.Drums.title}
 							<br />
-							{description.Drums.location}
+							{DescriptionArt.Drums.location}
 							<br />
-							{description.Drums.style}
+							{DescriptionArt.Drums.style}
 							<br />
-							{description.Drums.size}
+							{DescriptionArt.Drums.size}
 							<br />
-							{description.Drums.status}
+							{DescriptionArt.Drums.status}
 						</div>
 					}
 				/>
@@ -242,15 +242,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Chaos}
 					description={
 						<div>
-							{description.Chaos.title}
+							{DescriptionArt.Chaos.title}
 							<br />
-							{description.Chaos.location}
+							{DescriptionArt.Chaos.location}
 							<br />
-							{description.Chaos.style}
+							{DescriptionArt.Chaos.style}
 							<br />
-							{description.Chaos.size}
+							{DescriptionArt.Chaos.size}
 							<br />
-							{description.Chaos.status}
+							{DescriptionArt.Chaos.status}
 						</div>
 					}
 				/>
@@ -261,15 +261,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Dauntless}
 					description={
 						<div>
-							{description.Dauntless.title}
+							{DescriptionArt.Dauntless.title}
 							<br />
-							{description.Dauntless.location}
+							{DescriptionArt.Dauntless.location}
 							<br />
-							{description.Dauntless.style}
+							{DescriptionArt.Dauntless.style}
 							<br />
-							{description.Dauntless.size}
+							{DescriptionArt.Dauntless.size}
 							<br />
-							{description.Dauntless.status}
+							{DescriptionArt.Dauntless.status}
 						</div>
 					}
 				/>
@@ -279,15 +279,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Makeup}
 					description={
 						<div>
-							{description.MakeupCase.title}
+							{DescriptionArt.MakeupCase.title}
 							<br />
-							{description.MakeupCase.location}
+							{DescriptionArt.MakeupCase.location}
 							<br />
-							{description.MakeupCase.style}
+							{DescriptionArt.MakeupCase.style}
 							<br />
-							{description.MakeupCase.size}
+							{DescriptionArt.MakeupCase.size}
 							<br />
-							{description.MakeupCase.status}
+							{DescriptionArt.MakeupCase.status}
 						</div>
 					}
 				/>
@@ -298,15 +298,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Orchid}
 					description={
 						<div>
-							{description.Orchid.title}
+							{DescriptionArt.Orchid.title}
 							<br />
-							{description.Orchid.location}
+							{DescriptionArt.Orchid.location}
 							<br />
-							{description.Orchid.style}
+							{DescriptionArt.Orchid.style}
 							<br />
-							{description.Orchid.size}
+							{DescriptionArt.Orchid.size}
 							<br />
-							{description.Orchid.status}
+							{DescriptionArt.Orchid.status}
 						</div>
 					}
 				/>
@@ -316,15 +316,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.LetsFly}
 					description={
 						<div>
-							{description.LetsFly.title}
+							{DescriptionArt.LetsFly.title}
 							<br />
-							{description.LetsFly.location}
+							{DescriptionArt.LetsFly.location}
 							<br />
-							{description.LetsFly.style}
+							{DescriptionArt.LetsFly.style}
 							<br />
-							{description.LetsFly.size}
+							{DescriptionArt.LetsFly.size}
 							<br />
-							{description.LetsFly.status}
+							{DescriptionArt.LetsFly.status}
 						</div>
 					}
 				/>
@@ -335,15 +335,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Explosion1}
 					description={
 						<div>
-							{description.ExplosionSeriesI.title}
+							{DescriptionArt.ExplosionSeriesI.title}
 							<br />
-							{description.ExplosionSeriesI.location}
+							{DescriptionArt.ExplosionSeriesI.location}
 							<br />
-							{description.ExplosionSeriesI.style}
+							{DescriptionArt.ExplosionSeriesI.style}
 							<br />
-							{description.ExplosionSeriesI.size}
+							{DescriptionArt.ExplosionSeriesI.size}
 							<br />
-							{description.ExplosionSeriesI.status}
+							{DescriptionArt.ExplosionSeriesI.status}
 						</div>
 					}
 				/>
@@ -353,15 +353,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Explosion2}
 					description={
 						<div>
-							{description.ExplosionSeriesII.title}
+							{DescriptionArt.ExplosionSeriesII.title}
 							<br />
-							{description.ExplosionSeriesII.location}
+							{DescriptionArt.ExplosionSeriesII.location}
 							<br />
-							{description.ExplosionSeriesII.style}
+							{DescriptionArt.ExplosionSeriesII.style}
 							<br />
-							{description.ExplosionSeriesII.size}
+							{DescriptionArt.ExplosionSeriesII.size}
 							<br />
-							{description.ExplosionSeriesII.status}
+							{DescriptionArt.ExplosionSeriesII.status}
 						</div>
 					}
 				/>
@@ -372,15 +372,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Twilight}
 					description={
 						<div>
-							{description.Twilight.title}
+							{DescriptionArt.Twilight.title}
 							<br />
-							{description.Twilight.location}
+							{DescriptionArt.Twilight.location}
 							<br />
-							{description.Twilight.style}
+							{DescriptionArt.Twilight.style}
 							<br />
-							{description.Twilight.size}
+							{DescriptionArt.Twilight.size}
 							<br />
-							{description.Twilight.status}
+							{DescriptionArt.Twilight.status}
 						</div>
 					}
 				/>
@@ -390,15 +390,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sunset}
 					description={
 						<div>
-							{description.Sunset.title}
+							{DescriptionArt.Sunset.title}
 							<br />
-							{description.Sunset.location}
+							{DescriptionArt.Sunset.location}
 							<br />
-							{description.Sunset.style}
+							{DescriptionArt.Sunset.style}
 							<br />
-							{description.Sunset.size}
+							{DescriptionArt.Sunset.size}
 							<br />
-							{description.Sunset.status}
+							{DescriptionArt.Sunset.status}
 						</div>
 					}
 				/>
@@ -409,15 +409,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Beach1}
 					description={
 						<div>
-							{description.BeachSeriesI.title}
+							{DescriptionArt.BeachSeriesI.title}
 							<br />
-							{description.BeachSeriesI.location}
+							{DescriptionArt.BeachSeriesI.location}
 							<br />
-							{description.BeachSeriesI.style}
+							{DescriptionArt.BeachSeriesI.style}
 							<br />
-							{description.BeachSeriesI.size}
+							{DescriptionArt.BeachSeriesI.size}
 							<br />
-							{description.BeachSeriesI.status}
+							{DescriptionArt.BeachSeriesI.status}
 						</div>
 					}
 				/>
@@ -427,15 +427,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Beach2}
 					description={
 						<div>
-							{description.BeachSeriesII.title}
+							{DescriptionArt.BeachSeriesII.title}
 							<br />
-							{description.BeachSeriesII.location}
+							{DescriptionArt.BeachSeriesII.location}
 							<br />
-							{description.BeachSeriesII.style}
+							{DescriptionArt.BeachSeriesII.style}
 							<br />
-							{description.BeachSeriesII.size}
+							{DescriptionArt.BeachSeriesII.size}
 							<br />
-							{description.BeachSeriesII.status}
+							{DescriptionArt.BeachSeriesII.status}
 						</div>
 					}
 				/>
@@ -446,15 +446,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.BlackLane1}
 					description={
 						<div>
-							{description.BlackLaneSeriesI.title}
+							{DescriptionArt.BlackLaneSeriesI.title}
 							<br />
-							{description.BlackLaneSeriesI.location}
+							{DescriptionArt.BlackLaneSeriesI.location}
 							<br />
-							{description.BlackLaneSeriesI.style}
+							{DescriptionArt.BlackLaneSeriesI.style}
 							<br />
-							{description.BlackLaneSeriesI.size}
+							{DescriptionArt.BlackLaneSeriesI.size}
 							<br />
-							{description.BlackLaneSeriesI.status}
+							{DescriptionArt.BlackLaneSeriesI.status}
 						</div>
 					}
 				/>
@@ -464,15 +464,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.BlackLan2}
 					description={
 						<div>
-							{description.BlackLaneSeriesII.title}
+							{DescriptionArt.BlackLaneSeriesII.title}
 							<br />
-							{description.BlackLaneSeriesII.location}
+							{DescriptionArt.BlackLaneSeriesII.location}
 							<br />
-							{description.BlackLaneSeriesII.style}
+							{DescriptionArt.BlackLaneSeriesII.style}
 							<br />
-							{description.BlackLaneSeriesII.size}
+							{DescriptionArt.BlackLaneSeriesII.size}
 							<br />
-							{description.BlackLaneSeriesII.status}
+							{DescriptionArt.BlackLaneSeriesII.status}
 						</div>
 					}
 				/>
@@ -483,15 +483,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Tenerife}
 					description={
 						<div>
-							{description.TenerifeSea.title}
+							{DescriptionArt.TenerifeSea.title}
 							<br />
-							{description.TenerifeSea.location}
+							{DescriptionArt.TenerifeSea.location}
 							<br />
-							{description.TenerifeSea.style}
+							{DescriptionArt.TenerifeSea.style}
 							<br />
-							{description.TenerifeSea.size}
+							{DescriptionArt.TenerifeSea.size}
 							<br />
-							{description.TenerifeSea.status}
+							{DescriptionArt.TenerifeSea.status}
 						</div>
 					}
 				/>
@@ -501,15 +501,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sandstrom}
 					description={
 						<div>
-							{description.Sandstrom.title}
+							{DescriptionArt.Sandstrom.title}
 							<br />
-							{description.Sandstrom.location}
+							{DescriptionArt.Sandstrom.location}
 							<br />
-							{description.Sandstrom.style}
+							{DescriptionArt.Sandstrom.style}
 							<br />
-							{description.Sandstrom.size}
+							{DescriptionArt.Sandstrom.size}
 							<br />
-							{description.Sandstrom.status}
+							{DescriptionArt.Sandstrom.status}
 						</div>
 					}
 				/>
@@ -520,15 +520,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sky1}
 					description={
 						<div>
-							{description.AshSkySeriesI.title}
+							{DescriptionArt.AshSkySeriesI.title}
 							<br />
-							{description.AshSkySeriesI.location}
+							{DescriptionArt.AshSkySeriesI.location}
 							<br />
-							{description.AshSkySeriesI.style}
+							{DescriptionArt.AshSkySeriesI.style}
 							<br />
-							{description.AshSkySeriesI.size}
+							{DescriptionArt.AshSkySeriesI.size}
 							<br />
-							{description.AshSkySeriesI.status}
+							{DescriptionArt.AshSkySeriesI.status}
 						</div>
 					}
 				/>
@@ -538,15 +538,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sky2}
 					description={
 						<div>
-							{description.AshSkySeriesII.title}
+							{DescriptionArt.AshSkySeriesII.title}
 							<br />
-							{description.AshSkySeriesII.location}
+							{DescriptionArt.AshSkySeriesII.location}
 							<br />
-							{description.AshSkySeriesII.style}
+							{DescriptionArt.AshSkySeriesII.style}
 							<br />
-							{description.AshSkySeriesII.size}
+							{DescriptionArt.AshSkySeriesII.size}
 							<br />
-							{description.AshSkySeriesII.status}
+							{DescriptionArt.AshSkySeriesII.status}
 						</div>
 					}
 				/>
@@ -557,15 +557,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Laugh}
 					description={
 						<div>
-							{description.Laugh.title}
+							{DescriptionArt.Laugh.title}
 							<br />
-							{description.Laugh.location}
+							{DescriptionArt.Laugh.location}
 							<br />
-							{description.Laugh.style}
+							{DescriptionArt.Laugh.style}
 							<br />
-							{description.Laugh.size}
+							{DescriptionArt.Laugh.size}
 							<br />
-							{description.Laugh.status}
+							{DescriptionArt.Laugh.status}
 						</div>
 					}
 				/>
@@ -575,15 +575,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Begining}
 					description={
 						<div>
-							{description.Begining.title}
+							{DescriptionArt.Begining.title}
 							<br />
-							{description.Begining.location}
+							{DescriptionArt.Begining.location}
 							<br />
-							{description.Begining.style}
+							{DescriptionArt.Begining.style}
 							<br />
-							{description.Begining.size}
+							{DescriptionArt.Begining.size}
 							<br />
-							{description.Begining.status}
+							{DescriptionArt.Begining.status}
 						</div>
 					}
 				/>
@@ -594,15 +594,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cloudy}
 					description={
 						<div>
-							{description.CloudySunset.title}
+							{DescriptionArt.CloudySunset.title}
 							<br />
-							{description.CloudySunset.location}
+							{DescriptionArt.CloudySunset.location}
 							<br />
-							{description.CloudySunset.style}
+							{DescriptionArt.CloudySunset.style}
 							<br />
-							{description.CloudySunset.size}
+							{DescriptionArt.CloudySunset.size}
 							<br />
-							{description.CloudySunset.status}
+							{DescriptionArt.CloudySunset.status}
 						</div>
 					}
 				/>
@@ -612,15 +612,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Gale}
 					description={
 						<div>
-							{description.Gale.title}
+							{DescriptionArt.Gale.title}
 							<br />
-							{description.Gale.location}
+							{DescriptionArt.Gale.location}
 							<br />
-							{description.Gale.style}
+							{DescriptionArt.Gale.style}
 							<br />
-							{description.Gale.size}
+							{DescriptionArt.Gale.size}
 							<br />
-							{description.Gale.status}
+							{DescriptionArt.Gale.status}
 						</div>
 					}
 				/>
@@ -631,15 +631,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Calm}
 					description={
 						<div>
-							{description.Calm.title}
+							{DescriptionArt.Calm.title}
 							<br />
-							{description.Calm.location}
+							{DescriptionArt.Calm.location}
 							<br />
-							{description.Calm.style}
+							{DescriptionArt.Calm.style}
 							<br />
-							{description.Calm.size}
+							{DescriptionArt.Calm.size}
 							<br />
-							{description.Calm.status}
+							{DescriptionArt.Calm.status}
 						</div>
 					}
 				/>
@@ -649,15 +649,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Underworld}
 					description={
 						<div>
-							{description.Underworld.title}
+							{DescriptionArt.Underworld.title}
 							<br />
-							{description.Underworld.location}
+							{DescriptionArt.Underworld.location}
 							<br />
-							{description.Underworld.style}
+							{DescriptionArt.Underworld.style}
 							<br />
-							{description.Underworld.size}
+							{DescriptionArt.Underworld.size}
 							<br />
-							{description.Underworld.status}
+							{DescriptionArt.Underworld.status}
 						</div>
 					}
 				/>
@@ -668,15 +668,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Vision}
 					description={
 						<div>
-							{description.Vision.title}
+							{DescriptionArt.Vision.title}
 							<br />
-							{description.Vision.location}
+							{DescriptionArt.Vision.location}
 							<br />
-							{description.Vision.style}
+							{DescriptionArt.Vision.style}
 							<br />
-							{description.Vision.size}
+							{DescriptionArt.Vision.size}
 							<br />
-							{description.Vision.status}
+							{DescriptionArt.Vision.status}
 						</div>
 					}
 				/>
@@ -686,15 +686,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Parrots}
 					description={
 						<div>
-							{description.Parrots.title}
+							{DescriptionArt.Parrots.title}
 							<br />
-							{description.Parrots.location}
+							{DescriptionArt.Parrots.location}
 							<br />
-							{description.Parrots.style}
+							{DescriptionArt.Parrots.style}
 							<br />
-							{description.Parrots.size}
+							{DescriptionArt.Parrots.size}
 							<br />
-							{description.Parrots.status}
+							{DescriptionArt.Parrots.status}
 						</div>
 					}
 				/>
@@ -705,15 +705,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Palette}
 					description={
 						<div>
-							{description.Palette.title}
+							{DescriptionArt.Palette.title}
 							<br />
-							{description.Palette.location}
+							{DescriptionArt.Palette.location}
 							<br />
-							{description.Palette.style}
+							{DescriptionArt.Palette.style}
 							<br />
-							{description.Palette.size}
+							{DescriptionArt.Palette.size}
 							<br />
-							{description.Palette.status}
+							{DescriptionArt.Palette.status}
 						</div>
 					}
 				/>
@@ -723,15 +723,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cement}
 					description={
 						<div>
-							{description.Cement.title}
+							{DescriptionArt.Cement.title}
 							<br />
-							{description.Cement.location}
+							{DescriptionArt.Cement.location}
 							<br />
-							{description.Cement.style}
+							{DescriptionArt.Cement.style}
 							<br />
-							{description.Cement.size}
+							{DescriptionArt.Cement.size}
 							<br />
-							{description.Cement.status}
+							{DescriptionArt.Cement.status}
 						</div>
 					}
 				/>
@@ -742,15 +742,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cyan1}
 					description={
 						<div>
-							{description.CyanSeriesI.title}
+							{DescriptionArt.CyanSeriesI.title}
 							<br />
-							{description.CyanSeriesI.location}
+							{DescriptionArt.CyanSeriesI.location}
 							<br />
-							{description.CyanSeriesI.style}
+							{DescriptionArt.CyanSeriesI.style}
 							<br />
-							{description.CyanSeriesI.size}
+							{DescriptionArt.CyanSeriesI.size}
 							<br />
-							{description.CyanSeriesI.status}
+							{DescriptionArt.CyanSeriesI.status}
 						</div>
 					}
 				/>
@@ -760,15 +760,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cyan2}
 					description={
 						<div>
-							{description.CyanSeriesII.title}
+							{DescriptionArt.CyanSeriesII.title}
 							<br />
-							{description.CyanSeriesII.location}
+							{DescriptionArt.CyanSeriesII.location}
 							<br />
-							{description.CyanSeriesII.style}
+							{DescriptionArt.CyanSeriesII.style}
 							<br />
-							{description.CyanSeriesII.size}
+							{DescriptionArt.CyanSeriesII.size}
 							<br />
-							{description.CyanSeriesII.status}
+							{DescriptionArt.CyanSeriesII.status}
 						</div>
 					}
 				/>
@@ -779,15 +779,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Colors}
 					description={
 						<div>
-							{description.Colors.title}
+							{DescriptionArt.Colors.title}
 							<br />
-							{description.Colors.location}
+							{DescriptionArt.Colors.location}
 							<br />
-							{description.Colors.style}
+							{DescriptionArt.Colors.style}
 							<br />
-							{description.Colors.size}
+							{DescriptionArt.Colors.size}
 							<br />
-							{description.Colors.status}
+							{DescriptionArt.Colors.status}
 						</div>
 					}
 				/>
@@ -797,15 +797,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Frida}
 					description={
 						<div>
-							{description.Frida.title}
+							{DescriptionArt.Frida.title}
 							<br />
-							{description.Frida.location}
+							{DescriptionArt.Frida.location}
 							<br />
-							{description.Frida.style}
+							{DescriptionArt.Frida.style}
 							<br />
-							{description.Frida.size}
+							{DescriptionArt.Frida.size}
 							<br />
-							{description.Frida.status}
+							{DescriptionArt.Frida.status}
 						</div>
 					}
 				/>
@@ -816,15 +816,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Aqua}
 					description={
 						<div>
-							{description.Aqua.title}
+							{DescriptionArt.Aqua.title}
 							<br />
-							{description.Aqua.location}
+							{DescriptionArt.Aqua.location}
 							<br />
-							{description.Aqua.style}
+							{DescriptionArt.Aqua.style}
 							<br />
-							{description.Aqua.size}
+							{DescriptionArt.Aqua.size}
 							<br />
-							{description.Aqua.status}
+							{DescriptionArt.Aqua.status}
 						</div>
 					}
 				/>
@@ -834,15 +834,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Shining}
 					description={
 						<div>
-							{description.Shining.title}
+							{DescriptionArt.Shining.title}
 							<br />
-							{description.Shining.location}
+							{DescriptionArt.Shining.location}
 							<br />
-							{description.Shining.style}
+							{DescriptionArt.Shining.style}
 							<br />
-							{description.Shining.size}
+							{DescriptionArt.Shining.size}
 							<br />
-							{description.Shining.status}
+							{DescriptionArt.Shining.status}
 						</div>
 					}
 				/>
@@ -853,15 +853,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Birds}
 					description={
 						<div>
-							{description.Birds.title}
+							{DescriptionArt.Birds.title}
 							<br />
-							{description.Birds.location}
+							{DescriptionArt.Birds.location}
 							<br />
-							{description.Birds.style}
+							{DescriptionArt.Birds.style}
 							<br />
-							{description.Birds.size}
+							{DescriptionArt.Birds.size}
 							<br />
-							{description.Birds.status}
+							{DescriptionArt.Birds.status}
 						</div>
 					}
 				/>
@@ -871,15 +871,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Souls}
 					description={
 						<div>
-							{description.Souls.title}
+							{DescriptionArt.Souls.title}
 							<br />
-							{description.Souls.location}
+							{DescriptionArt.Souls.location}
 							<br />
-							{description.Souls.style}
+							{DescriptionArt.Souls.style}
 							<br />
-							{description.Souls.size}
+							{DescriptionArt.Souls.size}
 							<br />
-							{description.Souls.status}
+							{DescriptionArt.Souls.status}
 						</div>
 					}
 				/>
@@ -890,15 +890,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Rythm}
 					description={
 						<div>
-							{description.Rhythm.title}
+							{DescriptionArt.Rhythm.title}
 							<br />
-							{description.Rhythm.location}
+							{DescriptionArt.Rhythm.location}
 							<br />
-							{description.Rhythm.style}
+							{DescriptionArt.Rhythm.style}
 							<br />
-							{description.Rhythm.size}
+							{DescriptionArt.Rhythm.size}
 							<br />
-							{description.Rhythm.status}
+							{DescriptionArt.Rhythm.status}
 						</div>
 					}
 				/>
@@ -908,15 +908,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Moss}
 					description={
 						<div>
-							{description.Moss.title}
+							{DescriptionArt.Moss.title}
 							<br />
-							{description.Moss.location}
+							{DescriptionArt.Moss.location}
 							<br />
-							{description.Moss.style}
+							{DescriptionArt.Moss.style}
 							<br />
-							{description.Moss.size}
+							{DescriptionArt.Moss.size}
 							<br />
-							{description.Moss.status}
+							{DescriptionArt.Moss.status}
 						</div>
 					}
 				/>
@@ -927,15 +927,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Mosaic}
 					description={
 						<div>
-							{description.Mosaic.title}
+							{DescriptionArt.Mosaic.title}
 							<br />
-							{description.Mosaiclocation}
+							{DescriptionArt.Mosaiclocation}
 							<br />
-							{description.Mosaic.style}
+							{DescriptionArt.Mosaic.style}
 							<br />
-							{description.Mosaic.size}
+							{DescriptionArt.Mosaic.size}
 							<br />
-							{description.Mosaic.status}
+							{DescriptionArt.Mosaic.status}
 						</div>
 					}
 				/>
@@ -945,15 +945,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Hole}
 					description={
 						<div>
-							{description.Hole.title}
+							{DescriptionArt.Hole.title}
 							<br />
-							{description.Hole.location}
+							{DescriptionArt.Hole.location}
 							<br />
-							{description.Hole.style}
+							{DescriptionArt.Hole.style}
 							<br />
-							{description.Hole.size}
+							{DescriptionArt.Hole.size}
 							<br />
-							{description.Hole.status}
+							{DescriptionArt.Hole.status}
 						</div>
 					}
 				/>
@@ -964,15 +964,15 @@ export default function Portfolio() {
 					imagenProp={cuadros.Beat}
 					description={
 						<div>
-							{description.Beat.title}
+							{DescriptionArt.Beat.title}
 							<br />
-							{description.Beat.location}
+							{DescriptionArt.Beat.location}
 							<br />
-							{description.Beat.style}
+							{DescriptionArt.Beat.style}
 							<br />
-							{description.Beat.size}
+							{DescriptionArt.Beat.size}
 							<br />
-							{description.Beat.status}
+							{DescriptionArt.Beat.status}
 						</div>
 					}
 				/>

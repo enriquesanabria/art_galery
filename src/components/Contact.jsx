@@ -1,8 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
-import img1 from '../assets/img/carrousel/Contact/img1.jpg';
-import img2 from '../assets/img/carrousel/Contact/img2.jpg';
-import img3 from '../assets/img/carrousel/Contact/img3.jpg';
+import { contacto } from '../Layouts/ImageImporter';
 
 import ComponentCarousel from '../Layouts/Carousel.jsx';
 import Navegation from '../Layouts/Navegation';
@@ -12,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-const imagesSet1 = [img1, img2, img3];
+const imagesSet1 = [contacto.cuadro1, contacto.cuadro2, contacto.cuadro3];
 
 import style from '../styles/scss/contact.module.scss';
 

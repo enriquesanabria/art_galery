@@ -1,4 +1,5 @@
-export const description = {
+import { Container, Row, Col, ListGroup } from 'react-bootstrap';
+export const DescriptionArt = {
 	RiverBank: {
 		title: 'River Bank',
 		location: 'Buenos Aires,2022',
@@ -365,4 +366,139 @@ export const description = {
 	},
 
 	// ... agrega el resto de los párrafos
+};
+
+export const DescriptionArtist = {
+	text1: {
+		p: (
+			<p>
+				Painting allows me to express the <br className='d-none d-sm-block' />
+				best version of myself. I started doing{' '}
+				<br className='d-none d-sm-block' />
+				it because I love it, it takes me on a{' '}
+				<br className='d-none d-sm-block' />
+				journey without time. Through art I <br className='d-none d-sm-block' />
+				managed to connect with my most <br className='d-none d-sm-block' />
+				intimate emotions.
+			</p>
+		),
+	},
+	text2: {
+		p: (
+			<p>
+				Each piece is the result of the ability
+				<br className='d-none d-sm-block' />
+				to interpret what the world offers me
+				<br className='d-none d-sm-block' />
+				and turn it into something beautiful.
+				<br className='d-none d-sm-block' />
+			</p>
+		),
+	},
+	text3: {
+		p: (
+			<Container>
+				<Row className='justify-content-sm-end justify-content-start mt-sm-0 mt-4 p-0 justify-content-start wow animate__animated animate__fadeInLeft'>
+					<Col className='d-flex text-sm-end text-start art-estudios'>
+						<div>
+							<h1>MARIA LAURA TRIPOLI</h1>
+							<h2>ABSTACT ARTIST</h2>
+							<h3>EDUCATION</h3>
+							<ul className='p-0'>
+								<li>
+									<strong>Degree in Tourism</strong> | USAL
+								</li>
+								<li>
+									<strong>
+										Postgraduate Degree in Business Administration
+									</strong>{' '}
+									| UBA
+								</li>
+								<li>
+									<strong>University Teaching</strong> | USAL
+								</li>
+								<br />
+								<li>
+									<strong>Ceramic Course</strong> | School of Visual Arts
+									<br className='d-sm-none' /> Martin Malarro
+								</li>
+								<li>
+									<strong>Ceramic Course</strong> | Casa de Madera
+								</li>
+								<li>
+									<strong>Abstract Art Techniques</strong> | Atelier Nieves
+									Legaspi
+								</li>
+							</ul>
+						</div>
+						<div>
+							<ul className='p-0'>
+								<h3>EXPERIENCE</h3>
+								<li>
+									<strong>University Teacher</strong> | USAL | 2000-Today
+								</li>
+								<li>
+									<strong>Design Manager</strong> | Pantuss SRL | 2012-Today
+								</li>
+								<li>
+									<strong>Abstract Artist</strong> | Tripoli | 2018-Today
+								</li>
+								<li>
+									<strong>Art Consultant</strong> | Tripoli | 2021-Today
+								</li>
+							</ul>
+						</div>
+					</Col>
+				</Row>
+			</Container>
+		),
+	},
+	text4: {
+		p: (
+			<Col
+				sm={8}
+				className='d-flex justify-content-start p-0 wow animate__animated animate__fadeInRight'
+			>
+				<ListGroup variant='flush' className='text-start art-exibicion p-0'>
+					<h3>ART EXHIBITIONS</h3>
+					<ListGroup.Item>
+						<strong>Atelier Nieves Legaspi</strong> | Tigre | November 2019
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Obras Referenciales Cito</strong> | Tigre | December 2019
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Solo Art Exhibition</strong> | Tigre City Hall | April 2021
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Museum Night</strong> | Buenos Aires | October 2021
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Collective Art Exhibition</strong> | Barolo Palace |
+						November 2021
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>CHAU Art Exhibition</strong> | Buenos Aires | December 2021
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Art Night</strong> | Tigre | October 2022
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Established & Emerging II</strong> | Audiovisual District of
+						Colegiales | November 2022
+					</ListGroup.Item>
+					<br />
+					<ListGroup.Item>
+						<strong>Mercedes Giachetti Gallery</strong> | San Telmo | March 2023
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>Expo Cafira</strong> | Rural Society | March 2023
+					</ListGroup.Item>
+					<ListGroup.Item>
+						<strong>XIV Florence Biennale</strong> | Florence | October 2023
+					</ListGroup.Item>
+				</ListGroup>
+			</Col>
+		),
+	},
 };

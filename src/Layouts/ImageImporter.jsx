@@ -69,6 +69,11 @@ import laVoluntad from '../assets/img/expos/Expo3.jpg';
 import artWorld from '../assets/img/expos/Expo4.jpeg';
 import florenceBiennale from '../assets/img/expos/Expo5.jpg';
 
+// carrousel contact
+import cuadro1 from '../assets/img/Contacto/img1.jpg';
+import cuadro2 from '../assets/img/Contacto/img2.jpg';
+import cuadro3 from '../assets/img/Contacto/img3.jpg';
+
 export const cuadros = {
 	Aqua,
 	Sky1,
@@ -128,7 +133,7 @@ export const cuadros = {
 	Youth,
 	// Agrega el resto de las imágenes aquí
 };
-export const art = {
+export const ImgArtist = {
 	artist1,
 	artist2,
 	artist3,
@@ -141,4 +146,10 @@ export const expos = {
 	laVoluntad,
 	artWorld,
 	florenceBiennale,
+};
+
+export const contacto = {
+	cuadro1,
+	cuadro2,
+	cuadro3,
 };
