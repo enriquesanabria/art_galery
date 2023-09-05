@@ -70,9 +70,9 @@ import artWorld from '../assets/img/expos/Expo4.jpeg';
 import florenceBiennale from '../assets/img/expos/Expo5.jpg';
 
 // carrousel contact
-import cuadro1 from '../assets/img/Contacto/img1.jpg';
-import cuadro2 from '../assets/img/Contacto/img2.jpg';
-import cuadro3 from '../assets/img/Contacto/img3.jpg';
+import cuadro1 from '../assets/img/Contacto/Carrousell1.jpg';
+import cuadro2 from '../assets/img/Contacto/Carrousell2.jpg';
+import cuadro3 from '../assets/img/Contacto/Carrousell3.jpg';
 
 export const cuadros = {
 	Aqua,
