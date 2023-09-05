@@ -2,7 +2,7 @@ import Navegation from '../Layouts/Navegation';
 import Footer from '../Layouts/Footer';
 import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 import { ImgArtist } from '../Layouts/ImageImporter';
-import { DescriptionArtist } from '../Layouts/Textimporter';
+import { DescriptionArtist } from '../Layouts/TextImporter';
 import style from '../styles/scss/artist.module.scss';
 import { Container } from 'react-bootstrap';
 

@@ -1,4 +1,5 @@
 // ImageImporter.js
+// cuadros
 import Aqua from '../assets/img/paintings/Aqua.jpg';
 import Sky1 from '../assets/img/paintings/Ash_sky_series_1.jpg';
 import Sky2 from '../assets/img/paintings/Ash_sky_series_2.jpg';
@@ -69,10 +70,25 @@ import laVoluntad from '../assets/img/expos/Expo3.jpg';
 import artWorld from '../assets/img/expos/Expo4.jpeg';
 import florenceBiennale from '../assets/img/expos/Expo5.jpg';
 
-// carrousel contact
+// carrousell contact
 import cuadro1 from '../assets/img/Contacto/Carrousell1.jpg';
 import cuadro2 from '../assets/img/Contacto/Carrousell2.jpg';
 import cuadro3 from '../assets/img/Contacto/Carrousell3.jpg';
+
+// carrousell home
+
+import cover1 from '../assets/img/carrousel/Covers/cover1.jpg';
+import cover2 from '../assets/img/carrousel/Covers/cover2.jpg';
+import cover3 from '../assets/img/carrousel/Covers/cover3.jpg';
+import cover4 from '../assets/img/carrousel/Covers/cover4.jpg';
+import cover5 from '../assets/img/carrousel/Covers/cover5.jpg';
+import cover6 from '../assets/img/carrousel/Covers/cover6.jpg';
+
+// carrousell artist  home
+import carroArtist1 from '../assets/img/carrousel/Artist/carrouselArtista1.jpg';
+import carroArtist2 from '../assets/img/carrousel/Artist/carrouselArtista2.jpg';
+import carroArtist3 from '../assets/img/carrousel/Artist/carrouselArtista3.jpg';
+import carroArtist4 from '../assets/img/carrousel/Artist/carrouselArtista4.jpg';
 
 export const cuadros = {
 	Aqua,
@@ -152,4 +168,20 @@ export const contacto = {
 	cuadro1,
 	cuadro2,
 	cuadro3,
+};
+
+export const carrouselHome = {
+	cover1,
+	cover2,
+	cover3,
+	cover4,
+	cover5,
+	cover6,
+};
+
+export const carrouselArtistHome = {
+	carroArtist1,
+	carroArtist2,
+	carroArtist3,
+	carroArtist4,
 };

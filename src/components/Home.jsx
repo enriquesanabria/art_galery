@@ -1,21 +1,23 @@
 import Navegation from '../Layouts/Navegation';
 import Carousel from '../Layouts/Carousel';
-import Footer from '../Layouts/Footer';
-import cover1 from '../assets/img/carrousel/Covers/cover1.jpg';
-import cover2 from '../assets/img/carrousel/Covers/cover2.jpg';
-import cover3 from '../assets/img/carrousel/Covers/cover3.jpg';
-import cover4 from '../assets/img/carrousel/Covers/cover4.jpg';
 
-import coverArtist1 from '../assets/img/carrousel/Artist/CarrouselArtista1.jpg';
-import coverArtist2 from '../assets/img/carrousel/Artist/CarrouselArtista2.jpg';
-import coverArtist3 from '../assets/img/carrousel/Artist/CarrouselArtista3.jpg';
-import coverArtist4 from '../assets/img/carrousel/Artist/CarrouselArtista4.jpg';
+import { carrouselHome, carrouselArtistHome } from '../Layouts/ImageImporter';
 
 import BannerLogo from '../Layouts/ImgBanner';
 import imgLogo from '../assets/img/icons/logoTripoliA.svg';
 
-const imagesSet1 = [cover1, cover2, cover3, cover4];
-const imagesSet2 = [coverArtist1, coverArtist2, coverArtist3, coverArtist4]; // Define otro conjunto de imágenes
+const imagesSet1 = [
+	carrouselHome.cover1,
+	carrouselHome.cover2,
+	carrouselHome.cover3,
+	carrouselHome.cover4,
+];
+const imagesSet2 = [
+	carrouselArtistHome.carroArtist1,
+	carrouselArtistHome.carroArtist2,
+	carrouselArtistHome.carroArtist3,
+	carrouselArtistHome.carroArtist4,
+]; // Define otro conjunto de imágenes
 
 export default function Home() {
 	return (
@@ -24,7 +26,6 @@ export default function Home() {
 			<Carousel images={imagesSet1} />
 			<BannerLogo img={imgLogo} />
 			<Carousel images={imagesSet2} />
-			<Footer />
 		</div>
 	);
 }

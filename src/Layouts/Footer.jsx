@@ -11,7 +11,7 @@ export default function Footer() {
 		<footer>
 			<Container fluid>
 				<Row className='d-flex align-items-center mx-sm-4'>
-					<Col sm={8} className={style.col}>
+					<Col sm={8} className={`${style.col}`}>
 						<a
 							href='mailto:tripoli.arte@gmail.com?Subject=Cuadros%20de%20su%20página'
 							id='correo'
@@ -28,7 +28,6 @@ export default function Footer() {
 							<FontAwesomeIcon icon={faInstagram} className={style.icon} />
 							<p className={style.inline_text}>@tripoli.maria.laura</p>
 						</a>
-
 						<a
 							href='https://wa.me/111566315443?text=Hola!%20estoy%20interesad@%20en%20un%20cuadro'
 							className={style.a}
