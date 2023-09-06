@@ -1,5 +1,8 @@
 @import './abstracts/variables';
-
+footer{
+  bottom:0;
+  width: 100%;
+}
 .col{
     display: flex;
     align-items: center;
