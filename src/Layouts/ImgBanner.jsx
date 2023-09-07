@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 import Image from 'react-bootstrap/Image';
 
+import style from '../styles/scss/banner.module.scss';
 import { Container } from 'react-bootstrap';
 
-import style from '../styles/scss/bannerLogo.module.scss';
-
 function Banner(props) {
+	const bannerClass = props.isSVG ? style.svgBanner : style.imgBanner; //
 	return (
-		<Container fluid className={style.container}>
-			<Image src={props.img} fluid className={style.logo} />
+		<Container className={style.containerBanner} fluid>
+			<Image src={props.img} className={bannerClass} />
 		</Container>
 	);
 }

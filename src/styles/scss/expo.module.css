@@ -1,9 +1,4 @@
-.home {
-  min-height: 100vh;
-  position: relative;
-}
-
-.logo {
+.containerBanners {
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;

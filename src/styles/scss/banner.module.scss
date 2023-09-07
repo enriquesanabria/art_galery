@@ -1,0 +1,13 @@
+@import './abstracts/_variables.scss';
+.containerBanner{
+    display: flex;
+    justify-content: center;
+}
+
+.svgBanner{
+    width: 600px;
+
+}
+.imgBanner{
+    width: 100%;
+}

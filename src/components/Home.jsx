@@ -8,6 +8,8 @@ import BannerLogo from '../Layouts/ImgBanner';
 import imgLogo from '../assets/img/icons/logoTripoliA.svg';
 import style from '../styles/scss/home.module.scss';
 
+import { Container } from 'react-bootstrap';
+
 const imagesSet1 = [
 	carrouselHome.cover1,
 	carrouselHome.cover2,
@@ -26,7 +28,9 @@ export default function Home() {
 		<div className={style.home}>
 			<Navegation />
 			<Carousel images={imagesSet1} />
-			<BannerLogo img={imgLogo} />
+			<Container className={style.logo} fluid>
+				<BannerLogo img={imgLogo} isSVG={true} />
+			</Container>
 			<Carousel images={imagesSet2} />
 			<Footer />
 		</div>
