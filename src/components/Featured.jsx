@@ -15,7 +15,7 @@ export default function Featured() {
 			<Navegation />
 			<Container fluid className={style.main}>
 				<DescriptionAndImage
-					flexRow='text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.RiverBank}
 					description={
@@ -34,7 +34,7 @@ export default function Featured() {
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
-					justifyContent='justify-content-sm-end'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Violet}
 					description={
@@ -71,7 +71,7 @@ export default function Featured() {
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
-					justifyContent='justify-content-sm-end'
+					jjustifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Orchid}
 					description={
@@ -108,7 +108,7 @@ export default function Featured() {
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
-					justifyContent='justify-content-sm-end'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Begining}
 					description={
@@ -145,7 +145,7 @@ export default function Featured() {
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
-					justifyContent='justify-content-sm-end'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Aqua}
 					description={

@@ -431,9 +431,11 @@ export const DescriptionArtist = {
 								</li>
 							</ul>
 						</div>
+
 						<div>
 							<ul className='p-0'>
 								<h3>EXPERIENCE</h3>
+
 								<li>
 									<strong>University Teacher</strong> | USAL | 2000-Today
 								</li>

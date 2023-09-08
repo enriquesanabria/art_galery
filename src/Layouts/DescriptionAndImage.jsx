@@ -3,11 +3,8 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 function MiComponente(props) {
 	return (
 		<Container fluid>
-			<Row className={`d-flex align-items-center ${props.flexRow}`}>
-				<Col
-					sm={4}
-					className={`d-flex justify-content-center p-0 ${props.justifyContent}`}
-				>
+			<Row className={`align-items-center ${props.flexRow}`}>
+				<Col sm={4} className={`${props.justifyContent}`}>
 					<Image
 						loading='lazy'
 						src={props.imagenProp}
@@ -16,10 +13,7 @@ function MiComponente(props) {
 					/>
 				</Col>
 
-				<Col
-					sm={8}
-					className={`d-flex justify-content-center p-0 ${props.justifyContent}`}
-				>
+				<Col sm={8} className={` ${props.justifyContent}`}>
 					{props.description}
 				</Col>
 			</Row>
