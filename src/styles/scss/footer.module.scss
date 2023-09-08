@@ -3,24 +3,13 @@ footer{
   bottom:0;
   width: 100%;
 }
-.col{
-    display: flex;
-    align-items: center;
-    
-}
 
-.inline_text {
-    display: inline;
-    margin-left: 5px; /* Puedes ajustar este margen según sea necesario */
-    color: $black;
-    margin-bottom: 20px;
-  }
   .icon{
     color: $black;
     font-size: 1.87rem; 
   }
   .a{
     text-decoration: none;
-    margin-left: 20px;
+    color: $black;
   }
- 
+
