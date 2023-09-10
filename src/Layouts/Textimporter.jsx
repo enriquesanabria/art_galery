@@ -1,4 +1,3 @@
-import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 export const DescriptionArt = {
 	RiverBank: {
 		title: 'River Bank',
@@ -397,110 +396,96 @@ export const DescriptionArtist = {
 	},
 	text3: {
 		p: (
-			<Container>
-				<Row className='justify-content-sm-end justify-content-start mt-sm-0 mt-4 p-0 justify-content-start wow animate__animated animate__fadeInLeft'>
-					<Col className='d-flex text-sm-end text-start art-estudios'>
-						<div>
-							<h1>MARIA LAURA TRIPOLI</h1>
-							<h2>ABSTACT ARTIST</h2>
-							<h3>EDUCATION</h3>
-							<ul className='p-0'>
-								<li>
-									<strong>Degree in Tourism</strong> | USAL
-								</li>
-								<li>
-									<strong>
-										Postgraduate Degree in Business Administration
-									</strong>{' '}
-									| UBA
-								</li>
-								<li>
-									<strong>University Teaching</strong> | USAL
-								</li>
-								<br />
-								<li>
-									<strong>Ceramic Course</strong> | School of Visual Arts
-									<br className='d-sm-none' /> Martin Malarro
-								</li>
-								<li>
-									<strong>Ceramic Course</strong> | Casa de Madera
-								</li>
-								<li>
-									<strong>Abstract Art Techniques</strong> | Atelier Nieves
-									Legaspi
-								</li>
-							</ul>
-						</div>
-
-						<div>
-							<ul className='p-0'>
-								<h3>EXPERIENCE</h3>
-
-								<li>
-									<strong>University Teacher</strong> | USAL | 2000-Today
-								</li>
-								<li>
-									<strong>Design Manager</strong> | Pantuss SRL | 2012-Today
-								</li>
-								<li>
-									<strong>Abstract Artist</strong> | Tripoli | 2018-Today
-								</li>
-								<li>
-									<strong>Art Consultant</strong> | Tripoli | 2021-Today
-								</li>
-							</ul>
-						</div>
-					</Col>
-				</Row>
-			</Container>
+			<div>
+				<div>
+					<h1>MARIA LAURA TRIPOLI</h1>
+					<h2>ABSTACT ARTIST</h2>
+					<h3>EDUCATION</h3>
+					<ul className='p-0'>
+						<li>
+							<strong>Degree in Tourism</strong> | USAL
+						</li>
+						<li>
+							<strong>Postgraduate Degree in Business Administration</strong> |
+							UBA
+						</li>
+						<li>
+							<strong>University Teaching</strong> | USAL
+						</li>
+						<br />
+						<li>
+							<strong>Ceramic Course</strong> | School of Visual Arts
+							<br className='d-sm-none' /> Martin Malarro
+						</li>
+						<li>
+							<strong>Ceramic Course</strong> | Casa de Madera
+						</li>
+						<li>
+							<strong>Abstract Art Techniques</strong> | Atelier Nieves Legaspi
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul className='p-0'>
+						<h3>EXPERIENCE</h3>
+						<li>
+							<strong>University Teacher</strong> | USAL | 2000-Today
+						</li>
+						<li>
+							<strong>Design Manager</strong> | Pantuss SRL | 2012-Today
+						</li>
+						<li>
+							<strong>Abstract Artist</strong> | Tripoli | 2018-Today
+						</li>
+						<li>
+							<strong>Art Consultant</strong> | Tripoli | 2021-Today
+						</li>
+					</ul>
+				</div>
+			</div>
 		),
 	},
 	text4: {
 		p: (
-			<Col
-				sm={8}
-				className='d-flex justify-content-start p-0 wow animate__animated animate__fadeInRight'
-			>
-				<ListGroup variant='flush' className='text-start art-exibicion p-0'>
-					<h3>ART EXHIBITIONS</h3>
-					<ListGroup.Item>
-						<strong>Atelier Nieves Legaspi</strong> | Tigre | November 2019
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Obras Referenciales Cito</strong> | Tigre | December 2019
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Solo Art Exhibition</strong> | Tigre City Hall | April 2021
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Museum Night</strong> | Buenos Aires | October 2021
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Collective Art Exhibition</strong> | Barolo Palace |
-						November 2021
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>CHAU Art Exhibition</strong> | Buenos Aires | December 2021
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Art Night</strong> | Tigre | October 2022
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Established & Emerging II</strong> | Audiovisual District of
-						Colegiales | November 2022
-					</ListGroup.Item>
-					<br />
-					<ListGroup.Item>
-						<strong>Mercedes Giachetti Gallery</strong> | San Telmo | March 2023
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>Expo Cafira</strong> | Rural Society | March 2023
-					</ListGroup.Item>
-					<ListGroup.Item>
-						<strong>XIV Florence Biennale</strong> | Florence | October 2023
-					</ListGroup.Item>
-				</ListGroup>
-			</Col>
+			<ul>
+				<h3>ART EXHIBITIONS</h3>
+				<li>
+					<strong>Atelier Nieves Legaspi</strong> | Tigre | November 2019
+				</li>
+				<li>
+					<strong>Obras Referenciales Cito</strong> | Tigre | December 2019
+				</li>
+				<li>
+					<strong>Solo Art Exhibition</strong> | Tigre City Hall | April 2021
+				</li>
+				<li>
+					<strong>Museum Night</strong> | Buenos Aires | October 2021
+				</li>
+				<li>
+					<strong>Collective Art Exhibition</strong> | Barolo Palace | November
+					2021
+				</li>
+				<li>
+					<strong>CHAU Art Exhibition</strong> | Buenos Aires | December 2021
+				</li>
+				<li>
+					<strong>Art Night</strong> | Tigre | October 2022
+				</li>
+				<li>
+					<strong>Established & Emerging II</strong> | Audiovisual District of
+					Colegiales | November 2022
+				</li>
+				<br />
+				<li>
+					<strong>Mercedes Giachetti Gallery</strong> | San Telmo | March 2023
+				</li>
+				<li>
+					<strong>Expo Cafira</strong> | Rural Society | March 2023
+				</li>
+				<li>
+					<strong>XIV Florence Biennale</strong> | Florence | October 2023
+				</li>
+			</ul>
 		),
 	},
 };
