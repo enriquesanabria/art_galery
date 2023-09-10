@@ -9,10 +9,9 @@ import Footer from '../Layouts/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import style from '../styles/scss/contact.module.scss';
 
 const imagesSet1 = [contacto.cuadro1, contacto.cuadro2, contacto.cuadro3];
-
-import style from '../styles/scss/contact.module.scss';
 
 const ContactCarousel = () => {
 	return (
@@ -56,7 +55,7 @@ const ContactCarousel = () => {
 					</Col>
 				</Row>
 			</Container>
-			<Footer />
+			<Footer page={true} />
 		</div>
 	);
 };
