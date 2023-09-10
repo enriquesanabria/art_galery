@@ -27,27 +27,30 @@ const ContactCarousel = () => {
 						xl={7}
 						className='d-block d-flex d-xl-flex justify-content-center align-items-center p-0'
 					>
-						<ul className='lista-contacto'>
-							<li className='mt-3'>
-								<FontAwesomeIcon icon={faWhatsapp} />
-								<p className='pt-1 px-1'>+54 9 1166315443</p>
+						<ul>
+							<li>
+								<a href='https://wa.me/111566315443?text=Hola!%20estoy%20interesad@%20en%20un%20cuadro'>
+									<FontAwesomeIcon icon={faWhatsapp} />
+									<p>+54 9 1166315443</p>
+								</a>
 							</li>
-							<li className='mt-3'>
-								<FontAwesomeIcon icon={faInstagram} />
-								<p className='pt-1 px-1'>@tripoli.maria.laura</p>
+							<li>
 								<a
 									className='hipervinculo d-inline-block'
 									href='https://www.instagram.com/tripoli.maria.laura/'
 								>
-									<p className='ms-sm-3 ms-2'>@tripoli.maria.laura</p>
+									<FontAwesomeIcon icon={faInstagram} />
+									<p>@tripoli.maria.laura</p>
 								</a>
 							</li>
-							<li className='mt-3'>
+							<li>
 								<a
 									href='mailto:tripoli.arte@gmail.com?Subject=Cuadros%20de%20su%20página'
 									id='correo'
-								></a>
-								<FontAwesomeIcon icon={faEnvelope} />
+								>
+									<FontAwesomeIcon icon={faEnvelope} />
+									<p>tripoli.arte@gmail.com</p>
+								</a>
 							</li>
 						</ul>
 					</Col>

@@ -71,7 +71,7 @@ export default function Featured() {
 				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
-					jjustifyContent='text-sm-end text-start'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Orchid}
 					description={

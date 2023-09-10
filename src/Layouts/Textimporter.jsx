@@ -1,3 +1,4 @@
+import '../styles/scss/textImporter.module.scss';
 export const DescriptionArt = {
 	RiverBank: {
 		title: 'River Bank',
