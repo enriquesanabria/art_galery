@@ -4,3 +4,42 @@
     background-color: $black;
     color: $white;
 }
+
+.descArtista{
+    margin:5.62rem; //90px;
+    font-size: 1.25rem; //20px
+    font-weight: $ancho-texto;
+}
+
+.estudioArtista{
+    margin:5.62rem; //90px
+    h1{
+        font-weight: $ancho-titulo;
+        font-size:2.5rem; //40px
+    }
+    h2{
+        font-weight: 100; //thin
+        font-size:2.25rem;
+    }
+    h3{
+        font-weight: $ancho-titulo;
+        font-size: 1.25rem; //20px
+    }
+    li{
+        font-weight: $ancho-texto;
+        font-size: 1rem;
+    }
+}
+
+.artExibicion{
+    margin: 5.62rem; //90px
+    h3{
+        font-weight: $ancho-titulo;
+        font-size: 1.25rem; //20px
+    }
+    li{
+        font-weight: $ancho-texto;
+        font-size: 1rem;
+        list-style: none;
+    }
+}

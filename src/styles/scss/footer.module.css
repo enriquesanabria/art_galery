@@ -5,9 +5,9 @@
 }
 
 /*colors*/
-footer {
-  bottom: 0;
-  width: 100%;
+.main {
+  background-color: #fff;
+  margin-top: auto;
 }
 
 .icon {

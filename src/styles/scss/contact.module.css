@@ -7,5 +7,24 @@
 /*colors*/
 .main {
   background-color: #000;
+}
+
+.body {
   color: #fff;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.contact {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-left: 20px;
 }

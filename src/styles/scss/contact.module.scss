@@ -1,6 +1,23 @@
 @import './abstracts/_variables.scss';
-
 .main{
     background-color: $black;
+}
+.body{
+    color:$white;
+    height: 100%;
+}
+.link{
+    text-decoration: none;
     color: $white;
+    font-size: 40px;
+    margin-top: 15px;
+    
+}
+
+.contact{
+    font-size: 1.25rem;
+}
+
+p{
+    margin-left: 20px;
 }

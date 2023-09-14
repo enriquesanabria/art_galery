@@ -9,3 +9,42 @@
   background-color: #000;
   color: #fff;
 }
+
+.descArtista {
+  margin: 5.62rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.estudioArtista {
+  margin: 5.62rem;
+}
+.estudioArtista h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.estudioArtista h2 {
+  font-weight: 100;
+  font-size: 2.25rem;
+}
+.estudioArtista h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.estudioArtista li {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.artExibicion {
+  margin: 5.62rem;
+}
+.artExibicion h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.artExibicion li {
+  font-weight: 300;
+  font-size: 1rem;
+  list-style: none;
+}

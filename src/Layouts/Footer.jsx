@@ -9,7 +9,7 @@ import style from '../styles/scss/footer.module.scss';
 export default function Footer(props) {
 	if (props.page) {
 		return (
-			<div>
+			<div className={style.main}>
 				<Container fluid>
 					<Row className={'align-items-center mt-2'}>
 						<Col sm={8} className={'d-sm-flex text-center'}>

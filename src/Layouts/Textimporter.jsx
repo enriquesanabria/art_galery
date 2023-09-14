@@ -1,4 +1,5 @@
 import '../styles/scss/textImporter.module.scss';
+import style from '../styles/scss/artist.module.scss';
 export const DescriptionArt = {
 	RiverBank: {
 		title: 'River Bank',
@@ -371,7 +372,7 @@ export const DescriptionArt = {
 export const DescriptionArtist = {
 	text1: {
 		p: (
-			<p>
+			<p className={style.descArtista}>
 				Painting allows me to express the <br className='d-none d-sm-block' />
 				best version of myself. I started doing{' '}
 				<br className='d-none d-sm-block' />
@@ -385,7 +386,7 @@ export const DescriptionArtist = {
 	},
 	text2: {
 		p: (
-			<p>
+			<p className={style.descArtista}>
 				Each piece is the result of the ability
 				<br className='d-none d-sm-block' />
 				to interpret what the world offers me
@@ -397,7 +398,7 @@ export const DescriptionArtist = {
 	},
 	text3: {
 		p: (
-			<div>
+			<div className={style.estudioArtista}>
 				<div>
 					<h1>MARIA LAURA TRIPOLI</h1>
 					<h2>ABSTACT ARTIST</h2>
@@ -448,45 +449,47 @@ export const DescriptionArtist = {
 	},
 	text4: {
 		p: (
-			<ul>
-				<h3>ART EXHIBITIONS</h3>
-				<li>
-					<strong>Atelier Nieves Legaspi</strong> | Tigre | November 2019
-				</li>
-				<li>
-					<strong>Obras Referenciales Cito</strong> | Tigre | December 2019
-				</li>
-				<li>
-					<strong>Solo Art Exhibition</strong> | Tigre City Hall | April 2021
-				</li>
-				<li>
-					<strong>Museum Night</strong> | Buenos Aires | October 2021
-				</li>
-				<li>
-					<strong>Collective Art Exhibition</strong> | Barolo Palace | November
-					2021
-				</li>
-				<li>
-					<strong>CHAU Art Exhibition</strong> | Buenos Aires | December 2021
-				</li>
-				<li>
-					<strong>Art Night</strong> | Tigre | October 2022
-				</li>
-				<li>
-					<strong>Established & Emerging II</strong> | Audiovisual District of
-					Colegiales | November 2022
-				</li>
-				<br />
-				<li>
-					<strong>Mercedes Giachetti Gallery</strong> | San Telmo | March 2023
-				</li>
-				<li>
-					<strong>Expo Cafira</strong> | Rural Society | March 2023
-				</li>
-				<li>
-					<strong>XIV Florence Biennale</strong> | Florence | October 2023
-				</li>
-			</ul>
+			<div className={style.artExibicion}>
+				<ul>
+					<h3>ART EXHIBITIONS</h3>
+					<li>
+						<strong>Atelier Nieves Legaspi</strong> | Tigre | November 2019
+					</li>
+					<li>
+						<strong>Obras Referenciales Cito</strong> | Tigre | December 2019
+					</li>
+					<li>
+						<strong>Solo Art Exhibition</strong> | Tigre City Hall | April 2021
+					</li>
+					<li>
+						<strong>Museum Night</strong> | Buenos Aires | October 2021
+					</li>
+					<li>
+						<strong>Collective Art Exhibition</strong> | Barolo Palace |
+						November 2021
+					</li>
+					<li>
+						<strong>CHAU Art Exhibition</strong> | Buenos Aires | December 2021
+					</li>
+					<li>
+						<strong>Art Night</strong> | Tigre | October 2022
+					</li>
+					<li>
+						<strong>Established & Emerging II</strong> | Audiovisual District of
+						Colegiales | November 2022
+					</li>
+					<br />
+					<li>
+						<strong>Mercedes Giachetti Gallery</strong> | San Telmo | March 2023
+					</li>
+					<li>
+						<strong>Expo Cafira</strong> | Rural Society | March 2023
+					</li>
+					<li>
+						<strong>XIV Florence Biennale</strong> | Florence | October 2023
+					</li>
+				</ul>
+			</div>
 		),
 	},
 };

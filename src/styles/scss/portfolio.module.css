@@ -9,3 +9,15 @@
   background-color: #000;
   color: #fff;
 }
+
+.desc {
+  background-color: red;
+}
+.desc h1 {
+  font-weight: 500;
+  font-size: 2.18rem;
+}
+.desc p {
+  font-weight: 300;
+  font-size: 1.87rem;
+}
