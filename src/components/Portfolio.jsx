@@ -18,15 +18,16 @@ export default function Portfolio() {
 					imagenProp={cuadros.RiverBank}
 					description={
 						<div>
-							{DescriptionArt.RiverBank.title}
+							<p className={style.name}>{DescriptionArt.RiverBank.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.RiverBank.location}
+								<br />
+								{DescriptionArt.RiverBank.style}
+								<br />
+								{DescriptionArt.RiverBank.size}
+							</div>
 							<br />
-							{DescriptionArt.RiverBank.location}
-							<br />
-							{DescriptionArt.RiverBank.style}
-							<br />
-							{DescriptionArt.RiverBank.size}
-							<br />
-							{DescriptionArt.RiverBank.status}
+							<p className={style.status}>{DescriptionArt.RiverBank.status}</p>
 						</div>
 					}
 				/>
@@ -37,15 +38,16 @@ export default function Portfolio() {
 					imagenProp={cuadros.Violet}
 					description={
 						<div>
-							{DescriptionArt.Violet.title}
+							<p className={style.name}> {DescriptionArt.Violet.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Violet.location}
+								<br />
+								{DescriptionArt.Violet.style}
+								<br />
+								{DescriptionArt.Violet.size}
+							</div>
 							<br />
-							{DescriptionArt.Violet.location}
-							<br />
-							{DescriptionArt.Violet.style}
-							<br />
-							{DescriptionArt.Violet.size}
-							<br />
-							{DescriptionArt.Violet.status}
+							<p className={style.status}>{DescriptionArt.Violet.status}</p>
 						</div>
 					}
 				/>
@@ -56,7 +58,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Mousteire}
 					description={
 						<div>
-							{DescriptionArt.Mousteire.title}
+							<p className={style.name}>{DescriptionArt.Mousteire.title}</p>
 							<br />
 							{DescriptionArt.Mousteire.location}
 							<br />
@@ -75,7 +77,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Curl}
 					description={
 						<div>
-							{DescriptionArt.Curl.title}
+							<p className={style.name}>{DescriptionArt.Curl.title}</p>
 							<br />
 							{DescriptionArt.Curl.location}
 							<br />
@@ -93,7 +95,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Gold}
 					description={
 						<div>
-							{DescriptionArt.Gold.title}
+							<p className={style.name}>{DescriptionArt.Gold.title}</p>
 							<br />
 							{DescriptionArt.Gold.location}
 							<br />
@@ -112,7 +114,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Fun}
 					description={
 						<div>
-							{DescriptionArt.Fun.title}
+							<p className={style.name}>{DescriptionArt.Fun.title}</p>
 							<br />
 							{DescriptionArt.Fun.location}
 							<br />
@@ -130,7 +132,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Stripping}
 					description={
 						<div>
-							{DescriptionArt.Stripping.title}
+							<p className={style.name}>{DescriptionArt.Stripping.title}</p>
 							<br />
 							{DescriptionArt.Stripping.location}
 							<br />
@@ -149,7 +151,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Naif}
 					description={
 						<div>
-							{DescriptionArt.Naif.title}
+							<p className={style.name}>{DescriptionArt.Naif.title}</p>
 							<br />
 							{DescriptionArt.Naif.location}
 							<br />
@@ -167,7 +169,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Youth}
 					description={
 						<div>
-							{DescriptionArt.Youth.title}
+							<p className={style.name}>{DescriptionArt.Youth.title}</p>
 							<br />
 							{DescriptionArt.Youth.location}
 							<br />
@@ -186,7 +188,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.NYC}
 					description={
 						<div>
-							{DescriptionArt.NYC.title}
+							<p className={style.name}>{DescriptionArt.NYC.title}</p>
 							<br />
 							{DescriptionArt.NYC.location}
 							<br />
@@ -204,7 +206,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Pantuss}
 					description={
 						<div>
-							{DescriptionArt.Pantuss.title}
+							<p className={style.name}>{DescriptionArt.Pantuss.title}</p>
 							<br />
 							{DescriptionArt.Pantuss.location}
 							<br />
@@ -223,7 +225,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Drums}
 					description={
 						<div>
-							{DescriptionArt.Drums.title}
+							<p className={style.name}>{DescriptionArt.Drums.title}</p>
 							<br />
 							{DescriptionArt.Drums.location}
 							<br />
@@ -241,7 +243,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Chaos}
 					description={
 						<div>
-							{DescriptionArt.Chaos.title}
+							<p className={style.name}>{DescriptionArt.Chaos.title}</p>
 							<br />
 							{DescriptionArt.Chaos.location}
 							<br />
@@ -260,7 +262,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Dauntless}
 					description={
 						<div>
-							{DescriptionArt.Dauntless.title}
+							<p className={style.name}>{DescriptionArt.Dauntless.title}</p>
 							<br />
 							{DescriptionArt.Dauntless.location}
 							<br />
@@ -278,7 +280,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Makeup}
 					description={
 						<div>
-							{DescriptionArt.MakeupCase.title}
+							<p className={style.name}>{DescriptionArt.MakeupCase.title}</p>
 							<br />
 							{DescriptionArt.MakeupCase.location}
 							<br />
@@ -297,7 +299,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Orchid}
 					description={
 						<div>
-							{DescriptionArt.Orchid.title}
+							<p className={style.name}>{DescriptionArt.Orchid.title}</p>
 							<br />
 							{DescriptionArt.Orchid.location}
 							<br />
@@ -315,7 +317,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.LetsFly}
 					description={
 						<div>
-							{DescriptionArt.LetsFly.title}
+							<p className={style.name}> {DescriptionArt.LetsFly.title}</p>
 							<br />
 							{DescriptionArt.LetsFly.location}
 							<br />
@@ -334,7 +336,9 @@ export default function Portfolio() {
 					imagenProp={cuadros.Explosion1}
 					description={
 						<div>
-							{DescriptionArt.ExplosionSeriesI.title}
+							<p className={style.name}>
+								{DescriptionArt.ExplosionSeriesI.title}
+							</p>
 							<br />
 							{DescriptionArt.ExplosionSeriesI.location}
 							<br />
@@ -352,7 +356,9 @@ export default function Portfolio() {
 					imagenProp={cuadros.Explosion2}
 					description={
 						<div>
-							{DescriptionArt.ExplosionSeriesII.title}
+							<p className={style.name}>
+								{DescriptionArt.ExplosionSeriesII.title}
+							</p>
 							<br />
 							{DescriptionArt.ExplosionSeriesII.location}
 							<br />
@@ -371,7 +377,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Twilight}
 					description={
 						<div>
-							{DescriptionArt.Twilight.title}
+							<p className={style.name}>{DescriptionArt.Twilight.title}</p>
 							<br />
 							{DescriptionArt.Twilight.location}
 							<br />
@@ -389,7 +395,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sunset}
 					description={
 						<div>
-							{DescriptionArt.Sunset.title}
+							<p className={style.name}>{DescriptionArt.Sunset.title}</p>
 							<br />
 							{DescriptionArt.Sunset.location}
 							<br />
@@ -408,7 +414,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Beach1}
 					description={
 						<div>
-							{DescriptionArt.BeachSeriesI.title}
+							<p className={style.name}>{DescriptionArt.BeachSeriesI.title}</p>
 							<br />
 							{DescriptionArt.BeachSeriesI.location}
 							<br />
@@ -426,7 +432,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Beach2}
 					description={
 						<div>
-							{DescriptionArt.BeachSeriesII.title}
+							<p className={style.name}>{DescriptionArt.BeachSeriesII.title}</p>
 							<br />
 							{DescriptionArt.BeachSeriesII.location}
 							<br />
@@ -445,7 +451,9 @@ export default function Portfolio() {
 					imagenProp={cuadros.BlackLane1}
 					description={
 						<div>
-							{DescriptionArt.BlackLaneSeriesI.title}
+							<p className={style.name}>
+								{DescriptionArt.BlackLaneSeriesI.title}
+							</p>
 							<br />
 							{DescriptionArt.BlackLaneSeriesI.location}
 							<br />
@@ -463,7 +471,9 @@ export default function Portfolio() {
 					imagenProp={cuadros.BlackLan2}
 					description={
 						<div>
-							{DescriptionArt.BlackLaneSeriesII.title}
+							<p className={style.name}>
+								{DescriptionArt.BlackLaneSeriesII.title}
+							</p>
 							<br />
 							{DescriptionArt.BlackLaneSeriesII.location}
 							<br />
@@ -482,7 +492,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Tenerife}
 					description={
 						<div>
-							{DescriptionArt.TenerifeSea.title}
+							<p className={style.name}>{DescriptionArt.TenerifeSea.title}</p>
 							<br />
 							{DescriptionArt.TenerifeSea.location}
 							<br />
@@ -500,7 +510,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sandstrom}
 					description={
 						<div>
-							{DescriptionArt.Sandstrom.title}
+							<p className={style.name}>{DescriptionArt.Sandstrom.title}</p>
 							<br />
 							{DescriptionArt.Sandstrom.location}
 							<br />
@@ -519,7 +529,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sky1}
 					description={
 						<div>
-							{DescriptionArt.AshSkySeriesI.title}
+							<p className={style.name}>{DescriptionArt.AshSkySeriesI.title}</p>
 							<br />
 							{DescriptionArt.AshSkySeriesI.location}
 							<br />
@@ -537,7 +547,9 @@ export default function Portfolio() {
 					imagenProp={cuadros.Sky2}
 					description={
 						<div>
-							{DescriptionArt.AshSkySeriesII.title}
+							<p className={style.name}>
+								{DescriptionArt.AshSkySeriesII.title}
+							</p>
 							<br />
 							{DescriptionArt.AshSkySeriesII.location}
 							<br />
@@ -556,7 +568,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Laugh}
 					description={
 						<div>
-							{DescriptionArt.Laugh.title}
+							<p className={style.name}>{DescriptionArt.Laugh.title}</p>
 							<br />
 							{DescriptionArt.Laugh.location}
 							<br />
@@ -574,7 +586,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Begining}
 					description={
 						<div>
-							{DescriptionArt.Begining.title}
+							<p className={style.name}>{DescriptionArt.Begining.title}</p>
 							<br />
 							{DescriptionArt.Begining.location}
 							<br />
@@ -593,7 +605,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cloudy}
 					description={
 						<div>
-							{DescriptionArt.CloudySunset.title}
+							<p className={style.name}>{DescriptionArt.CloudySunset.title}</p>
 							<br />
 							{DescriptionArt.CloudySunset.location}
 							<br />
@@ -611,7 +623,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Gale}
 					description={
 						<div>
-							{DescriptionArt.Gale.title}
+							<p className={style.name}>{DescriptionArt.Gale.title}</p>
 							<br />
 							{DescriptionArt.Gale.location}
 							<br />
@@ -630,7 +642,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Calm}
 					description={
 						<div>
-							{DescriptionArt.Calm.title}
+							<p className={style.name}>{DescriptionArt.Calm.title}</p>
 							<br />
 							{DescriptionArt.Calm.location}
 							<br />
@@ -648,7 +660,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Underworld}
 					description={
 						<div>
-							{DescriptionArt.Underworld.title}
+							<p className={style.name}>{DescriptionArt.Underworld.title}</p>
 							<br />
 							{DescriptionArt.Underworld.location}
 							<br />
@@ -667,7 +679,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Vision}
 					description={
 						<div>
-							{DescriptionArt.Vision.title}
+							<p className={style.name}>{DescriptionArt.Vision.title}</p>
 							<br />
 							{DescriptionArt.Vision.location}
 							<br />
@@ -685,7 +697,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Parrots}
 					description={
 						<div>
-							{DescriptionArt.Parrots.title}
+							<p className={style.name}>{DescriptionArt.Parrots.title}</p>
 							<br />
 							{DescriptionArt.Parrots.location}
 							<br />
@@ -704,7 +716,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Palette}
 					description={
 						<div>
-							{DescriptionArt.Palette.title}
+							<p className={style.name}>{DescriptionArt.Palette.title}</p>
 							<br />
 							{DescriptionArt.Palette.location}
 							<br />
@@ -722,7 +734,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cement}
 					description={
 						<div>
-							{DescriptionArt.Cement.title}
+							<p className={style.name}>{DescriptionArt.Cement.title}</p>
 							<br />
 							{DescriptionArt.Cement.location}
 							<br />
@@ -741,7 +753,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cyan1}
 					description={
 						<div>
-							{DescriptionArt.CyanSeriesI.title}
+							<p className={style.name}>{DescriptionArt.CyanSeriesI.title}</p>
 							<br />
 							{DescriptionArt.CyanSeriesI.location}
 							<br />
@@ -759,7 +771,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Cyan2}
 					description={
 						<div>
-							{DescriptionArt.CyanSeriesII.title}
+							<p className={style.name}>{DescriptionArt.CyanSeriesII.title}</p>
 							<br />
 							{DescriptionArt.CyanSeriesII.location}
 							<br />
@@ -778,7 +790,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Colors}
 					description={
 						<div>
-							{DescriptionArt.Colors.title}
+							<p className={style.name}>{DescriptionArt.Colors.title}</p>
 							<br />
 							{DescriptionArt.Colors.location}
 							<br />
@@ -796,7 +808,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Frida}
 					description={
 						<div>
-							{DescriptionArt.Frida.title}
+							<p className={style.name}>{DescriptionArt.Frida.title}</p>
 							<br />
 							{DescriptionArt.Frida.location}
 							<br />
@@ -815,7 +827,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Aqua}
 					description={
 						<div>
-							{DescriptionArt.Aqua.title}
+							<p className={style.name}>{DescriptionArt.Aqua.title}</p>
 							<br />
 							{DescriptionArt.Aqua.location}
 							<br />
@@ -833,7 +845,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Shining}
 					description={
 						<div>
-							{DescriptionArt.Shining.title}
+							<p className={style.name}>{DescriptionArt.Shining.title}</p>
 							<br />
 							{DescriptionArt.Shining.location}
 							<br />
@@ -852,7 +864,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Birds}
 					description={
 						<div>
-							{DescriptionArt.Birds.title}
+							<p className={style.name}> {DescriptionArt.Birds.title}</p>
 							<br />
 							{DescriptionArt.Birds.location}
 							<br />
@@ -870,7 +882,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Souls}
 					description={
 						<div>
-							{DescriptionArt.Souls.title}
+							<p className={style.name}>{DescriptionArt.Souls.title}</p>
 							<br />
 							{DescriptionArt.Souls.location}
 							<br />
@@ -889,7 +901,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Rythm}
 					description={
 						<div>
-							{DescriptionArt.Rhythm.title}
+							<p className={style.name}>{DescriptionArt.Rhythm.title}</p>
 							<br />
 							{DescriptionArt.Rhythm.location}
 							<br />
@@ -907,7 +919,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Moss}
 					description={
 						<div>
-							{DescriptionArt.Moss.title}
+							<p className={style.name}>{DescriptionArt.Moss.title}</p>
 							<br />
 							{DescriptionArt.Moss.location}
 							<br />
@@ -926,7 +938,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Mosaic}
 					description={
 						<div>
-							{DescriptionArt.Mosaic.title}
+							<p className={style.name}>{DescriptionArt.Mosaic.title}</p>
 							<br />
 							{DescriptionArt.Mosaic.location}
 							<br />
@@ -944,7 +956,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Hole}
 					description={
 						<div>
-							{DescriptionArt.Hole.title}
+							<p className={style.name}>{DescriptionArt.Hole.title}</p>
 							<br />
 							{DescriptionArt.Hole.location}
 							<br />
@@ -963,7 +975,7 @@ export default function Portfolio() {
 					imagenProp={cuadros.Beat}
 					description={
 						<div>
-							{DescriptionArt.Beat.title}
+							<p className={style.name}>{DescriptionArt.Beat.title}</p>
 							<br />
 							{DescriptionArt.Beat.location}
 							<br />

@@ -4,14 +4,16 @@
     background-color: $black;
     color: $white;
 }
-.desc{
-    background-color: red;
-    h1{
-        font-weight:$ancho-titulo;
-        font-size: 2.18rem; 
-    }
-    p{
-        font-weight: $ancho-texto;
-        font-size: 1.87rem;  
-    }
+
+.name{
+    font-weight:$ancho-titulo;
+    font-size: 2.18rem; 
+}
+.description{
+    font-weight: $ancho-texto;
+    font-size: 1.87rem; 
+}
+.status{
+    font-size: 1.25rem;
+    font-weight:$ancho-titulo;
 }
