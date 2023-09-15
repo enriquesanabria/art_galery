@@ -65,9 +65,9 @@ export default function Portfolio() {
 								{DescriptionArt.Mousteire.style}
 								<br />
 								{DescriptionArt.Mousteire.size}
-								<br />
-								{DescriptionArt.Mousteire.status}
 							</div>
+							<br />
+							<p className={style.status}>{DescriptionArt.Mousteire.status}</p>
 						</div>
 					}
 				/>
@@ -85,9 +85,9 @@ export default function Portfolio() {
 								{DescriptionArt.Curl.style}
 								<br />
 								{DescriptionArt.Curl.size}
-								<br />
-								{DescriptionArt.Curl.status}
 							</div>
+							<br />
+							<p className={style.status}>{DescriptionArt.Curl.status}</p>
 						</div>
 					}
 				/>
@@ -105,8 +105,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Gold.size}
 								<br />
-								{DescriptionArt.Gold.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Gold.status}</p>
 						</div>
 					}
 				/>
@@ -125,8 +125,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Fun.size}
 								<br />
-								{DescriptionArt.Fun.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Fun.status}</p>
 						</div>
 					}
 				/>
@@ -144,8 +144,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Stripping.size}
 								<br />
-								{DescriptionArt.Stripping.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Stripping.status}</p>
 						</div>
 					}
 				/>
@@ -164,8 +164,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Naif.size}
 								<br />
-								{DescriptionArt.Fun.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Fun.status}</p>
 						</div>
 					}
 				/>
@@ -183,8 +183,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Youth.size}
 								<br />
-								{DescriptionArt.Youth.status}
 							</div>
+							<p className={style.status}> {DescriptionArt.Youth.status}</p>
 						</div>
 					}
 				/>
@@ -203,8 +203,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.NYC.size}
 								<br />
-								{DescriptionArt.NYC.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.NYC.status}</p>
 						</div>
 					}
 				/>
@@ -222,8 +222,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Pantuss.size}
 								<br />
-								{DescriptionArt.Pantuss.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Pantuss.status}</p>
 						</div>
 					}
 				/>
@@ -242,8 +242,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Drums.size}
 								<br />
-								{DescriptionArt.Drums.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Drums.status}</p>
 						</div>
 					}
 				/>
@@ -261,8 +261,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Chaos.size}
 								<br />
-								{DescriptionArt.Chaos.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Chaos.status}</p>
 						</div>
 					}
 				/>
@@ -281,8 +281,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Dauntless.size}
 								<br />
-								{DescriptionArt.Dauntless.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Dauntless.status}</p>
 						</div>
 					}
 				/>
@@ -300,8 +300,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.MakeupCase.size}
 								<br />
-								{DescriptionArt.MakeupCase.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.MakeupCase.status}</p>
 						</div>
 					}
 				/>
@@ -320,8 +320,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Orchid.size}
 								<br />
-								{DescriptionArt.Orchid.status}
 							</div>
+							<p className={style.status}> {DescriptionArt.Orchid.status}</p>
 						</div>
 					}
 				/>
@@ -339,8 +339,9 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.LetsFly.size}
 								<br />
-								{DescriptionArt.LetsFly.status}
 							</div>
+							<p className={style.status}> </p>
+							{DescriptionArt.LetsFly.status}
 						</div>
 					}
 				/>
@@ -361,8 +362,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.ExplosionSeriesI.size}
 								<br />
-								{DescriptionArt.ExplosionSeriesI.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.ExplosionSeriesI.status}
+							</p>
 						</div>
 					}
 				/>
@@ -382,8 +385,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.ExplosionSeriesII.size}
 								<br />
-								{DescriptionArt.ExplosionSeriesII.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.ExplosionSeriesII.status}
+							</p>
 						</div>
 					}
 				/>
@@ -402,8 +407,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Twilight.size}
 								<br />
-								{DescriptionArt.Twilight.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Twilight.status}</p>
 						</div>
 					}
 				/>
@@ -421,8 +426,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Sunset.size}
 								<br />
-								{DescriptionArt.Sunset.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Sunset.status}</p>
 						</div>
 					}
 				/>
@@ -441,8 +446,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.BeachSeriesI.size}
 								<br />
-								{DescriptionArt.BeachSeriesI.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.BeachSeriesI.status}
+							</p>
 						</div>
 					}
 				/>
@@ -460,8 +467,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.BeachSeriesII.size}
 								<br />
-								{DescriptionArt.BeachSeriesII.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.BeachSeriesII.status}
+							</p>
 						</div>
 					}
 				/>
@@ -482,8 +491,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.BlackLaneSeriesI.size}
 								<br />
-								{DescriptionArt.BlackLaneSeriesI.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.BlackLaneSeriesI.status}
+							</p>
 						</div>
 					}
 				/>
@@ -503,8 +514,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.BlackLaneSeriesII.size}
 								<br />
-								{DescriptionArt.BlackLaneSeriesII.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.BlackLaneSeriesII.status}
+							</p>
 						</div>
 					}
 				/>
@@ -523,8 +536,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.TenerifeSea.size}
 								<br />
-								{DescriptionArt.TenerifeSea.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.TenerifeSea.status}
+							</p>
 						</div>
 					}
 				/>
@@ -542,8 +557,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Sandstrom.size}
 								<br />
-								{DescriptionArt.Sandstrom.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Sandstrom.status}</p>
 						</div>
 					}
 				/>
@@ -562,8 +577,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.AshSkySeriesI.size}
 								<br />
-								{DescriptionArt.AshSkySeriesI.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.AshSkySeriesI.status}
+							</p>
 						</div>
 					}
 				/>
@@ -583,8 +600,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.AshSkySeriesII.size}
 								<br />
-								{DescriptionArt.AshSkySeriesII.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.AshSkySeriesII.status}
+							</p>
 						</div>
 					}
 				/>
@@ -603,8 +622,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Laugh.size}
 								<br />
-								{DescriptionArt.Laugh.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Laugh.status}</p>
 						</div>
 					}
 				/>
@@ -622,8 +641,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Begining.size}
 								<br />
-								{DescriptionArt.Begining.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Begining.status}</p>
 						</div>
 					}
 				/>
@@ -642,8 +661,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.CloudySunset.size}
 								<br />
-								{DescriptionArt.CloudySunset.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.CloudySunset.status}
+							</p>
 						</div>
 					}
 				/>
@@ -661,8 +682,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Gale.size}
 								<br />
-								{DescriptionArt.Gale.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Gale.status}</p>
 						</div>
 					}
 				/>
@@ -681,8 +702,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Calm.size}
 								<br />
-								{DescriptionArt.Calm.status}
 							</div>
+							<p className={style.status}> {DescriptionArt.Calm.status}</p>
 						</div>
 					}
 				/>
@@ -700,8 +721,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Underworld.size}
 								<br />
-								{DescriptionArt.Underworld.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Underworld.status}</p>
 						</div>
 					}
 				/>
@@ -720,8 +741,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Vision.size}
 								<br />
-								{DescriptionArt.Vision.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Vision.status}</p>
 						</div>
 					}
 				/>
@@ -739,8 +760,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Parrots.size}
 								<br />
-								{DescriptionArt.Parrots.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Parrots.status}</p>
 						</div>
 					}
 				/>
@@ -759,8 +780,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Palette.size}
 								<br />
-								{DescriptionArt.Palette.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Palette.status}</p>
 						</div>
 					}
 				/>
@@ -778,8 +799,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Cement.size}
 								<br />
-								{DescriptionArt.Cement.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Cement.status}</p>
 						</div>
 					}
 				/>
@@ -798,8 +819,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.CyanSeriesI.size}
 								<br />
-								{DescriptionArt.CyanSeriesI.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.CyanSeriesI.status}
+							</p>
 						</div>
 					}
 				/>
@@ -817,8 +840,10 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.CyanSeriesII.size}
 								<br />
-								{DescriptionArt.CyanSeriesII.status}
 							</div>
+							<p className={style.status}>
+								{DescriptionArt.CyanSeriesII.status}
+							</p>
 						</div>
 					}
 				/>
@@ -837,8 +862,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Colors.size}
 								<br />
-								{DescriptionArt.Colors.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Colors.status}</p>
 						</div>
 					}
 				/>
@@ -856,8 +881,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Frida.size}
 								<br />
-								{DescriptionArt.Frida.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Frida.status}</p>
 						</div>
 					}
 				/>
@@ -876,8 +901,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Aqua.size}
 								<br />
-								{DescriptionArt.Aqua.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Aqua.status}</p>
 						</div>
 					}
 				/>
@@ -895,8 +920,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Shining.size}
 								<br />
-								{DescriptionArt.Shining.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Shining.status}</p>
 						</div>
 					}
 				/>
@@ -915,8 +940,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Birds.size}
 								<br />
-								{DescriptionArt.Birds.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Birds.status}</p>
 						</div>
 					}
 				/>
@@ -934,8 +959,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Souls.size}
 								<br />
-								{DescriptionArt.Souls.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Souls.status}</p>
 						</div>
 					}
 				/>
@@ -954,8 +979,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Rhythm.size}
 								<br />
-								{DescriptionArt.Rhythm.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Rhythm.status}</p>
 						</div>
 					}
 				/>
@@ -973,8 +998,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Moss.size}
 								<br />
-								{DescriptionArt.Moss.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Moss.status}</p>
 						</div>
 					}
 				/>
@@ -993,8 +1018,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Mosaic.size}
 								<br />
-								{DescriptionArt.Mosaic.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Mosaic.status}</p>
 						</div>
 					}
 				/>
@@ -1012,8 +1037,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Hole.size}
 								<br />
-								{DescriptionArt.Hole.status}
 							</div>
+							<p className={style.status}> {DescriptionArt.Hole.status}</p>
 						</div>
 					}
 				/>
@@ -1032,8 +1057,8 @@ export default function Portfolio() {
 								<br />
 								{DescriptionArt.Beat.size}
 								<br />
-								{DescriptionArt.Beat.status}
 							</div>
+							<p className={style.status}>{DescriptionArt.Beat.status}</p>
 						</div>
 					}
 				/>
