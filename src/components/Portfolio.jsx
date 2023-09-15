@@ -59,14 +59,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Mousteire.title}</p>
-							<br />
-							{DescriptionArt.Mousteire.location}
-							<br />
-							{DescriptionArt.Mousteire.style}
-							<br />
-							{DescriptionArt.Mousteire.size}
-							<br />
-							{DescriptionArt.Mousteire.status}
+							<div className={style.description}>
+								{DescriptionArt.Mousteire.location}
+								<br />
+								{DescriptionArt.Mousteire.style}
+								<br />
+								{DescriptionArt.Mousteire.size}
+								<br />
+								{DescriptionArt.Mousteire.status}
+							</div>
 						</div>
 					}
 				/>
@@ -78,14 +79,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Curl.title}</p>
-							<br />
-							{DescriptionArt.Curl.location}
-							<br />
-							{DescriptionArt.Curl.style}
-							<br />
-							{DescriptionArt.Curl.size}
-							<br />
-							{DescriptionArt.Curl.status}
+							<div className={style.description}>
+								{DescriptionArt.Curl.location}
+								<br />
+								{DescriptionArt.Curl.style}
+								<br />
+								{DescriptionArt.Curl.size}
+								<br />
+								{DescriptionArt.Curl.status}
+							</div>
 						</div>
 					}
 				/>
@@ -96,14 +98,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Gold.title}</p>
-							<br />
-							{DescriptionArt.Gold.location}
-							<br />
-							{DescriptionArt.Gold.style}
-							<br />
-							{DescriptionArt.Gold.size}
-							<br />
-							{DescriptionArt.Gold.status}
+							<div className={style.description}>
+								{DescriptionArt.Gold.location}
+								<br />
+								{DescriptionArt.Gold.style}
+								<br />
+								{DescriptionArt.Gold.size}
+								<br />
+								{DescriptionArt.Gold.status}
+							</div>
 						</div>
 					}
 				/>
@@ -115,14 +118,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Fun.title}</p>
-							<br />
-							{DescriptionArt.Fun.location}
-							<br />
-							{DescriptionArt.Fun.style}
-							<br />
-							{DescriptionArt.Fun.size}
-							<br />
-							{DescriptionArt.Fun.status}
+							<div className={style.description}>
+								{DescriptionArt.Fun.location}
+								<br />
+								{DescriptionArt.Fun.style}
+								<br />
+								{DescriptionArt.Fun.size}
+								<br />
+								{DescriptionArt.Fun.status}
+							</div>
 						</div>
 					}
 				/>
@@ -133,14 +137,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Stripping.title}</p>
-							<br />
-							{DescriptionArt.Stripping.location}
-							<br />
-							{DescriptionArt.Stripping.style}
-							<br />
-							{DescriptionArt.Stripping.size}
-							<br />
-							{DescriptionArt.Stripping.status}
+							<div className={style.description}>
+								{DescriptionArt.Stripping.location}
+								<br />
+								{DescriptionArt.Stripping.style}
+								<br />
+								{DescriptionArt.Stripping.size}
+								<br />
+								{DescriptionArt.Stripping.status}
+							</div>
 						</div>
 					}
 				/>
@@ -152,14 +157,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Naif.title}</p>
-							<br />
-							{DescriptionArt.Naif.location}
-							<br />
-							{DescriptionArt.Naif.style}
-							<br />
-							{DescriptionArt.Naif.size}
-							<br />
-							{DescriptionArt.Fun.status}
+							<div className={style.description}>
+								{DescriptionArt.Naif.location}
+								<br />
+								{DescriptionArt.Naif.style}
+								<br />
+								{DescriptionArt.Naif.size}
+								<br />
+								{DescriptionArt.Fun.status}
+							</div>
 						</div>
 					}
 				/>
@@ -170,14 +176,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Youth.title}</p>
-							<br />
-							{DescriptionArt.Youth.location}
-							<br />
-							{DescriptionArt.Youth.style}
-							<br />
-							{DescriptionArt.Youth.size}
-							<br />
-							{DescriptionArt.Youth.status}
+							<div className={style.description}>
+								{DescriptionArt.Youth.location}
+								<br />
+								{DescriptionArt.Youth.style}
+								<br />
+								{DescriptionArt.Youth.size}
+								<br />
+								{DescriptionArt.Youth.status}
+							</div>
 						</div>
 					}
 				/>
@@ -189,14 +196,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.NYC.title}</p>
-							<br />
-							{DescriptionArt.NYC.location}
-							<br />
-							{DescriptionArt.NYC.style}
-							<br />
-							{DescriptionArt.NYC.size}
-							<br />
-							{DescriptionArt.NYC.status}
+							<div className={style.description}>
+								{DescriptionArt.NYC.location}
+								<br />
+								{DescriptionArt.NYC.style}
+								<br />
+								{DescriptionArt.NYC.size}
+								<br />
+								{DescriptionArt.NYC.status}
+							</div>
 						</div>
 					}
 				/>
@@ -207,14 +215,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Pantuss.title}</p>
-							<br />
-							{DescriptionArt.Pantuss.location}
-							<br />
-							{DescriptionArt.Pantuss.style}
-							<br />
-							{DescriptionArt.Pantuss.size}
-							<br />
-							{DescriptionArt.Pantuss.status}
+							<div className={style.description}>
+								{DescriptionArt.Pantuss.location}
+								<br />
+								{DescriptionArt.Pantuss.style}
+								<br />
+								{DescriptionArt.Pantuss.size}
+								<br />
+								{DescriptionArt.Pantuss.status}
+							</div>
 						</div>
 					}
 				/>
@@ -226,14 +235,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Drums.title}</p>
-							<br />
-							{DescriptionArt.Drums.location}
-							<br />
-							{DescriptionArt.Drums.style}
-							<br />
-							{DescriptionArt.Drums.size}
-							<br />
-							{DescriptionArt.Drums.status}
+							<div className={style.description}>
+								{DescriptionArt.Drums.location}
+								<br />
+								{DescriptionArt.Drums.style}
+								<br />
+								{DescriptionArt.Drums.size}
+								<br />
+								{DescriptionArt.Drums.status}
+							</div>
 						</div>
 					}
 				/>
@@ -244,14 +254,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Chaos.title}</p>
-							<br />
-							{DescriptionArt.Chaos.location}
-							<br />
-							{DescriptionArt.Chaos.style}
-							<br />
-							{DescriptionArt.Chaos.size}
-							<br />
-							{DescriptionArt.Chaos.status}
+							<div className={style.description}>
+								{DescriptionArt.Chaos.location}
+								<br />
+								{DescriptionArt.Chaos.style}
+								<br />
+								{DescriptionArt.Chaos.size}
+								<br />
+								{DescriptionArt.Chaos.status}
+							</div>
 						</div>
 					}
 				/>
@@ -263,14 +274,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Dauntless.title}</p>
-							<br />
-							{DescriptionArt.Dauntless.location}
-							<br />
-							{DescriptionArt.Dauntless.style}
-							<br />
-							{DescriptionArt.Dauntless.size}
-							<br />
-							{DescriptionArt.Dauntless.status}
+							<div className={style.description}>
+								{DescriptionArt.Dauntless.location}
+								<br />
+								{DescriptionArt.Dauntless.style}
+								<br />
+								{DescriptionArt.Dauntless.size}
+								<br />
+								{DescriptionArt.Dauntless.status}
+							</div>
 						</div>
 					}
 				/>
@@ -281,14 +293,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.MakeupCase.title}</p>
-							<br />
-							{DescriptionArt.MakeupCase.location}
-							<br />
-							{DescriptionArt.MakeupCase.style}
-							<br />
-							{DescriptionArt.MakeupCase.size}
-							<br />
-							{DescriptionArt.MakeupCase.status}
+							<div className={style.description}>
+								{DescriptionArt.MakeupCase.location}
+								<br />
+								{DescriptionArt.MakeupCase.style}
+								<br />
+								{DescriptionArt.MakeupCase.size}
+								<br />
+								{DescriptionArt.MakeupCase.status}
+							</div>
 						</div>
 					}
 				/>
@@ -300,14 +313,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Orchid.title}</p>
-							<br />
-							{DescriptionArt.Orchid.location}
-							<br />
-							{DescriptionArt.Orchid.style}
-							<br />
-							{DescriptionArt.Orchid.size}
-							<br />
-							{DescriptionArt.Orchid.status}
+							<div className={style.description}>
+								{DescriptionArt.Orchid.location}
+								<br />
+								{DescriptionArt.Orchid.style}
+								<br />
+								{DescriptionArt.Orchid.size}
+								<br />
+								{DescriptionArt.Orchid.status}
+							</div>
 						</div>
 					}
 				/>
@@ -318,14 +332,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}> {DescriptionArt.LetsFly.title}</p>
-							<br />
-							{DescriptionArt.LetsFly.location}
-							<br />
-							{DescriptionArt.LetsFly.style}
-							<br />
-							{DescriptionArt.LetsFly.size}
-							<br />
-							{DescriptionArt.LetsFly.status}
+							<div className={style.description}>
+								{DescriptionArt.LetsFly.location}
+								<br />
+								{DescriptionArt.LetsFly.style}
+								<br />
+								{DescriptionArt.LetsFly.size}
+								<br />
+								{DescriptionArt.LetsFly.status}
+							</div>
 						</div>
 					}
 				/>
@@ -339,14 +354,15 @@ export default function Portfolio() {
 							<p className={style.name}>
 								{DescriptionArt.ExplosionSeriesI.title}
 							</p>
-							<br />
-							{DescriptionArt.ExplosionSeriesI.location}
-							<br />
-							{DescriptionArt.ExplosionSeriesI.style}
-							<br />
-							{DescriptionArt.ExplosionSeriesI.size}
-							<br />
-							{DescriptionArt.ExplosionSeriesI.status}
+							<div className={style.description}>
+								{DescriptionArt.ExplosionSeriesI.location}
+								<br />
+								{DescriptionArt.ExplosionSeriesI.style}
+								<br />
+								{DescriptionArt.ExplosionSeriesI.size}
+								<br />
+								{DescriptionArt.ExplosionSeriesI.status}
+							</div>
 						</div>
 					}
 				/>
@@ -359,14 +375,15 @@ export default function Portfolio() {
 							<p className={style.name}>
 								{DescriptionArt.ExplosionSeriesII.title}
 							</p>
-							<br />
-							{DescriptionArt.ExplosionSeriesII.location}
-							<br />
-							{DescriptionArt.ExplosionSeriesII.style}
-							<br />
-							{DescriptionArt.ExplosionSeriesII.size}
-							<br />
-							{DescriptionArt.ExplosionSeriesII.status}
+							<div className={style.description}>
+								{DescriptionArt.ExplosionSeriesII.location}
+								<br />
+								{DescriptionArt.ExplosionSeriesII.style}
+								<br />
+								{DescriptionArt.ExplosionSeriesII.size}
+								<br />
+								{DescriptionArt.ExplosionSeriesII.status}
+							</div>
 						</div>
 					}
 				/>
@@ -378,14 +395,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Twilight.title}</p>
-							<br />
-							{DescriptionArt.Twilight.location}
-							<br />
-							{DescriptionArt.Twilight.style}
-							<br />
-							{DescriptionArt.Twilight.size}
-							<br />
-							{DescriptionArt.Twilight.status}
+							<div className={style.description}>
+								{DescriptionArt.Twilight.location}
+								<br />
+								{DescriptionArt.Twilight.style}
+								<br />
+								{DescriptionArt.Twilight.size}
+								<br />
+								{DescriptionArt.Twilight.status}
+							</div>
 						</div>
 					}
 				/>
@@ -396,14 +414,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Sunset.title}</p>
-							<br />
-							{DescriptionArt.Sunset.location}
-							<br />
-							{DescriptionArt.Sunset.style}
-							<br />
-							{DescriptionArt.Sunset.size}
-							<br />
-							{DescriptionArt.Sunset.status}
+							<div className={style.description}>
+								{DescriptionArt.Sunset.location}
+								<br />
+								{DescriptionArt.Sunset.style}
+								<br />
+								{DescriptionArt.Sunset.size}
+								<br />
+								{DescriptionArt.Sunset.status}
+							</div>
 						</div>
 					}
 				/>
@@ -415,14 +434,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.BeachSeriesI.title}</p>
-							<br />
-							{DescriptionArt.BeachSeriesI.location}
-							<br />
-							{DescriptionArt.BeachSeriesI.style}
-							<br />
-							{DescriptionArt.BeachSeriesI.size}
-							<br />
-							{DescriptionArt.BeachSeriesI.status}
+							<div className={style.description}>
+								{DescriptionArt.BeachSeriesI.location}
+								<br />
+								{DescriptionArt.BeachSeriesI.style}
+								<br />
+								{DescriptionArt.BeachSeriesI.size}
+								<br />
+								{DescriptionArt.BeachSeriesI.status}
+							</div>
 						</div>
 					}
 				/>
@@ -433,14 +453,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.BeachSeriesII.title}</p>
-							<br />
-							{DescriptionArt.BeachSeriesII.location}
-							<br />
-							{DescriptionArt.BeachSeriesII.style}
-							<br />
-							{DescriptionArt.BeachSeriesII.size}
-							<br />
-							{DescriptionArt.BeachSeriesII.status}
+							<div className={style.description}>
+								{DescriptionArt.BeachSeriesII.location}
+								<br />
+								{DescriptionArt.BeachSeriesII.style}
+								<br />
+								{DescriptionArt.BeachSeriesII.size}
+								<br />
+								{DescriptionArt.BeachSeriesII.status}
+							</div>
 						</div>
 					}
 				/>
@@ -454,14 +475,15 @@ export default function Portfolio() {
 							<p className={style.name}>
 								{DescriptionArt.BlackLaneSeriesI.title}
 							</p>
-							<br />
-							{DescriptionArt.BlackLaneSeriesI.location}
-							<br />
-							{DescriptionArt.BlackLaneSeriesI.style}
-							<br />
-							{DescriptionArt.BlackLaneSeriesI.size}
-							<br />
-							{DescriptionArt.BlackLaneSeriesI.status}
+							<div className={style.description}>
+								{DescriptionArt.BlackLaneSeriesI.location}
+								<br />
+								{DescriptionArt.BlackLaneSeriesI.style}
+								<br />
+								{DescriptionArt.BlackLaneSeriesI.size}
+								<br />
+								{DescriptionArt.BlackLaneSeriesI.status}
+							</div>
 						</div>
 					}
 				/>
@@ -474,14 +496,15 @@ export default function Portfolio() {
 							<p className={style.name}>
 								{DescriptionArt.BlackLaneSeriesII.title}
 							</p>
-							<br />
-							{DescriptionArt.BlackLaneSeriesII.location}
-							<br />
-							{DescriptionArt.BlackLaneSeriesII.style}
-							<br />
-							{DescriptionArt.BlackLaneSeriesII.size}
-							<br />
-							{DescriptionArt.BlackLaneSeriesII.status}
+							<div className={style.description}>
+								{DescriptionArt.BlackLaneSeriesII.location}
+								<br />
+								{DescriptionArt.BlackLaneSeriesII.style}
+								<br />
+								{DescriptionArt.BlackLaneSeriesII.size}
+								<br />
+								{DescriptionArt.BlackLaneSeriesII.status}
+							</div>
 						</div>
 					}
 				/>
@@ -493,14 +516,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.TenerifeSea.title}</p>
-							<br />
-							{DescriptionArt.TenerifeSea.location}
-							<br />
-							{DescriptionArt.TenerifeSea.style}
-							<br />
-							{DescriptionArt.TenerifeSea.size}
-							<br />
-							{DescriptionArt.TenerifeSea.status}
+							<div className={style.description}>
+								{DescriptionArt.TenerifeSea.location}
+								<br />
+								{DescriptionArt.TenerifeSea.style}
+								<br />
+								{DescriptionArt.TenerifeSea.size}
+								<br />
+								{DescriptionArt.TenerifeSea.status}
+							</div>
 						</div>
 					}
 				/>
@@ -511,14 +535,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Sandstrom.title}</p>
-							<br />
-							{DescriptionArt.Sandstrom.location}
-							<br />
-							{DescriptionArt.Sandstrom.style}
-							<br />
-							{DescriptionArt.Sandstrom.size}
-							<br />
-							{DescriptionArt.Sandstrom.status}
+							<div className={style.description}>
+								{DescriptionArt.Sandstrom.location}
+								<br />
+								{DescriptionArt.Sandstrom.style}
+								<br />
+								{DescriptionArt.Sandstrom.size}
+								<br />
+								{DescriptionArt.Sandstrom.status}
+							</div>
 						</div>
 					}
 				/>
@@ -530,14 +555,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.AshSkySeriesI.title}</p>
-							<br />
-							{DescriptionArt.AshSkySeriesI.location}
-							<br />
-							{DescriptionArt.AshSkySeriesI.style}
-							<br />
-							{DescriptionArt.AshSkySeriesI.size}
-							<br />
-							{DescriptionArt.AshSkySeriesI.status}
+							<div className={style.description}>
+								{DescriptionArt.AshSkySeriesI.location}
+								<br />
+								{DescriptionArt.AshSkySeriesI.style}
+								<br />
+								{DescriptionArt.AshSkySeriesI.size}
+								<br />
+								{DescriptionArt.AshSkySeriesI.status}
+							</div>
 						</div>
 					}
 				/>
@@ -550,14 +576,15 @@ export default function Portfolio() {
 							<p className={style.name}>
 								{DescriptionArt.AshSkySeriesII.title}
 							</p>
-							<br />
-							{DescriptionArt.AshSkySeriesII.location}
-							<br />
-							{DescriptionArt.AshSkySeriesII.style}
-							<br />
-							{DescriptionArt.AshSkySeriesII.size}
-							<br />
-							{DescriptionArt.AshSkySeriesII.status}
+							<div className={style.description}>
+								{DescriptionArt.AshSkySeriesII.location}
+								<br />
+								{DescriptionArt.AshSkySeriesII.style}
+								<br />
+								{DescriptionArt.AshSkySeriesII.size}
+								<br />
+								{DescriptionArt.AshSkySeriesII.status}
+							</div>
 						</div>
 					}
 				/>
@@ -569,14 +596,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Laugh.title}</p>
-							<br />
-							{DescriptionArt.Laugh.location}
-							<br />
-							{DescriptionArt.Laugh.style}
-							<br />
-							{DescriptionArt.Laugh.size}
-							<br />
-							{DescriptionArt.Laugh.status}
+							<div className={style.description}>
+								{DescriptionArt.Laugh.location}
+								<br />
+								{DescriptionArt.Laugh.style}
+								<br />
+								{DescriptionArt.Laugh.size}
+								<br />
+								{DescriptionArt.Laugh.status}
+							</div>
 						</div>
 					}
 				/>
@@ -587,14 +615,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Begining.title}</p>
-							<br />
-							{DescriptionArt.Begining.location}
-							<br />
-							{DescriptionArt.Begining.style}
-							<br />
-							{DescriptionArt.Begining.size}
-							<br />
-							{DescriptionArt.Begining.status}
+							<div className={style.description}>
+								{DescriptionArt.Begining.location}
+								<br />
+								{DescriptionArt.Begining.style}
+								<br />
+								{DescriptionArt.Begining.size}
+								<br />
+								{DescriptionArt.Begining.status}
+							</div>
 						</div>
 					}
 				/>
@@ -606,14 +635,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.CloudySunset.title}</p>
-							<br />
-							{DescriptionArt.CloudySunset.location}
-							<br />
-							{DescriptionArt.CloudySunset.style}
-							<br />
-							{DescriptionArt.CloudySunset.size}
-							<br />
-							{DescriptionArt.CloudySunset.status}
+							<div className={style.description}>
+								{DescriptionArt.CloudySunset.location}
+								<br />
+								{DescriptionArt.CloudySunset.style}
+								<br />
+								{DescriptionArt.CloudySunset.size}
+								<br />
+								{DescriptionArt.CloudySunset.status}
+							</div>
 						</div>
 					}
 				/>
@@ -624,14 +654,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Gale.title}</p>
-							<br />
-							{DescriptionArt.Gale.location}
-							<br />
-							{DescriptionArt.Gale.style}
-							<br />
-							{DescriptionArt.Gale.size}
-							<br />
-							{DescriptionArt.Gale.status}
+							<div className={style.description}>
+								{DescriptionArt.Gale.location}
+								<br />
+								{DescriptionArt.Gale.style}
+								<br />
+								{DescriptionArt.Gale.size}
+								<br />
+								{DescriptionArt.Gale.status}
+							</div>
 						</div>
 					}
 				/>
@@ -643,14 +674,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Calm.title}</p>
-							<br />
-							{DescriptionArt.Calm.location}
-							<br />
-							{DescriptionArt.Calm.style}
-							<br />
-							{DescriptionArt.Calm.size}
-							<br />
-							{DescriptionArt.Calm.status}
+							<div className={style.description}>
+								{DescriptionArt.Calm.location}
+								<br />
+								{DescriptionArt.Calm.style}
+								<br />
+								{DescriptionArt.Calm.size}
+								<br />
+								{DescriptionArt.Calm.status}
+							</div>
 						</div>
 					}
 				/>
@@ -661,14 +693,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Underworld.title}</p>
-							<br />
-							{DescriptionArt.Underworld.location}
-							<br />
-							{DescriptionArt.Underworld.style}
-							<br />
-							{DescriptionArt.Underworld.size}
-							<br />
-							{DescriptionArt.Underworld.status}
+							<div className={style.description}>
+								{DescriptionArt.Underworld.location}
+								<br />
+								{DescriptionArt.Underworld.style}
+								<br />
+								{DescriptionArt.Underworld.size}
+								<br />
+								{DescriptionArt.Underworld.status}
+							</div>
 						</div>
 					}
 				/>
@@ -680,14 +713,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Vision.title}</p>
-							<br />
-							{DescriptionArt.Vision.location}
-							<br />
-							{DescriptionArt.Vision.style}
-							<br />
-							{DescriptionArt.Vision.size}
-							<br />
-							{DescriptionArt.Vision.status}
+							<div className={style.description}>
+								{DescriptionArt.Vision.location}
+								<br />
+								{DescriptionArt.Vision.style}
+								<br />
+								{DescriptionArt.Vision.size}
+								<br />
+								{DescriptionArt.Vision.status}
+							</div>
 						</div>
 					}
 				/>
@@ -698,14 +732,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Parrots.title}</p>
-							<br />
-							{DescriptionArt.Parrots.location}
-							<br />
-							{DescriptionArt.Parrots.style}
-							<br />
-							{DescriptionArt.Parrots.size}
-							<br />
-							{DescriptionArt.Parrots.status}
+							<div className={style.description}>
+								{DescriptionArt.Parrots.location}
+								<br />
+								{DescriptionArt.Parrots.style}
+								<br />
+								{DescriptionArt.Parrots.size}
+								<br />
+								{DescriptionArt.Parrots.status}
+							</div>
 						</div>
 					}
 				/>
@@ -717,14 +752,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Palette.title}</p>
-							<br />
-							{DescriptionArt.Palette.location}
-							<br />
-							{DescriptionArt.Palette.style}
-							<br />
-							{DescriptionArt.Palette.size}
-							<br />
-							{DescriptionArt.Palette.status}
+							<div className={style.description}>
+								{DescriptionArt.Palette.location}
+								<br />
+								{DescriptionArt.Palette.style}
+								<br />
+								{DescriptionArt.Palette.size}
+								<br />
+								{DescriptionArt.Palette.status}
+							</div>
 						</div>
 					}
 				/>
@@ -735,14 +771,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Cement.title}</p>
-							<br />
-							{DescriptionArt.Cement.location}
-							<br />
-							{DescriptionArt.Cement.style}
-							<br />
-							{DescriptionArt.Cement.size}
-							<br />
-							{DescriptionArt.Cement.status}
+							<div className={style.description}>
+								{DescriptionArt.Cement.location}
+								<br />
+								{DescriptionArt.Cement.style}
+								<br />
+								{DescriptionArt.Cement.size}
+								<br />
+								{DescriptionArt.Cement.status}
+							</div>
 						</div>
 					}
 				/>
@@ -754,14 +791,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.CyanSeriesI.title}</p>
-							<br />
-							{DescriptionArt.CyanSeriesI.location}
-							<br />
-							{DescriptionArt.CyanSeriesI.style}
-							<br />
-							{DescriptionArt.CyanSeriesI.size}
-							<br />
-							{DescriptionArt.CyanSeriesI.status}
+							<div className={style.description}>
+								{DescriptionArt.CyanSeriesI.location}
+								<br />
+								{DescriptionArt.CyanSeriesI.style}
+								<br />
+								{DescriptionArt.CyanSeriesI.size}
+								<br />
+								{DescriptionArt.CyanSeriesI.status}
+							</div>
 						</div>
 					}
 				/>
@@ -772,14 +810,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.CyanSeriesII.title}</p>
-							<br />
-							{DescriptionArt.CyanSeriesII.location}
-							<br />
-							{DescriptionArt.CyanSeriesII.style}
-							<br />
-							{DescriptionArt.CyanSeriesII.size}
-							<br />
-							{DescriptionArt.CyanSeriesII.status}
+							<div className={style.description}>
+								{DescriptionArt.CyanSeriesII.location}
+								<br />
+								{DescriptionArt.CyanSeriesII.style}
+								<br />
+								{DescriptionArt.CyanSeriesII.size}
+								<br />
+								{DescriptionArt.CyanSeriesII.status}
+							</div>
 						</div>
 					}
 				/>
@@ -791,14 +830,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Colors.title}</p>
-							<br />
-							{DescriptionArt.Colors.location}
-							<br />
-							{DescriptionArt.Colors.style}
-							<br />
-							{DescriptionArt.Colors.size}
-							<br />
-							{DescriptionArt.Colors.status}
+							<div className={style.description}>
+								{DescriptionArt.Colors.location}
+								<br />
+								{DescriptionArt.Colors.style}
+								<br />
+								{DescriptionArt.Colors.size}
+								<br />
+								{DescriptionArt.Colors.status}
+							</div>
 						</div>
 					}
 				/>
@@ -809,14 +849,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Frida.title}</p>
-							<br />
-							{DescriptionArt.Frida.location}
-							<br />
-							{DescriptionArt.Frida.style}
-							<br />
-							{DescriptionArt.Frida.size}
-							<br />
-							{DescriptionArt.Frida.status}
+							<div className={style.description}>
+								{DescriptionArt.Frida.location}
+								<br />
+								{DescriptionArt.Frida.style}
+								<br />
+								{DescriptionArt.Frida.size}
+								<br />
+								{DescriptionArt.Frida.status}
+							</div>
 						</div>
 					}
 				/>
@@ -828,14 +869,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Aqua.title}</p>
-							<br />
-							{DescriptionArt.Aqua.location}
-							<br />
-							{DescriptionArt.Aqua.style}
-							<br />
-							{DescriptionArt.Aqua.size}
-							<br />
-							{DescriptionArt.Aqua.status}
+							<div className={style.description}>
+								{DescriptionArt.Aqua.location}
+								<br />
+								{DescriptionArt.Aqua.style}
+								<br />
+								{DescriptionArt.Aqua.size}
+								<br />
+								{DescriptionArt.Aqua.status}
+							</div>
 						</div>
 					}
 				/>
@@ -846,14 +888,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Shining.title}</p>
-							<br />
-							{DescriptionArt.Shining.location}
-							<br />
-							{DescriptionArt.Shining.style}
-							<br />
-							{DescriptionArt.Shining.size}
-							<br />
-							{DescriptionArt.Shining.status}
+							<div className={style.description}>
+								{DescriptionArt.Shining.location}
+								<br />
+								{DescriptionArt.Shining.style}
+								<br />
+								{DescriptionArt.Shining.size}
+								<br />
+								{DescriptionArt.Shining.status}
+							</div>
 						</div>
 					}
 				/>
@@ -865,14 +908,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}> {DescriptionArt.Birds.title}</p>
-							<br />
-							{DescriptionArt.Birds.location}
-							<br />
-							{DescriptionArt.Birds.style}
-							<br />
-							{DescriptionArt.Birds.size}
-							<br />
-							{DescriptionArt.Birds.status}
+							<div className={style.description}>
+								{DescriptionArt.Birds.location}
+								<br />
+								{DescriptionArt.Birds.style}
+								<br />
+								{DescriptionArt.Birds.size}
+								<br />
+								{DescriptionArt.Birds.status}
+							</div>
 						</div>
 					}
 				/>
@@ -883,14 +927,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Souls.title}</p>
-							<br />
-							{DescriptionArt.Souls.location}
-							<br />
-							{DescriptionArt.Souls.style}
-							<br />
-							{DescriptionArt.Souls.size}
-							<br />
-							{DescriptionArt.Souls.status}
+							<div className={style.description}>
+								{DescriptionArt.Souls.location}
+								<br />
+								{DescriptionArt.Souls.style}
+								<br />
+								{DescriptionArt.Souls.size}
+								<br />
+								{DescriptionArt.Souls.status}
+							</div>
 						</div>
 					}
 				/>
@@ -902,14 +947,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Rhythm.title}</p>
-							<br />
-							{DescriptionArt.Rhythm.location}
-							<br />
-							{DescriptionArt.Rhythm.style}
-							<br />
-							{DescriptionArt.Rhythm.size}
-							<br />
-							{DescriptionArt.Rhythm.status}
+							<div className={style.description}>
+								{DescriptionArt.Rhythm.location}
+								<br />
+								{DescriptionArt.Rhythm.style}
+								<br />
+								{DescriptionArt.Rhythm.size}
+								<br />
+								{DescriptionArt.Rhythm.status}
+							</div>
 						</div>
 					}
 				/>
@@ -920,14 +966,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Moss.title}</p>
-							<br />
-							{DescriptionArt.Moss.location}
-							<br />
-							{DescriptionArt.Moss.style}
-							<br />
-							{DescriptionArt.Moss.size}
-							<br />
-							{DescriptionArt.Moss.status}
+							<div className={style.description}>
+								{DescriptionArt.Moss.location}
+								<br />
+								{DescriptionArt.Moss.style}
+								<br />
+								{DescriptionArt.Moss.size}
+								<br />
+								{DescriptionArt.Moss.status}
+							</div>
 						</div>
 					}
 				/>
@@ -939,14 +986,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Mosaic.title}</p>
-							<br />
-							{DescriptionArt.Mosaic.location}
-							<br />
-							{DescriptionArt.Mosaic.style}
-							<br />
-							{DescriptionArt.Mosaic.size}
-							<br />
-							{DescriptionArt.Mosaic.status}
+							<div className={style.description}>
+								{DescriptionArt.Mosaic.location}
+								<br />
+								{DescriptionArt.Mosaic.style}
+								<br />
+								{DescriptionArt.Mosaic.size}
+								<br />
+								{DescriptionArt.Mosaic.status}
+							</div>
 						</div>
 					}
 				/>
@@ -957,14 +1005,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Hole.title}</p>
-							<br />
-							{DescriptionArt.Hole.location}
-							<br />
-							{DescriptionArt.Hole.style}
-							<br />
-							{DescriptionArt.Hole.size}
-							<br />
-							{DescriptionArt.Hole.status}
+							<div className={style.description}>
+								{DescriptionArt.Hole.location}
+								<br />
+								{DescriptionArt.Hole.style}
+								<br />
+								{DescriptionArt.Hole.size}
+								<br />
+								{DescriptionArt.Hole.status}
+							</div>
 						</div>
 					}
 				/>
@@ -976,14 +1025,15 @@ export default function Portfolio() {
 					description={
 						<div>
 							<p className={style.name}>{DescriptionArt.Beat.title}</p>
-							<br />
-							{DescriptionArt.Beat.location}
-							<br />
-							{DescriptionArt.Beat.style}
-							<br />
-							{DescriptionArt.Beat.size}
-							<br />
-							{DescriptionArt.Beat.status}
+							<div className={style.description}>
+								{DescriptionArt.Beat.location}
+								<br />
+								{DescriptionArt.Beat.style}
+								<br />
+								{DescriptionArt.Beat.size}
+								<br />
+								{DescriptionArt.Beat.status}
+							</div>
 						</div>
 					}
 				/>
