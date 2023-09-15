@@ -4,14 +4,13 @@ import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 
 import { cuadros } from '../Layouts/ImageImporter';
 import { DescriptionArt } from '../Layouts/TextImporter';
-import { Container } from 'react-bootstrap';
-import style from '../styles/scss/portfolio.module.scss';
+import style from '../styles/scss/cuadros.module.scss';
 
 export default function Portfolio() {
 	return (
 		<div>
 			<Navegation />
-			<Container fluid className={style.main}>
+			<body className={style.main}>
 				<DescriptionAndImage
 					flexRow='text-start'
 					texto='x'
@@ -1062,7 +1061,7 @@ export default function Portfolio() {
 						</div>
 					}
 				/>
-			</Container>
+			</body>
 			<Footer />
 		</div>
 	);

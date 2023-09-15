@@ -2,18 +2,17 @@ import Navegation from '../Layouts/Navegation';
 import Footer from '../Layouts/Footer';
 
 import { cuadros } from '../Layouts/ImageImporter';
-import { Container } from 'react-bootstrap';
 import { DescriptionArt } from '../Layouts/TextImporter';
 
 import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 
-import style from '../styles/scss/featured.module.scss';
+import style from '../styles/scss/cuadros.module.scss';
 
 export default function Featured() {
 	return (
 		<div>
 			<Navegation />
-			<Container fluid className={style.main}>
+			<body>
 				<DescriptionAndImage
 					justifyContent='text-start'
 					texto='x'
@@ -187,7 +186,7 @@ export default function Featured() {
 						</div>
 					}
 				/>
-			</Container>
+			</body>
 			<Footer />
 		</div>
 	);

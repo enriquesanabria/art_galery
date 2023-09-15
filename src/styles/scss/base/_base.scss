@@ -1,5 +1,6 @@
 @import '../abstracts/variables';
 html,body{
     font-family: var(--font-montserrat);
-    margin-top: 76px; //agregamos el margen top para que la barra de navbar no tape el contenido por encima
+   background-color: $black;
+   color: $white;
 }

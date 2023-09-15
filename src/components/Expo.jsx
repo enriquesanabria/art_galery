@@ -7,11 +7,13 @@ export default function Expo() {
 	return (
 		<div>
 			<Navegation />
-			<Banners img={expos.mercedesGiachetti} />
-			<Banners img={expos.expoCafira} />
-			<Banners img={expos.laVoluntad} />
-			<Banners img={expos.artWorld} />
-			<Banners img={expos.florenceBiennale} />
+			<body>
+				<Banners img={expos.mercedesGiachetti} />
+				<Banners img={expos.expoCafira} />
+				<Banners img={expos.laVoluntad} />
+				<Banners img={expos.artWorld} />
+				<Banners img={expos.florenceBiennale} />
+			</body>
 			<Footer />
 		</div>
 	);

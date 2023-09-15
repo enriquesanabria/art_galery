@@ -25,13 +25,15 @@ const imagesSet2 = [
 
 export default function Home() {
 	return (
-		<div className={style.home}>
+		<div>
 			<Navegation />
-			<Carousel images={imagesSet1} />
-			<Container className={style.logo} fluid>
-				<BannerLogo img={imgLogo} isSVG={true} />
-			</Container>
-			<Carousel images={imagesSet2} />
+			<body>
+				<Carousel images={imagesSet1} />
+				<Container className={style.logo} fluid>
+					<BannerLogo img={imgLogo} isSVG={true} />
+				</Container>
+				<Carousel images={imagesSet2} />
+			</body>
 			<Footer />
 		</div>
 	);

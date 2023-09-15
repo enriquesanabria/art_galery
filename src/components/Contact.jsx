@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 import { contacto } from '../Layouts/ImageImporter';
 
@@ -15,9 +15,9 @@ const imagesSet1 = [contacto.cuadro1, contacto.cuadro2, contacto.cuadro3];
 
 const ContactCarousel = () => {
 	return (
-		<div className={style.main}>
+		<div>
 			<Navegation />
-			<Container fluid className={style.body}>
+			<body>
 				<Row>
 					<Col xl={5}>
 						<ComponentCarousel images={imagesSet1} />
@@ -58,7 +58,7 @@ const ContactCarousel = () => {
 						</ul>
 					</Col>
 				</Row>
-			</Container>
+			</body>
 			<Footer page={true} />
 		</div>
 	);
