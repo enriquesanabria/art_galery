@@ -20,15 +20,16 @@ export default function Featured() {
 					imagenProp={cuadros.RiverBank}
 					description={
 						<div>
-							{DescriptionArt.RiverBank.title}
-							<br />
-							{DescriptionArt.RiverBank.location}
-							<br />
-							{DescriptionArt.RiverBank.style}
-							<br />
-							{DescriptionArt.RiverBank.size}
-							<br />
-							{DescriptionArt.RiverBank.status}
+							<p className={style.name}> {DescriptionArt.RiverBank.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.RiverBank.location}
+								<br />
+								{DescriptionArt.RiverBank.style}
+								<br />
+								{DescriptionArt.RiverBank.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.RiverBank.status}</p>
 						</div>
 					}
 				/>
@@ -39,15 +40,16 @@ export default function Featured() {
 					imagenProp={cuadros.Violet}
 					description={
 						<div>
-							{DescriptionArt.Violet.title}
-							<br />
-							{DescriptionArt.Violet.location}
-							<br />
-							{DescriptionArt.Violet.style}
-							<br />
-							{DescriptionArt.Violet.size}
-							<br />
-							{DescriptionArt.Violet.status}
+							<p className={style.name}>{DescriptionArt.Violet.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Violet.location}
+								<br />
+								{DescriptionArt.Violet.style}
+								<br />
+								{DescriptionArt.Violet.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Violet.status}</p>
 						</div>
 					}
 				/>
@@ -57,15 +59,16 @@ export default function Featured() {
 					imagenProp={cuadros.Dauntless}
 					description={
 						<div>
-							{DescriptionArt.Dauntless.title}
-							<br />
-							{DescriptionArt.Dauntless.location}
-							<br />
-							{DescriptionArt.Dauntless.style}
-							<br />
-							{DescriptionArt.Dauntless.size}
-							<br />
-							{DescriptionArt.Dauntless.status}
+							<p className={style.name}> {DescriptionArt.Dauntless.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Dauntless.location}
+								<br />
+								{DescriptionArt.Dauntless.style}
+								<br />
+								{DescriptionArt.Dauntless.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Dauntless.status}</p>
 						</div>
 					}
 				/>
@@ -76,15 +79,16 @@ export default function Featured() {
 					imagenProp={cuadros.Orchid}
 					description={
 						<div>
-							{DescriptionArt.Orchid.title}
-							<br />
-							{DescriptionArt.Orchid.location}
-							<br />
-							{DescriptionArt.Orchid.style}
-							<br />
-							{DescriptionArt.Orchid.size}
-							<br />
-							{DescriptionArt.Orchid.status}
+							<p className={style.name}> {DescriptionArt.Orchid.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Orchid.location}
+								<br />
+								{DescriptionArt.Orchid.style}
+								<br />
+								{DescriptionArt.Orchid.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Orchid.status}</p>
 						</div>
 					}
 				/>
@@ -94,15 +98,16 @@ export default function Featured() {
 					imagenProp={cuadros.LetsFly}
 					description={
 						<div>
-							{DescriptionArt.LetsFly.title}
+							<p className={style.name}>{DescriptionArt.LetsFly.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.LetsFly.location}
+								<br />
+								{DescriptionArt.LetsFly.style}
+								<br />
+								{DescriptionArt.LetsFly.size}
+							</div>
 							<br />
-							{DescriptionArt.LetsFly.location}
-							<br />
-							{DescriptionArt.LetsFly.style}
-							<br />
-							{DescriptionArt.LetsFly.size}
-							<br />
-							{DescriptionArt.LetsFly.status}
+							<p className={style.status}>{DescriptionArt.LetsFly.status}</p>
 						</div>
 					}
 				/>
@@ -113,15 +118,15 @@ export default function Featured() {
 					imagenProp={cuadros.Begining}
 					description={
 						<div>
-							{DescriptionArt.Begining.title}
-							<br />
-							{DescriptionArt.Begining.location}
-							<br />
-							{DescriptionArt.Begining.style}
-							<br />
-							{DescriptionArt.Begining.size}
-							<br />
-							{DescriptionArt.Begining.status}
+							<p className={style.name}> {DescriptionArt.Begining.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Begining.location}
+								<br />
+								{DescriptionArt.Begining.style}
+								<br />
+								{DescriptionArt.Begining.size}
+							</div>
+							<p className={style.status}>{DescriptionArt.Begining.status}</p>
 						</div>
 					}
 				/>
@@ -131,15 +136,15 @@ export default function Featured() {
 					imagenProp={cuadros.Cement}
 					description={
 						<div>
-							{DescriptionArt.Cement.title}
-							<br />
-							{DescriptionArt.Cement.location}
-							<br />
-							{DescriptionArt.Cement.style}
-							<br />
-							{DescriptionArt.Cement.size}
-							<br />
-							{DescriptionArt.Cement.status}
+							<p className={style.name}> {DescriptionArt.Cement.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Cement.location}
+								<br />
+								{DescriptionArt.Cement.style}
+								<br />
+								{DescriptionArt.Cement.size}
+							</div>
+							<p className={style.status}>{DescriptionArt.Cement.status}</p>
 						</div>
 					}
 				/>
@@ -150,15 +155,16 @@ export default function Featured() {
 					imagenProp={cuadros.Aqua}
 					description={
 						<div>
-							{DescriptionArt.Aqua.title}
+							<p className={style.name}>{DescriptionArt.Aqua.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Aqua.location}
+								<br />
+								{DescriptionArt.Aqua.style}
+								<br />
+								{DescriptionArt.Aqua.size}
+							</div>
 							<br />
-							{DescriptionArt.Aqua.location}
-							<br />
-							{DescriptionArt.Aqua.style}
-							<br />
-							{DescriptionArt.Aqua.size}
-							<br />
-							{DescriptionArt.Aqua.status}
+							<p className={style.status}>{DescriptionArt.Aqua.status}</p>
 						</div>
 					}
 				/>
@@ -168,15 +174,16 @@ export default function Featured() {
 					imagenProp={cuadros.Shining}
 					description={
 						<div>
-							{DescriptionArt.Shining.title}
-							<br />
-							{DescriptionArt.Shining.location}
-							<br />
-							{DescriptionArt.Shining.style}
-							<br />
-							{DescriptionArt.Shining.size}
-							<br />
-							{DescriptionArt.Shining.status}
+							<p className={style.name}>{DescriptionArt.Shining.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Shining.location}
+								<br />
+								{DescriptionArt.Shining.style}
+								<br />
+								{DescriptionArt.Shining.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Shining.status}</p>
 						</div>
 					}
 				/>
