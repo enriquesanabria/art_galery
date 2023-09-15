@@ -1,15 +1,13 @@
 @import './abstracts/variables';
 .main{
- background-color: $white;
- margin-top: auto;
+  background-color: $white;
+  color: $black;
 }
 
-  .icon{
-    color: $black;
-    font-size: 1.87rem; 
-  }
   .a{
-    text-decoration: none;
     color: $black;
+    text-decoration: none;
+
+    
   }
 
