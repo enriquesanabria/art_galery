@@ -1,6 +1,5 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
 import logoTripoli from '../assets/img/icons/logoTripoliA.svg';
 import style from '../styles/scss/navbar.module.scss';
 

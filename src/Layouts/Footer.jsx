@@ -1,4 +1,4 @@
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import IconMeva from '../assets/img/icons/iconMeva.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
@@ -23,7 +23,7 @@ export default function Footer(props) {
 		);
 	} else {
 		return (
-			<div className={style.main}>
+			<Container fluid className={style.main}>
 				<Row className={'align-items-center'}>
 					<Col sm={8} className={'d-sm-flex text-center'}>
 						<div className={'d-sm-flex ms-4 '}>
@@ -62,7 +62,7 @@ export default function Footer(props) {
 						<img src={IconMeva} alt='Logo Meva' width='auto' height='70px' />
 					</Col>
 				</Row>
-			</div>
+			</Container>
 		);
 	}
 }

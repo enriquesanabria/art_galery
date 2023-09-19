@@ -8,20 +8,18 @@ import Portfolio from './components/Portfolio';
 
 function App() {
 	return (
-		<>
-			<div className='App'>
-				<BrowserRouter>
-					<Routes>
-						<Route path='/' element={<Home />} />
-						<Route path='/Artist' element={<Artist />} />
-						<Route path='/Contact' element={<Contact />} />
-						<Route path='/Expo' element={<Expo />} />
-						<Route path='/Featured' element={<Featured />} />
-						<Route path='/Portfolio' element={<Portfolio />} />
-					</Routes>
-				</BrowserRouter>
-			</div>
-		</>
+		<div className='App'>
+			<BrowserRouter>
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/Artist' element={<Artist />} />
+					<Route path='/Contact' element={<Contact />} />
+					<Route path='/Expo' element={<Expo />} />
+					<Route path='/Featured' element={<Featured />} />
+					<Route path='/Portfolio' element={<Portfolio />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
 	);
 }
 

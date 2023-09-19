@@ -1,9 +1,3 @@
-/* variables.scss */
-:root {
-  /*fonts*/
-  --font-montserrat: "Montserrat", sans-serif;
-}
-
 /*colors*/
 .containerBanner {
   display: -webkit-box;
