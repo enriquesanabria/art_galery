@@ -1,1 +1,6 @@
-@import './base/base';
+/*abstracts*/
+@import './abstracts/variables.scss';
+
+/*base*/
+@import './base/base.scss';
+@import './base/resets.scss';

@@ -10,7 +10,7 @@ export default function Footer(props) {
 	if (props.page) {
 		return (
 			<div className={style.main}>
-				<Row className={'align-items-center mt-2'}>
+				<Row className={'align-items-center'}>
 					<Col sm={8} className={'d-sm-flex text-center'}></Col>
 
 					<hr className='w-100 clearfix d-md-none' />
@@ -24,9 +24,9 @@ export default function Footer(props) {
 	} else {
 		return (
 			<div className={style.main}>
-				<Row className={'align-items-center mt-2'}>
+				<Row className={'align-items-center'}>
 					<Col sm={8} className={'d-sm-flex text-center'}>
-						<div className={'d-sm-flex ms-5 '}>
+						<div className={'d-sm-flex ms-4 '}>
 							<a
 								href='mailto:tripoli.arte@gmail.com?Subject=Cuadros%20de%20su%20página'
 								id='correo'
