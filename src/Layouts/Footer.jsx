@@ -10,15 +10,9 @@ export default function Footer(props) {
 	if (props.page) {
 		return (
 			<div className={style.main}>
-				<Row className={'align-items-center'}>
-					<Col sm={8} className={'d-sm-flex text-center'}></Col>
-
-					<hr className='w-100 clearfix d-md-none' />
-
-					<Col sm={4} className='flex-item text-sm-end text-center'>
-						<img src={IconMeva} alt='Logo Meva' width='auto' height='70px' />
-					</Col>
-				</Row>
+				<Container fluid className='d-flex justify-content-end'>
+					<img src={IconMeva} alt='Logo Meva' width='auto' height='70px' />
+				</Container>
 			</div>
 		);
 	} else {
