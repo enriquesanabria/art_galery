@@ -7,10 +7,11 @@ import { DescriptionArt } from '../Layouts/TextImporter';
 import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 
 import style from '../styles/scss/cuadros.module.scss';
+import { Container } from 'react-bootstrap';
 
 export default function Featured() {
 	return (
-		<div>
+		<Container fluid className='base'>
 			<Navegation />
 			<body>
 				<DescriptionAndImage
@@ -188,6 +189,6 @@ export default function Featured() {
 				/>
 			</body>
 			<Footer />
-		</div>
+		</Container>
 	);
 }

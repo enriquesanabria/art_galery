@@ -7,11 +7,11 @@ import { Container } from 'react-bootstrap';
 
 export default function Artist() {
 	return (
-		<Container fluid className='p-0'>
+		<Container fluid className='base p-0'>
 			<Navegation />
 			<DescriptionAndImage
 				flexRow='flex-sm-row-reverse'
-				justifyContent='text-sm-end text-start'
+				justifyContent='text-sm-end text-start '
 				texto='x'
 				imagenProp={ImgArtist.artist1}
 				description={DescriptionArtist.text1.p}

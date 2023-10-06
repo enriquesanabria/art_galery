@@ -372,7 +372,7 @@ export const DescriptionArt = {
 export const DescriptionArtist = {
 	text1: {
 		p: (
-			<p className={style.descArtista}>
+			<p className={`${style.descArtista}`}>
 				Painting allows me to express the <br className='d-none d-sm-block' />
 				best version of myself. I started doing{' '}
 				<br className='d-none d-sm-block' />

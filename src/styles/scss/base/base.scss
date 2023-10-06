@@ -3,4 +3,17 @@ html,body{
 font-family: 'Montserrat', sans-serif;
    background-color: $black;
    color: $white;
+   
+   
+}
+
+/*esta base es para ajustar el margen del navbar , sinó pisa el body */
+.base{
+   @media screen and (max-device-width : 480px) {
+      margin-top: 120px;
+  }
+  /*estilos para dispositivos portatiles*/
+  @media screen and (min-device-width : 490px) {
+          margin-top: 80px;
+  }
 }

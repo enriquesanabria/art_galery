@@ -5,10 +5,11 @@ import DescriptionAndImage from '../Layouts/DescriptionAndImage';
 import { cuadros } from '../Layouts/ImageImporter';
 import { DescriptionArt } from '../Layouts/TextImporter';
 import style from '../styles/scss/cuadros.module.scss';
+import { Container } from 'react-bootstrap';
 
 export default function Portfolio() {
 	return (
-		<div>
+		<Container fluid className='base'>
 			<Navegation />
 			<body className={style.main}>
 				<DescriptionAndImage
@@ -1063,6 +1064,6 @@ export default function Portfolio() {
 				/>
 			</body>
 			<Footer />
-		</div>
+		</Container>
 	);
 }

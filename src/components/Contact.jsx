@@ -15,7 +15,7 @@ const imagesSet1 = [contacto.cuadro1, contacto.cuadro2, contacto.cuadro3];
 
 const ContactCarousel = () => {
 	return (
-		<Container fluid>
+		<Container fluid className='base'>
 			<Navegation />
 			<Row>
 				<Col md={6}>

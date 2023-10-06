@@ -1,5 +1,9 @@
 @import './abstracts/variables.scss';
 
+/*estilos para dispositivos portatiles*/
+@media screen and (min-device-width : 490px) {
+
+
 .descArtista{
     margin:5.62rem; //90px;
     font-size: 1.25rem; //20px
@@ -37,4 +41,13 @@
         font-size: 1rem;
         list-style: none;
     }
+}
+}
+/*estilos para dispositivos smartphones*/
+@media screen and (max-device-width : 480px) {
+    .descArtista{
+        margin:1rem; //90px;
+        font-size: 1rem; //20px
+    }
+
 }

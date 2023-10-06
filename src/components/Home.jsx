@@ -22,8 +22,12 @@ const imagesSet2 = [
 
 export default function Home() {
 	return (
-		<div>
+		<Container fluid className='base'>
 			<Navegation />
-		</div>
+			<Carousel images={imagesSet1} />
+			<BannerLogo img={imgLogo} />
+			<Carousel images={imagesSet2} />
+			<Footer />
+		</Container>
 	);
 }

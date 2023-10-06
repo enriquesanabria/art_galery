@@ -2,10 +2,11 @@ import Navegation from '../Layouts/Navegation';
 import Footer from '../Layouts/Footer';
 import Banners from '../Layouts/ImgBanner';
 import { expos } from '../Layouts/ImageImporter';
+import { Container } from 'react-bootstrap';
 
 export default function Expo() {
 	return (
-		<div>
+		<Container fluid className='base'>
 			<Navegation />
 			<body>
 				<Banners img={expos.mercedesGiachetti} />
@@ -15,6 +16,6 @@ export default function Expo() {
 				<Banners img={expos.florenceBiennale} />
 			</body>
 			<Footer />
-		</div>
+		</Container>
 	);
 }
