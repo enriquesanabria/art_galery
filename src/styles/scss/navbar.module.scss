@@ -1,3 +1,18 @@
-.section{
-    height: 79px;
+/*estilos para dispositivos moviles*/
+@media screen and (max-device-width : 480px) {
+    .navbarStyle{
+        font-size: 20px;
+    }
+    .logo{
+        height: 90px;
+    }
+}
+/*estilos para dispositivos moviles*/
+@media screen and (min-device-width : 490px) {
+    .navbarStyle{
+        font-size: 20px;
+    }
+    .logo{
+        height: 50px;
+    }
 }
