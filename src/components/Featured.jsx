@@ -13,7 +13,7 @@ export default function Featured() {
 	return (
 		<Container fluid className='base'>
 			<Navegation />
-			<body>
+			<div>
 				<DescriptionAndImage
 					justifyContent='text-start'
 					texto='x'
@@ -187,7 +187,7 @@ export default function Featured() {
 						</div>
 					}
 				/>
-			</body>
+			</div>
 			<Footer />
 		</Container>
 	);

@@ -11,7 +11,7 @@ export default function Portfolio() {
 	return (
 		<Container fluid className='base'>
 			<Navegation />
-			<body className={style.main}>
+			<div className={style.main}>
 				<DescriptionAndImage
 					flexRow='text-start'
 					texto='x'
@@ -1062,7 +1062,7 @@ export default function Portfolio() {
 						</div>
 					}
 				/>
-			</body>
+			</div>
 			<Footer />
 		</Container>
 	);

@@ -8,13 +8,13 @@ export default function Expo() {
 	return (
 		<Container fluid className='base'>
 			<Navegation />
-			<body>
+			<div>
 				<Banners img={expos.mercedesGiachetti} />
 				<Banners img={expos.expoCafira} />
 				<Banners img={expos.laVoluntad} />
 				<Banners img={expos.artWorld} />
 				<Banners img={expos.florenceBiennale} />
-			</body>
+			</div>
 			<Footer />
 		</Container>
 	);
