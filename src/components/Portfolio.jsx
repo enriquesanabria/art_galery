@@ -169,105 +169,9 @@ export default function Portfolio() {
 						</div>
 					}
 				/>
+
 				<DescriptionAndImage
 					flexRow='text-start'
-					texto='x'
-					imagenProp={cuadros.Youth}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Youth.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Youth.location}
-								<br />
-								{DescriptionArt.Youth.style}
-								<br />
-								{DescriptionArt.Youth.size}
-								<br />
-							</div>
-							<p className={style.status}> {DescriptionArt.Youth.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
-					texto='x'
-					imagenProp={cuadros.NYC}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.NYC.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.NYC.location}
-								<br />
-								{DescriptionArt.NYC.style}
-								<br />
-								{DescriptionArt.NYC.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.NYC.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='text-start'
-					texto='x'
-					imagenProp={cuadros.Pantuss}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Pantuss.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Pantuss.location}
-								<br />
-								{DescriptionArt.Pantuss.style}
-								<br />
-								{DescriptionArt.Pantuss.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.Pantuss.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
-					texto='x'
-					imagenProp={cuadros.Drums}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Drums.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Drums.location}
-								<br />
-								{DescriptionArt.Drums.style}
-								<br />
-								{DescriptionArt.Drums.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.Drums.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='text-start'
-					texto='x'
-					imagenProp={cuadros.Chaos}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Chaos.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Chaos.location}
-								<br />
-								{DescriptionArt.Chaos.style}
-								<br />
-								{DescriptionArt.Chaos.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.Chaos.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
 					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Dauntless}
@@ -607,26 +511,7 @@ export default function Portfolio() {
 						</div>
 					}
 				/>
-				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
-					texto='x'
-					imagenProp={cuadros.Laugh}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Laugh.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Laugh.location}
-								<br />
-								{DescriptionArt.Laugh.style}
-								<br />
-								{DescriptionArt.Laugh.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.Laugh.status}</p>
-						</div>
-					}
-				/>
+
 				<DescriptionAndImage
 					flexRow='text-start'
 					texto='x'
@@ -1042,23 +927,271 @@ export default function Portfolio() {
 						</div>
 					}
 				/>
+
+				<DescriptionAndImage
+					flexRow='text-start'
+					texto='x'
+					imagenProp={cuadros.Hope}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Hope.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Hope.location}
+								<br />
+								{DescriptionArt.Hope.style}
+								<br />
+								{DescriptionArt.Hope.size}
+								<br />
+							</div>
+							<p className={style.status}> {DescriptionArt.Hope.status}</p>
+						</div>
+					}
+				/>
 				<DescriptionAndImage
 					flexRow='flex-sm-row-reverse'
 					justifyContent='text-sm-end text-start'
 					texto='x'
-					imagenProp={cuadros.Beat}
+					imagenProp={cuadros.Land}
 					description={
 						<div>
-							<p className={style.name}>{DescriptionArt.Beat.title}</p>
+							<p className={style.name}>{DescriptionArt.Land.title}</p>
 							<div className={style.description}>
-								{DescriptionArt.Beat.location}
+								{DescriptionArt.Land.location}
 								<br />
-								{DescriptionArt.Beat.style}
+								{DescriptionArt.Land.style}
 								<br />
-								{DescriptionArt.Beat.size}
+								{DescriptionArt.Land.size}
 								<br />
 							</div>
-							<p className={style.status}>{DescriptionArt.Beat.status}</p>
+							<p className={style.status}>{DescriptionArt.Land.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.Blue}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Blue.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Blue.location}
+								<br />
+								{DescriptionArt.Blue.style}
+								<br />
+								{DescriptionArt.Blue.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Blue.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.NoName}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.NoName.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.NoName.location}
+								<br />
+								{DescriptionArt.NoName.style}
+								<br />
+								{DescriptionArt.NoName.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.NoName.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.Strokes}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Strokes.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Strokes.location}
+								<br />
+								{DescriptionArt.Strokes.style}
+								<br />
+								{DescriptionArt.Strokes.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Strokes.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.PurpleExplosion}
+					description={
+						<div>
+							<p className={style.name}>
+								{DescriptionArt.PurpleExplotion.title}
+							</p>
+							<div className={style.description}>
+								{DescriptionArt.PurpleExplotion.location}
+								<br />
+								{DescriptionArt.PurpleExplotion.style}
+								<br />
+								{DescriptionArt.PurpleExplotion.size}
+								<br />
+							</div>
+							<p className={style.status}>
+								{DescriptionArt.PurpleExplotion.status}
+							</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.Clay}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Clay.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Clay.location}
+								<br />
+								{DescriptionArt.Clay.style}
+								<br />
+								{DescriptionArt.Clay.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Clay.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.YouAndMe}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.YouAndMe.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.YouAndMe.location}
+								<br />
+								{DescriptionArt.YouAndMe.style}
+								<br />
+								{DescriptionArt.YouAndMe.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.YouAndMe.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.Breeze}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Breeze.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Breeze.location}
+								<br />
+								{DescriptionArt.Breeze.style}
+								<br />
+								{DescriptionArt.Breeze.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Breeze.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.PontoII}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.PontoII.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.PontoII.location}
+								<br />
+								{DescriptionArt.PontoII.style}
+								<br />
+								{DescriptionArt.PontoII.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.PontoII.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.VainishingPoint}
+					description={
+						<div>
+							<p className={style.name}>
+								{DescriptionArt.VainishingPoint.title}
+							</p>
+							<div className={style.description}>
+								{DescriptionArt.VainishingPoint.location}
+								<br />
+								{DescriptionArt.VainishingPoint.style}
+								<br />
+								{DescriptionArt.VainishingPoint.size}
+								<br />
+							</div>
+							<p className={style.status}>
+								{DescriptionArt.VainishingPoint.status}
+							</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.DarkRain}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.DarkRain.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.DarkRain.location}
+								<br />
+								{DescriptionArt.DarkRain.style}
+								<br />
+								{DescriptionArt.DarkRain.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.DarkRain.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.Geometric}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Geometric.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Geometric.location}
+								<br />
+								{DescriptionArt.Geometric.style}
+								<br />
+								{DescriptionArt.Geometric.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Geometric.status}</p>
 						</div>
 					}
 				/>
