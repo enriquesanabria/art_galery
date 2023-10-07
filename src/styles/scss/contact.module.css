@@ -22,3 +22,18 @@
 p {
   margin-left: 20px;
 }
+
+/* smartphones*/
+@media screen and (max-device-width: 480px) {
+  .listaContacto {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+/*estilos para dispositivos portatiles*/
+@media screen and (min-device-width: 490px) {
+  .listaContacto {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+}

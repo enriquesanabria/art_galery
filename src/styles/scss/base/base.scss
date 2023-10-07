@@ -3,17 +3,27 @@ html,body{
 font-family: 'Montserrat', sans-serif;
    background-color: $black;
    color: $white;
-   
-   
 }
 
 /*esta base es para ajustar el margen del navbar , sinó pisa el body */
 .base{
+      display: flex;
+      flex-direction: column;
+      min-height: 86vh; /* Esto garantiza que el contenedor se extienda al menos al 100% de la altura de la ventana */
+
+    
    @media screen and (max-device-width : 480px) {
       margin-top: 120px;
+    
   }
   /*estilos para dispositivos portatiles*/
   @media screen and (min-device-width : 490px) {
           margin-top: 80px;
   }
 }
+
+.content {
+   flex-grow: 1; /* Esto hace que el contenido ocupe todo el espacio disponible en la columna */
+ }
+ 
+
