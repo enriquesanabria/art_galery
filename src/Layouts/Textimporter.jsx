@@ -320,6 +320,91 @@ export const DescriptionArt = {
 		status: '',
 	},
 
+	Hope: {
+		title: 'Hope',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 0.80 mts',
+		status: '',
+	},
+	NoName: {
+		title: 'No Name',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 1.60 mts',
+		status: '',
+	},
+	Blue: {
+		title: 'Blue',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 1.50 mts',
+		status: '',
+	},
+	PontoII: {
+		title: 'Ponto II',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 1.20 mts',
+		status: '',
+	},
+	Breeze: {
+		title: 'Breeze',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 0.60 mts',
+		status: '',
+	},
+	Geometric: {
+		title: 'Geometric',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 1.50 mts',
+		status: '',
+	},
+	Clay: {
+		title: 'Clay',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.70 x 0.70 mts',
+		status: '',
+	},
+	VainishingPoint: {
+		title: 'Vainishing Point',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.50 x 1.00 mts',
+		status: '',
+	},
+	Strokes: {
+		title: 'Strokes',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 0.80 mts',
+		status: '',
+	},
+	DarkRain: {
+		title: 'Dark Rain',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '1.10 x 1.30 mts',
+		status: '',
+	},
+	Land: {
+		title: 'Land',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 0.80 mts',
+		status: '',
+	},
+	YouAndMe: {
+		title: 'You & Me',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '1.10 x 1.30 mts',
+		status: '',
+	},
+
 	// ... agrega el resto de los párrafos
 };
 
