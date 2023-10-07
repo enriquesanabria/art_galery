@@ -17,6 +17,65 @@ export default function Featured() {
 				<DescriptionAndImage
 					justifyContent='text-start'
 					texto='x'
+					imagenProp={cuadros.Hope}
+					description={
+						<div>
+							<p className={style.name}> {DescriptionArt.Hope.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Hope.location}
+								<br />
+								{DescriptionArt.Hope.style}
+								<br />
+								{DescriptionArt.Hope.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Hope.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
+					imagenProp={cuadros.Land}
+					description={
+						<div>
+							<p className={style.name}>{DescriptionArt.Land.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Land.location}
+								<br />
+								{DescriptionArt.Land.style}
+								<br />
+								{DescriptionArt.Land.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Land.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='text-start'
+					texto='x'
+					imagenProp={cuadros.Blue}
+					description={
+						<div>
+							<p className={style.name}> {DescriptionArt.Blue.title}</p>
+							<div className={style.description}>
+								{DescriptionArt.Blue.location}
+								<br />
+								{DescriptionArt.Blue.style}
+								<br />
+								{DescriptionArt.Blue.size}
+								<br />
+							</div>
+							<p className={style.status}>{DescriptionArt.Blue.status}</p>
+						</div>
+					}
+				/>
+				<DescriptionAndImage
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
+					texto='x'
 					imagenProp={cuadros.RiverBank}
 					description={
 						<div>
@@ -34,8 +93,7 @@ export default function Featured() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					flexRow='text-start'
 					texto='x'
 					imagenProp={cuadros.Violet}
 					description={
@@ -47,28 +105,9 @@ export default function Featured() {
 								{DescriptionArt.Violet.style}
 								<br />
 								{DescriptionArt.Violet.size}
-								<br />
 							</div>
+							<br />
 							<p className={style.status}>{DescriptionArt.Violet.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='text-start'
-					texto='x'
-					imagenProp={cuadros.Dauntless}
-					description={
-						<div>
-							<p className={style.name}> {DescriptionArt.Dauntless.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Dauntless.location}
-								<br />
-								{DescriptionArt.Dauntless.style}
-								<br />
-								{DescriptionArt.Dauntless.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.Dauntless.status}</p>
 						</div>
 					}
 				/>
@@ -86,7 +125,6 @@ export default function Featured() {
 								{DescriptionArt.Orchid.style}
 								<br />
 								{DescriptionArt.Orchid.size}
-								<br />
 							</div>
 							<p className={style.status}>{DescriptionArt.Orchid.status}</p>
 						</div>
@@ -98,7 +136,7 @@ export default function Featured() {
 					imagenProp={cuadros.LetsFly}
 					description={
 						<div>
-							<p className={style.name}>{DescriptionArt.LetsFly.title}</p>
+							<p className={style.name}> {DescriptionArt.LetsFly.title}</p>
 							<div className={style.description}>
 								{DescriptionArt.LetsFly.location}
 								<br />
@@ -106,7 +144,6 @@ export default function Featured() {
 								<br />
 								{DescriptionArt.LetsFly.size}
 							</div>
-							<br />
 							<p className={style.status}>{DescriptionArt.LetsFly.status}</p>
 						</div>
 					}
@@ -118,7 +155,7 @@ export default function Featured() {
 					imagenProp={cuadros.Begining}
 					description={
 						<div>
-							<p className={style.name}> {DescriptionArt.Begining.title}</p>
+							<p className={style.name}>{DescriptionArt.Begining.title}</p>
 							<div className={style.description}>
 								{DescriptionArt.Begining.location}
 								<br />
@@ -126,64 +163,8 @@ export default function Featured() {
 								<br />
 								{DescriptionArt.Begining.size}
 							</div>
-							<p className={style.status}>{DescriptionArt.Begining.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='text-start'
-					texto='x'
-					imagenProp={cuadros.Cement}
-					description={
-						<div>
-							<p className={style.name}> {DescriptionArt.Cement.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Cement.location}
-								<br />
-								{DescriptionArt.Cement.style}
-								<br />
-								{DescriptionArt.Cement.size}
-							</div>
-							<p className={style.status}>{DescriptionArt.Cement.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
-					texto='x'
-					imagenProp={cuadros.Aqua}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Aqua.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Aqua.location}
-								<br />
-								{DescriptionArt.Aqua.style}
-								<br />
-								{DescriptionArt.Aqua.size}
-							</div>
 							<br />
-							<p className={style.status}>{DescriptionArt.Aqua.status}</p>
-						</div>
-					}
-				/>
-				<DescriptionAndImage
-					flexRow='text-start'
-					texto='x'
-					imagenProp={cuadros.Shining}
-					description={
-						<div>
-							<p className={style.name}>{DescriptionArt.Shining.title}</p>
-							<div className={style.description}>
-								{DescriptionArt.Shining.location}
-								<br />
-								{DescriptionArt.Shining.style}
-								<br />
-								{DescriptionArt.Shining.size}
-								<br />
-							</div>
-							<p className={style.status}>{DescriptionArt.Shining.status}</p>
+							<p className={style.status}>{DescriptionArt.Begining.status}</p>
 						</div>
 					}
 				/>

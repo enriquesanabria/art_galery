@@ -404,6 +404,13 @@ export const DescriptionArt = {
 		size: '1.10 x 1.30 mts',
 		status: '',
 	},
+	PurpleExplotion: {
+		title: 'Purple Explotion',
+		location: 'Buenos Aires,2023',
+		style: 'Acrylic on canvas',
+		size: '0.80 x 0.80 mts',
+		status: '',
+	},
 
 	// ... agrega el resto de los párrafos
 };
