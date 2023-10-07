@@ -16,23 +16,18 @@ export default function Artist() {
 				imagenProp={ImgArtist.artist1}
 				description={DescriptionArtist.text1.p}
 			/>
+
 			<DescriptionAndImage
 				flexRow='text-start'
-				texto='x'
-				imagenProp={ImgArtist.artist2}
-				description={DescriptionArtist.text2.p}
-			/>
-			<DescriptionAndImage
-				flexRow='flex-sm-row-reverse'
-				justifyContent='text-sm-end text-start'
 				texto='x'
 				imagenProp={ImgArtist.artist3}
 				description={DescriptionArtist.text3.p}
 			/>
 			<DescriptionAndImage
-				flexRow='text-start'
+				flexRow='flex-sm-row-reverse'
+				justifyContent='text-sm-end text-start '
 				texto='x'
-				imagenProp={ImgArtist.artist4}
+				imagenProp={ImgArtist.artist2}
 				description={DescriptionArtist.text4.p}
 			/>
 			<Footer />

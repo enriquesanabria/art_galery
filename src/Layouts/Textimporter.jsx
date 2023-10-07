@@ -373,29 +373,26 @@ export const DescriptionArtist = {
 	text1: {
 		p: (
 			<p className={`${style.descArtista}`}>
-				Painting allows me to express the <br className='d-none d-sm-block' />
-				best version of myself. I started doing{' '}
+				Painting allows me to express the best
 				<br className='d-none d-sm-block' />
-				it because I love it, it takes me on a{' '}
+				version of myself. I started doing it
 				<br className='d-none d-sm-block' />
-				journey without time. Through art I <br className='d-none d-sm-block' />
-				managed to connect with my most <br className='d-none d-sm-block' />
-				intimate emotions.
-			</p>
-		),
-	},
-	text2: {
-		p: (
-			<p className={style.descArtista}>
-				Each piece is the result of the ability
+				because I love it, it takes me on a journey
 				<br className='d-none d-sm-block' />
-				to interpret what the world offers me
+				without time. Through art I managed to
 				<br className='d-none d-sm-block' />
-				and turn it into something beautiful.
+				connect with my most intimate emotions.
+				<br className='d-none d-sm-block' />
+				Each piece is the result of the ability to
+				<br className='d-none d-sm-block' />
+				interpret what the world offers me and
+				<br className='d-none d-sm-block' />
+				turn it into something beautiful.
 				<br className='d-none d-sm-block' />
 			</p>
 		),
 	},
+
 	text3: {
 		p: (
 			<div className={style.estudioArtista}>

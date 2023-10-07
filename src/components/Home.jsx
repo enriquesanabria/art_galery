@@ -16,7 +16,6 @@ const imagesSet2 = [
 	carrouselArtistHome.carroArtist1,
 	carrouselArtistHome.carroArtist2,
 	carrouselArtistHome.carroArtist3,
-	carrouselArtistHome.carroArtist4,
 ]; // Define otro conjunto de imágenes
 
 export default function Home() {

@@ -73,7 +73,7 @@ import artist3 from '../assets/img/artist/Artist3.webp';
 import mercedesGiachetti from '../assets/img/expos/Expo_A.webp';
 import expoCafira from '../assets/img/expos/Expo_B.webp';
 import laVoluntad from '../assets/img/expos/Expo_C.webp';
-import artWorld from '../assets/img/expos/Expo_D.jpeg';
+import artWorld from '../assets/img/expos/Expo_D.webp';
 import ArteySabores from '../assets/img/expos/Expo_E.webp';
 import LaVoluntad2 from '../assets/img/expos/Expo_F.webp';
 import florenceBiennale from '../assets/img/expos/Expo_G.webp';

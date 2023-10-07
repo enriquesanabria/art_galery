@@ -13,6 +13,8 @@ export default function Expo() {
 				<Banners img={expos.expoCafira} />
 				<Banners img={expos.laVoluntad} />
 				<Banners img={expos.artWorld} />
+				<Banners img={expos.ArteySabores} />
+				<Banners img={expos.LaVoluntad2} />
 				<Banners img={expos.florenceBiennale} />
 			</div>
 			<Footer />
