@@ -78,7 +78,8 @@ import ArteySabores from '../assets/img/expos/Expo_E.webp';
 import LaVoluntad2 from '../assets/img/expos/Expo_F.webp';
 import florenceBiennale from '../assets/img/expos/Expo_G.webp';
 
-//encabezado
+// encabezado
+
 import florenceBiannaleEncabezado from '../assets/img/expos/PortadaEncabezado.webp';
 
 // carrousell contact
@@ -169,7 +170,6 @@ export const ImgArtist = {
 	artist1,
 	artist2,
 	artist3,
-	artist4,
 };
 
 export const expos = {
@@ -178,6 +178,9 @@ export const expos = {
 	laVoluntad,
 	artWorld,
 	florenceBiennale,
+	ArteySabores,
+	LaVoluntad2,
+	florenceBiannaleEncabezado,
 };
 
 export const contacto = {
@@ -191,13 +194,10 @@ export const carrouselHome = {
 	cover2,
 	cover3,
 	cover4,
-	cover5,
-	cover6,
 };
 
 export const carrouselArtistHome = {
 	carroArtist1,
 	carroArtist2,
 	carroArtist3,
-	carroArtist4,
 };
