@@ -27,7 +27,7 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2022',
 		style: 'Acrylic on canvas',
 		size: '1.20 x 0.90 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Fun: {
 		title: 'Fun',
@@ -48,43 +48,9 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2022',
 		style: 'Acrylic on canvas',
 		size: '1.20 x 1.20 mts',
-		status: '',
+		status: 'Sold',
 	},
-	Youth: {
-		title: 'Youth',
-		location: 'Buenos Aires,2022',
-		style: 'Acrylic on canvas',
-		size: '1.00 x 1.00 mts',
-		status: '',
-	},
-	NYC: {
-		title: 'NYC',
-		location: 'Buenos Aires,2022',
-		style: 'Acrylic on canvas',
-		size: '1.00 x 1.00 mts',
-		status: '',
-	},
-	Pantuss: {
-		title: 'Pantuss',
-		location: 'Buenos Aires,2022',
-		style: 'Acrylic on canvas',
-		size: '1.00 x 1.00 mts',
-		status: '',
-	},
-	Drums: {
-		title: 'Drums',
-		location: 'Buenos Aires,2022',
-		style: 'Acrylic on canvas',
-		size: '1.00 x 1.00 mts',
-		status: '',
-	},
-	Chaos: {
-		title: 'Chaos',
-		location: 'Buenos Aires,2022',
-		style: 'Acrylic on canvas',
-		size: '1.20 x 1.20 mts',
-		status: '',
-	},
+
 	Dauntless: {
 		title: 'Dauntless',
 		location: 'Buenos Aires,2021',
@@ -160,14 +126,14 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.60 x 0.60 mts',
-		status: '',
+		status: 'Sold',
 	},
 	BlackLaneSeriesII: {
 		title: 'Black Lane Series II',
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.60 x 0.60 mts',
-		status: '',
+		status: 'Sold',
 	},
 	TenerifeSea: {
 		title: 'Tenerife Sea',
@@ -188,22 +154,16 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.40 x 0.30 mts',
-		status: '',
+		status: 'Sold',
 	},
 	AshSkySeriesII: {
 		title: 'Ash Sky Series II',
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.40 x 0.30 mts',
-		status: '',
+		status: 'Sold',
 	},
-	Laugh: {
-		title: 'Laugh',
-		location: 'Buenos Aires,2021',
-		style: 'Acrylic on canvas',
-		size: '0.90 x 1.10 mts',
-		status: '',
-	},
+
 	Begining: {
 		title: 'Begining',
 		location: 'Buenos Aires,2021',
@@ -351,13 +311,7 @@ export const DescriptionArt = {
 		size: '1.20 x 1.20 mts',
 		status: '',
 	},
-	Beat: {
-		title: 'Beat',
-		location: 'Buenos Aires,2018',
-		style: 'Acrylic on canvas',
-		size: '0.90 x 0.60 mts',
-		status: '',
-	},
+
 	Violet: {
 		title: 'Violet',
 		location: 'Buenos Aires,2022',
