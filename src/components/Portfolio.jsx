@@ -172,7 +172,6 @@ export default function Portfolio() {
 
 				<DescriptionAndImage
 					flexRow='text-start'
-					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Dauntless}
 					description={
@@ -191,7 +190,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Makeup}
 					description={
@@ -210,8 +210,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					flexRow='text-start'
 					texto='x'
 					imagenProp={cuadros.Orchid}
 					description={
@@ -230,7 +229,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.LetsFly}
 					description={
@@ -250,8 +250,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					flexRow='text-start'
 					texto='x'
 					imagenProp={cuadros.Explosion1}
 					description={
@@ -274,7 +273,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Explosion2}
 					description={
@@ -297,8 +297,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.Twilight}
 					description={
@@ -317,7 +316,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Sunset}
 					description={
@@ -336,8 +336,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.Beach1}
 					description={
@@ -358,7 +357,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Beach2}
 					description={
@@ -379,8 +379,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.BlackLane1}
 					description={
@@ -403,7 +402,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.BlackLan2}
 					description={
@@ -426,8 +426,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.Tenerife}
 					description={
@@ -448,7 +447,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Sandstrom}
 					description={
@@ -467,8 +467,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.Sky1}
 					description={
@@ -489,7 +488,8 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Sky2}
 					description={
@@ -929,7 +929,8 @@ export default function Portfolio() {
 				/>
 
 				<DescriptionAndImage
-					flexRow='text-start'
+					flexRow='flex-sm-row-reverse'
+					justifyContent='text-sm-end text-start'
 					texto='x'
 					imagenProp={cuadros.Hope}
 					description={
@@ -948,8 +949,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.Land}
 					description={
@@ -988,8 +988,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.NoName}
 					description={
@@ -1028,8 +1027,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.PurpleExplosion}
 					description={
@@ -1072,8 +1070,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.YouAndMe}
 					description={
@@ -1112,8 +1109,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.PontoII}
 					description={
@@ -1156,8 +1152,7 @@ export default function Portfolio() {
 					}
 				/>
 				<DescriptionAndImage
-					flexRow='flex-sm-row-reverse'
-					justifyContent='text-sm-end text-start'
+					justifyContent='text-start'
 					texto='x'
 					imagenProp={cuadros.DarkRain}
 					description={
