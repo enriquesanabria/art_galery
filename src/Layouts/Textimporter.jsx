@@ -20,7 +20,7 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2022',
 		style: 'Acrylic on canvas',
 		size: '1.20 x 0.90 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Gold: {
 		title: 'Gold',
@@ -140,14 +140,14 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.50 x 0.40 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Sandstrom: {
 		title: 'Sandstrom',
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '0.50 x 0.40 mts',
-		status: '',
+		status: 'Sold',
 	},
 	AshSkySeriesI: {
 		title: 'Ash Sky Series I',
@@ -211,14 +211,14 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2021',
 		style: 'Acrylic on canvas',
 		size: '1.80 x 0.70 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Palette: {
 		title: 'Palette',
 		location: 'Buenos Aires,2020',
 		style: 'Acrylic on canvas',
 		size: '1.20 x 1.20 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Cement: {
 		title: 'Cement',
@@ -232,21 +232,21 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2020',
 		style: 'Acrylic on canvas',
 		size: '0.30 x 0.80 mts',
-		status: '',
+		status: 'Sold',
 	},
 	CyanSeriesII: {
 		title: 'Cyan Series II',
 		location: 'Buenos Aires,2020',
 		style: 'Acrylic on canvas',
 		size: '0.30 x 0.80 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Colors: {
 		title: 'Colors',
 		location: 'Buenos Aires,2020',
 		style: 'Acrylic on canvas',
 		size: '1.60 x 0.80 mts',
-		status: '',
+		status: 'Sold',
 	},
 	Frida: {
 		title: 'Frida',
@@ -309,7 +309,7 @@ export const DescriptionArt = {
 		location: 'Buenos Aires,2018',
 		style: 'Acrylic on canvas, mixed technique',
 		size: '1.20 x 1.20 mts',
-		status: '',
+		status: 'Sold',
 	},
 
 	Violet: {

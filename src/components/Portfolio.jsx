@@ -165,7 +165,7 @@ export default function Portfolio() {
 								{DescriptionArt.Naif.size}
 								<br />
 							</div>
-							<p className={style.status}>{DescriptionArt.Fun.status}</p>
+							<p className={style.status}>{DescriptionArt.Naif.status}</p>
 						</div>
 					}
 				/>
