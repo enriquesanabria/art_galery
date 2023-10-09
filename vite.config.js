@@ -9,4 +9,7 @@ export default defineConfig({
 		  scss: {},
 		},
 	},
+	build: {
+		outDir: 'public', // Configura la carpeta de salida en "public"
+	  },
 });
