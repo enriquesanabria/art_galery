@@ -439,7 +439,7 @@ export const DescriptionArtist = {
 		),
 	},
 
-	text3: {
+	text2: {
 		p: (
 			<div className={style.estudioArtista}>
 				<div>
@@ -490,7 +490,7 @@ export const DescriptionArtist = {
 			</div>
 		),
 	},
-	text4: {
+	text3: {
 		p: (
 			<div className={style.artExibicion}>
 				<ul>

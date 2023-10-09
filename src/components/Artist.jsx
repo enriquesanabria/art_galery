@@ -19,15 +19,15 @@ export default function Artist() {
 			<DescriptionAndImage
 				flexRow='text-start'
 				texto='x'
-				imagenProp={ImgArtist.artist3}
-				description={DescriptionArtist.text3.p}
+				imagenProp={ImgArtist.artist2}
+				description={DescriptionArtist.text2.p}
 			/>
 			<DescriptionAndImage
 				flexRow='flex-sm-row-reverse'
 				justifyContent='text-sm-end text-start '
 				texto='x'
-				imagenProp={ImgArtist.artist2}
-				description={DescriptionArtist.text4.p}
+				imagenProp={ImgArtist.artist3}
+				description={DescriptionArtist.text3.p}
 			/>
 			<Footer />
 		</Container>

@@ -1,6 +1,6 @@
 /*colors*/
 /*estilos para dispositivos portatiles*/
-@media screen and (min-device-width: 490px) {
+@media screen and (min-device-width: 481px) {
   .descArtista {
     margin: 5.62rem;
     font-size: 1.25rem;

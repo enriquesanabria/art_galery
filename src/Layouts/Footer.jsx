@@ -12,7 +12,7 @@ export default function Footer(props) {
 		return (
 			<div className={style.main}>
 				<Container fluid className='d-flex justify-content-end'>
-					<img src={IconMeva} alt='Logo Meva' width='auto' height='70px' />
+					<img src={IconMeva} alt='No Name' width='auto' height='70px' />
 				</Container>
 			</div>
 		);
@@ -54,7 +54,7 @@ export default function Footer(props) {
 					<hr className='w-100 clearfix d-md-none' />
 
 					<Col sm={4} className='flex-item text-sm-end text-center'>
-						<img src={IconMeva} alt='Logo Meva' width='auto' height='70px' />
+						<img src={IconMeva} alt='No Name' width='auto' height='70px' />
 					</Col>
 				</Row>
 			</Container>

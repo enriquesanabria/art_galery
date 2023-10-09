@@ -11,7 +11,7 @@
     //estilo para el banner debajo del navbar.
     .bannerEvent{
         position: sticky;
-        top: 110px;
+        top: 70px;
         z-index: 10;
         height: 10px;
     }
@@ -19,7 +19,7 @@
 
 }
 /*estilos para dispositivos portatiles*/
-@media screen and (min-device-width : 490px) {
+@media screen and (min-device-width : 481px) {
     .navbarStyle{
         font-size: 20px;
          //estilo para el banner debajo del navbar.
