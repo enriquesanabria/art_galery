@@ -2,17 +2,29 @@
 @media screen and (max-device-width: 480px) {
   .navbarStyle {
     font-size: 20px;
+    z-index: 100;
   }
   .logo {
     height: 90px;
+  }
+  .bannerEvent {
+    position: sticky;
+    top: 110px;
+    z-index: 10;
   }
 }
 /*estilos para dispositivos portatiles*/
 @media screen and (min-device-width: 490px) {
   .navbarStyle {
     font-size: 20px;
+    z-index: 100;
   }
   .logo {
     height: 50px;
+  }
+  .bannerEvent {
+    position: sticky;
+    top: 70px;
+    z-index: 10;
   }
 }

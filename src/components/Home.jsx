@@ -4,7 +4,10 @@ import { carrouselHome, carrouselArtistHome } from '../Layouts/ImageImporter';
 import Footer from '../Layouts/Footer';
 import BannerLogo from '../Layouts/ImgBanner';
 import imgLogo from '../assets/img/icons/logoTripoliA.svg';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
+import style from '../styles/scss/navbar.module.scss';
+
+import imgBannerEvent from '../assets/img/expos/PortadaEncabezado.WebP';
 
 const imagesSet1 = [
 	carrouselHome.cover1,
@@ -20,8 +23,9 @@ const imagesSet2 = [
 
 export default function Home() {
 	return (
-		<Container fluid className='base'>
+		<Container fluid>
 			<Navegation />
+			<Image src={imgBannerEvent} fluid className={style.bannerEvent} />
 			<Carousel images={imagesSet1} />
 			<BannerLogo img={imgLogo} />
 			<Carousel images={imagesSet2} />
