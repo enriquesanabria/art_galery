@@ -9,11 +9,11 @@ font-family: 'Montserrat', sans-serif;
 .base{
       display: flex;
       flex-direction: column;
-      min-height: 86vh; /* Esto garantiza que el contenedor se extienda al menos al 100% de la altura de la ventana */
+      min-height: 90vh; /* Esto garantiza que el contenedor se extienda al menos al 100% de la altura de la ventana */
 
     
    @media screen and (max-device-width : 480px) {
-      margin-top: 120px;
+      margin-top: 60px;
     
   }
   /*estilos para dispositivos portatiles*/

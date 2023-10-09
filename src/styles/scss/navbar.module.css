@@ -5,12 +5,13 @@
     z-index: 100;
   }
   .logo {
-    height: 90px;
+    height: 50px;
   }
   .bannerEvent {
     position: sticky;
     top: 110px;
     z-index: 10;
+    height: 10px;
   }
 }
 /*estilos para dispositivos portatiles*/

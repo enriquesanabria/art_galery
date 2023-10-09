@@ -3,7 +3,7 @@ import Carousel from '../Layouts/Carousel';
 import { carrouselHome, carrouselArtistHome } from '../Layouts/ImageImporter';
 import Footer from '../Layouts/Footer';
 import BannerLogo from '../Layouts/ImgBanner';
-import imgLogo from '../assets/img/icons/logoTripoliA.svg';
+import imgLogo from '../assets/img/Svgs/logoTripoliA.svg';
 import { Container, Image } from 'react-bootstrap';
 import style from '../styles/scss/navbar.module.scss';
 
@@ -27,7 +27,7 @@ export default function Home() {
 			<Navegation />
 			<Image src={imgBannerEvent} fluid className={style.bannerEvent} />
 			<Carousel images={imagesSet1} />
-			<BannerLogo img={imgLogo} />
+			<BannerLogo img={imgLogo} isSVG={true} />
 			<Carousel images={imagesSet2} />
 			<Footer />
 		</Container>

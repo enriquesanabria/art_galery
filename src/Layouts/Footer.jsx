@@ -1,5 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap';
-import IconMeva from '../assets/img/icons/iconMeva.svg';
+import IconMeva from '../assets/img/Svgs/NoNameLogoWEB.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -7,6 +7,7 @@ import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import style from '../styles/scss/footer.module.scss';
 
 export default function Footer(props) {
+	// eslint-disable-next-line react/prop-types
 	if (props.page) {
 		return (
 			<div className={style.main}>
