@@ -2,11 +2,13 @@
 @media screen and (max-device-width : 480px) {
     .navbarStyle{
         font-size: 20px;
+         //estilo para el banner debajo del navbar.
         z-index: 100;
     }
     .logo{
         height: 90px;
     }
+    //estilo para el banner debajo del navbar.
     .bannerEvent{
         position: sticky;
         top: 110px;
@@ -19,11 +21,13 @@
 @media screen and (min-device-width : 490px) {
     .navbarStyle{
         font-size: 20px;
+         //estilo para el banner debajo del navbar.
         z-index: 100;
     }
     .logo{
         height: 50px;
     }
+     //estilo para el banner debajo del navbar.
        .bannerEvent{
         position: sticky;
         top: 70px;

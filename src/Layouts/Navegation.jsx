@@ -8,7 +8,7 @@ function NavComponent() {
 		<Navbar
 			fixed='top'
 			expand='lg'
-			bg='dark'
+			bg='black'
 			variant='dark'
 			collapseOnSelect
 			className={style.navbarStyle}
