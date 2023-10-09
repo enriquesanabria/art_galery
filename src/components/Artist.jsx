@@ -16,7 +16,6 @@ export default function Artist() {
 				imagenProp={ImgArtist.artist1}
 				description={DescriptionArtist.text1.p}
 			/>
-
 			<DescriptionAndImage
 				flexRow='text-start'
 				texto='x'

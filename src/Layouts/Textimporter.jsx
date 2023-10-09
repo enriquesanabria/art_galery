@@ -529,6 +529,19 @@ export const DescriptionArtist = {
 						<strong>Expo Cafira</strong> | Rural Society | March 2023
 					</li>
 					<li>
+						<strong>La Voluntad Word Art Day</strong> | San Isidro | April 2023
+					</li>
+					<li>
+						<strong>Art World Exhibition</strong> | Monserrat | May 2023
+					</li>
+					<li>
+						<strong>Arte y Sabores</strong> | Mercado de los Carruajes | August
+						2023
+					</li>
+					<li>
+						<strong>La Voluntad Art Week</strong> | San Isidro | August 2023
+					</li>
+					<li>
 						<strong>XIV Florence Biennale</strong> | Florence | October 2023
 					</li>
 				</ul>
